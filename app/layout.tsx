@@ -27,6 +27,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: INIT }} />
+        {/* Google AdSense: kept as a plain tag so AdSense can find it in the page source. */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2502630111748192"
+          crossOrigin="anonymous"
+        />
       </head>
       <body>
         <ScrollProgress />
