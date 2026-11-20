@@ -1,0 +1,64 @@
+{
+  "editorialNote": "Editorial guidance compiled from general travel knowledge. It has not yet been verified line by line against official sources, so confirm anything that matters (documents, permits, opening days, fees) with the official source before you travel.",
+  "documents": [
+    {
+      "title": "Passport",
+      "body": "Your passport must be valid for the period required by Indian visa rules (for the e-Visa this has commonly been at least six months from your date of arrival) and have blank pages for stamps. Confirm the exact rule on the official visa portal before you book."
+    },
+    {
+      "title": "Visa or e-Visa",
+      "body": "Most foreign nationals need a visa. Many nationalities can apply online for an e-Visa (for example tourist, business or medical categories) before travel, and others must apply through an Indian embassy or consulate. Eligibility, fees, validity period and permitted entry points change, so check your nationality on the official portal. Apply only on the official Government of India site: look-alike websites charge extra fees and some are scams."
+    },
+    {
+      "title": "Printed approval and supporting papers",
+      "body": "Carry a printed copy of your approved e-Visa or travel authorisation, since airlines and immigration may ask for it. Keep a passport-style photo, a copy of your passport page, hotel bookings and your return or onward ticket with you. Officers can ask for proof of onward travel and accommodation."
+    },
+    {
+      "title": "Special area permits",
+      "body": "Some border, tribal and protected areas have separate permit rules for foreign nationals (for example Protected Area Permits, Restricted Area Permits or state-issued entry permits). Where our data records one for a destination it is flagged on that page. If a place is not flagged, that is not a guarantee, so verify with the Ministry of Home Affairs or the state authority."
+    },
+    {
+      "title": "Registration for longer stays",
+      "body": "Visitors on visas that allow long stays (typically more than 180 days) may need to register with the Foreigners Regional Registration Office (FRRO) after arrival. Check the conditions printed on your own visa."
+    },
+    {
+      "title": "Health documents",
+      "body": "A yellow fever vaccination certificate can be required if you arrive from, or have recently transited, countries with yellow fever risk. Check the current Ministry of Health guidance for your route. Carry prescriptions and a doctor's letter for any regular medicines."
+    },
+    {
+      "title": "Travel insurance",
+      "body": "Buy travel insurance that covers medical treatment and emergency evacuation, and confirm it covers adventure activities (trekking, rafting, high altitude) if you plan any. Keep the policy number and the insurer's 24-hour helpline where you can reach them offline."
+    }
+  ],
+  "visitorsExplainer": [
+    "The Ministry of Tourism publishes two related but different measures in its India Tourism Statistics reports. Foreign Tourist Arrivals (FTAs) count people arriving in India. Foreign Tourist Visits (FTVs) count visits to individual states, so one traveler who visits three states is counted three times and state figures add up to more than the national arrival figure.",
+    "When we load figures here, each number will carry its year, its source and the page of the report it came from. We will not compare different years, and we will not turn the numbers into a safety score: a busy place is not automatically a safe place, and a quiet place is not automatically unsafe."
+  ],
+  "health": [
+    "See a doctor or travel clinic four to eight weeks before departure. Health agencies such as the WHO, CDC and national travel-health services publish vaccine and malaria advice for India that depends on where you go and the season.",
+    "Drink only sealed bottled water or properly filtered or boiled water. Avoid ice when you do not know its source, and eat freshly cooked hot food from busy places.",
+    "Use insect repellent and cover up at dusk, especially in and after the monsoon, when dengue and other mosquito-borne illnesses increase.",
+    "Treat any bite or scratch from a dog, monkey or other animal as serious: wash it well and seek medical care promptly, because rabies is present in India.",
+    "Carry your regular medicines in their original packaging with a prescription. Some medicines that are ordinary elsewhere (certain painkillers, sedatives and ADHD drugs) are controlled in India."
+  ],
+  "laws": [
+    "Possession, use or sale of illegal drugs carries severe penalties under Indian law, and foreigners are not exempt.",
+    "Carry a copy of your passport and visa and keep the originals secure. Police can ask for identification.",
+    "Photography can be restricted at military sites, airports, bridges, border areas and inside some temples and museums. Look for signs and ask before you shoot.",
+    "Drones generally need official permission and are restricted in many places.",
+    "Alcohol rules differ by state, including legal age, licensed sale and dry days.",
+    "Same-sex relations have been legal since 2018, but social attitudes vary widely and public displays of affection can draw attention in many areas.",
+    "Protect wildlife and heritage: do not buy or export wildlife products or antiquities, and follow park rules."
+  ],
+  "culture": [
+    "Dress modestly in towns and especially at religious sites: cover shoulders and knees.",
+    "Remove shoes before entering temples, mosques, gurdwaras and many homes. Some sites also ask you to cover your head.",
+    "Use your right hand for giving, receiving and eating, and ask permission before photographing people or religious ceremonies.",
+    "Some temples admit only worshippers of the faith or have separate rules for visitors. Respect the signs."
+  ],
+  "emergencyGuide": [
+    "Save your hotel's address and phone number in the local script or show it on your phone, so a driver or police officer can help you.",
+    "Tell your embassy or consulate if you lose your passport or are the victim of a serious crime. Embassies are in New Delhi, and many countries also have consulates in Mumbai, Chennai, Kolkata and other cities.",
+    "Keep your insurer's 24-hour number offline and share your itinerary with someone at home."
+  ]
+}

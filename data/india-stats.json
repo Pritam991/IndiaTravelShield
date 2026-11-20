@@ -1,0 +1,61 @@
+{
+  "asOf": "2026-11-20",
+  "disclaimer": "Compiled from the Wikipedia pages linked on each tile, read on 20 November 2026. These are secondary sources, not official ones, and definitions can vary. Confirm against UNESCO and Government of India sources before relying on a figure.",
+  "tiles": [
+    {
+      "id": "heritage",
+      "value": 45,
+      "decimals": 0,
+      "unit": "",
+      "label": "UNESCO World Heritage Sites",
+      "detail": "37 cultural, 7 natural and 1 mixed",
+      "source": "Wikipedia: List of World Heritage Sites in India",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_India",
+      "tone": "saffron"
+    },
+    {
+      "id": "languages",
+      "value": 22,
+      "decimals": 0,
+      "unit": "",
+      "label": "Scheduled languages",
+      "detail": "Recognised in the Eighth Schedule of the Constitution",
+      "source": "Wikipedia: Languages with official status in India",
+      "url": "https://en.wikipedia.org/wiki/Languages_with_official_status_in_India",
+      "tone": "navy"
+    },
+    {
+      "id": "regions",
+      "value": 36,
+      "decimals": 0,
+      "unit": "",
+      "label": "States and union territories",
+      "detail": "28 states and 8 union territories",
+      "source": "Wikipedia: States and union territories of India",
+      "url": "https://en.wikipedia.org/wiki/States_and_union_territories_of_India",
+      "tone": "green"
+    },
+    {
+      "id": "coast",
+      "value": 7516.6,
+      "decimals": 1,
+      "unit": " km",
+      "label": "Coastline",
+      "detail": "Measurement methods differ between sources",
+      "source": "Wikipedia: Geography of India",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_India",
+      "tone": "teal"
+    },
+    {
+      "id": "area",
+      "value": 3287263,
+      "decimals": 0,
+      "unit": " km²",
+      "label": "Total area",
+      "detail": "Figures vary with how disputed territory is treated",
+      "source": "Wikipedia: Geography of India",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_India",
+      "tone": "plum"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "kolkata": {
+    "file": "kolkata.jpg",
+    "title": "Kolkata maidan.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "NalGup20",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kolkata_maidan.jpg"
+  },
+  "darjeeling": {
+    "file": "darjeeling.jpg",
+    "title": "DarjeelingTrainFruitshop (2).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Arne Hückelheim",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DarjeelingTrainFruitshop_(2).jpg"
+  },
+  "kalimpong": {
+    "file": "kalimpong.jpg",
+    "title": "View of Kalimpong, India.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Bernard Gagnon",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Kalimpong,_India.jpg"
+  },
+  "sundarbans": {
+    "file": "sundarbans.jpg",
+    "title": "Save the sundarbans 20.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Shihabur Rahman",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Save_the_sundarbans_20.jpg"
+  },
+  "siliguri": {
+    "file": "siliguri.jpg",
+    "title": "Siliguri view 3.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Sourik8",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siliguri_view_3.jpg"
+  },
+  "shantiniketan": {
+    "file": "shantiniketan.jpg",
+    "title": "Shantiniketan Bari of Rabindranath Tagore.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Billjones94",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shantiniketan_Bari_of_Rabindranath_Tagore.jpg"
+  },
+  "bishnupur": {
+    "file": "bishnupur.jpg",
+    "title": "RadhaShyam.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Pdhang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RadhaShyam.jpg"
+  },
+  "digha": {
+    "file": "digha.jpg",
+    "title": "Digha Tourist Lodge front yard 1.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ne0Freedom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Digha_Tourist_Lodge_front_yard_1.jpg"
+  },
+  "cooch-behar": {
+    "file": "cooch-behar.jpg",
+    "title": "Sagar Dighi, Coochbehar.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Prasanta Kr Dutta",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sagar_Dighi,_Coochbehar.jpg"
+  },
+  "dooars": {
+    "file": "dooars.jpg",
+    "title": "Tea garden in dooars.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Rajibnandi",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tea_garden_in_dooars.jpg"
+  },
+  "delhi": {
+    "file": "delhi.jpg",
+    "title": "Jama Masjid 2011.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Marcin Białek",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jama_Masjid_2011.jpg"
+  },
+  "agra": {
+    "file": "agra.jpg",
+    "title": "Taj Mahal, Agra, India.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Yann (talk)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India.jpg"
+  },
+  "jaipur": {
+    "file": "jaipur.jpg",
+    "title": "East facade Hawa Mahal Jaipur from ground level (July 2022) - img 01.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Chainwit.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg"
+  },
+  "goa": {
+    "file": "goa.jpg",
+    "title": "BeachFun.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Sam 8393",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeachFun.jpg"
+  },
+  "leh": {
+    "file": "leh.jpg",
+    "title": "Leh City seen from Shanti Stupa.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Anirvan Shukla",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leh_City_seen_from_Shanti_Stupa.JPG"
+  },
+  "rishikesh": {
+    "file": "rishikesh.jpg",
+    "title": "Trayambakeshwar Temple VK.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "VK1983",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trayambakeshwar_Temple_VK.jpg"
+  },
+  "shimla": {
+    "file": "shimla.jpg",
+    "title": "Landscape of Shimla , Himachal Pradesh.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Navneet Sharma",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_of_Shimla_,_Himachal_Pradesh.jpg"
+  },
+  "udaipur": {
+    "file": "udaipur.jpg",
+    "title": "Evening view, City Palace, Udaipur.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Geri from Biel/Bienne, Schweiz",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evening_view,_City_Palace,_Udaipur.jpg"
+  },
+  "munnar": {
+    "file": "munnar.jpg",
+    "title": "Munnar Overview.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kondephy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Munnar_Overview.jpg"
+  },
+  "alappuzha": {
+    "file": "alappuzha.jpg",
+    "title": "Alappuzha Boat Beauty W.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Augustus Binu/ facebook",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alappuzha_Boat_Beauty_W.jpg"
+  },
+  "manali": {
+    "file": "manali.jpg",
+    "title": "Manali City.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Neerajsinghazm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manali_City.jpg"
+  },
+  "dharamshala": {
+    "file": "dharamshala.jpg",
+    "title": "Dharamshala 03 (Cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Amit Phulera",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg"
+  }
+}

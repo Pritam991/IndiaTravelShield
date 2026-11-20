@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
-};
+// Cache Components is intentionally off: every page is static, and turning it
+// off lets `dynamicParams = false` return a real HTTP 404 for unknown slugs.
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

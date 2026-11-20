@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project-internal planning docs and keys, never publish
+BLUEPRINT*
+*.key
+*.p12
+.aws/
+secrets*

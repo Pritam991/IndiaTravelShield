@@ -1,0 +1,226 @@
+[
+ {
+  "slug": "west-bengal",
+  "name": "West Bengal",
+  "type": "State",
+  "priority": true,
+  "overview": "Eastern India, from the Himalayan foothills at Darjeeling to the Sundarbans delta on the Bay of Bengal, with Kolkata as the capital and main gateway."
+ },
+ {
+  "slug": "andhra-pradesh",
+  "name": "Andhra Pradesh",
+  "type": "State",
+  "overview": "Southeastern state on the Bay of Bengal, known for temples such as Tirumala, the Araku hill region and a long coastline."
+ },
+ {
+  "slug": "arunachal-pradesh",
+  "name": "Arunachal Pradesh",
+  "type": "State",
+  "permitNote": "Foreign nationals generally need a special permit for this state. Check the Ministry of Home Affairs and the state government before planning.",
+  "overview": "Remote Himalayan state in the far northeast bordering China, Bhutan and Myanmar, known for monasteries, mountain scenery and tribal cultures."
+ },
+ {
+  "slug": "assam",
+  "name": "Assam",
+  "type": "State",
+  "overview": "Northeastern state of the Brahmaputra valley, known for tea gardens, Kaziranga National Park and its one-horned rhinoceros."
+ },
+ {
+  "slug": "bihar",
+  "name": "Bihar",
+  "type": "State",
+  "overview": "Eastern state central to Buddhist history, home to Bodh Gaya and the ruins at Nalanda."
+ },
+ {
+  "slug": "chhattisgarh",
+  "name": "Chhattisgarh",
+  "type": "State",
+  "overview": "Central state of forests and tribal cultures, with waterfalls and limited tourism infrastructure."
+ },
+ {
+  "slug": "goa",
+  "name": "Goa",
+  "type": "State",
+  "overview": "Small western coastal state known for beaches, Portuguese-era churches and relaxed nightlife."
+ },
+ {
+  "slug": "gujarat",
+  "name": "Gujarat",
+  "type": "State",
+  "overview": "Western state with heritage cities, the Rann of Kutch, Gir National Park and Gandhi's birthplace region."
+ },
+ {
+  "slug": "haryana",
+  "name": "Haryana",
+  "type": "State",
+  "overview": "Northern state surrounding Delhi, known for Kurukshetra and as a base for day trips from the capital."
+ },
+ {
+  "slug": "himachal-pradesh",
+  "name": "Himachal Pradesh",
+  "type": "State",
+  "overview": "Northern Himalayan state of hill stations, valleys and treks, including Shimla, Manali and Spiti."
+ },
+ {
+  "slug": "jharkhand",
+  "name": "Jharkhand",
+  "type": "State",
+  "overview": "Eastern state of forests, waterfalls and plateaus, with limited visitor infrastructure."
+ },
+ {
+  "slug": "karnataka",
+  "name": "Karnataka",
+  "type": "State",
+  "overview": "Southern state with Bengaluru, the ruins of Hampi, Mysuru palaces and the Western Ghats."
+ },
+ {
+  "slug": "kerala",
+  "name": "Kerala",
+  "type": "State",
+  "overview": "Southwestern state of backwaters, beaches, hill stations and Ayurveda, among the most visitor-friendly in India."
+ },
+ {
+  "slug": "madhya-pradesh",
+  "name": "Madhya Pradesh",
+  "type": "State",
+  "overview": "Central state with Khajuraho temples, Sanchi stupa and tiger reserves such as Kanha and Bandhavgarh."
+ },
+ {
+  "slug": "maharashtra",
+  "name": "Maharashtra",
+  "type": "State",
+  "overview": "Western state with Mumbai, the Ajanta and Ellora caves and Western Ghats hill stations."
+ },
+ {
+  "slug": "manipur",
+  "name": "Manipur",
+  "type": "State",
+  "permitNote": "Foreign nationals may need a special permit for this state. Check the Ministry of Home Affairs and the state government before planning.",
+  "overview": "Northeastern state on the Myanmar border, known for Loktak Lake and its distinct culture. Check current travel advisories closely."
+ },
+ {
+  "slug": "meghalaya",
+  "name": "Meghalaya",
+  "type": "State",
+  "overview": "Northeastern hill state famed for living root bridges, waterfalls and very heavy monsoon rainfall."
+ },
+ {
+  "slug": "mizoram",
+  "name": "Mizoram",
+  "type": "State",
+  "permitNote": "Foreign nationals may need a special permit or registration for this state. Check the Ministry of Home Affairs and the state government before planning.",
+  "overview": "Northeastern hill state on the Myanmar border, known for its hills and community life."
+ },
+ {
+  "slug": "nagaland",
+  "name": "Nagaland",
+  "type": "State",
+  "permitNote": "Foreign nationals may need a special permit or registration for this state. Check the Ministry of Home Affairs and the state government before planning.",
+  "overview": "Northeastern hill state known for tribal heritage and the Hornbill Festival in December."
+ },
+ {
+  "slug": "odisha",
+  "name": "Odisha",
+  "type": "State",
+  "overview": "Eastern coastal state with Puri's Jagannath Temple, the Konark Sun Temple and Chilika Lake."
+ },
+ {
+  "slug": "punjab",
+  "name": "Punjab",
+  "type": "State",
+  "overview": "Northwestern state with the Golden Temple in Amritsar and the Wagah border ceremony."
+ },
+ {
+  "slug": "rajasthan",
+  "name": "Rajasthan",
+  "type": "State",
+  "overview": "Northwestern desert state of forts, palaces and cities such as Jaipur, Jodhpur, Udaipur and Jaisalmer."
+ },
+ {
+  "slug": "sikkim",
+  "name": "Sikkim",
+  "type": "State",
+  "permitNote": "Some parts of Sikkim need a special permit for foreign nationals. Check the Ministry of Home Affairs and the Sikkim government before planning.",
+  "overview": "Small Himalayan state in the northeast with views of Kanchenjunga, monasteries and mountain treks."
+ },
+ {
+  "slug": "tamil-nadu",
+  "name": "Tamil Nadu",
+  "type": "State",
+  "overview": "Southern state famed for Dravidian temples, Chennai, hill stations and a long Coromandel coast."
+ },
+ {
+  "slug": "telangana",
+  "name": "Telangana",
+  "type": "State",
+  "overview": "Southern state with Hyderabad, its historic Charminar and Golconda Fort."
+ },
+ {
+  "slug": "tripura",
+  "name": "Tripura",
+  "type": "State",
+  "overview": "Small northeastern state bordering Bangladesh, with palaces and temples."
+ },
+ {
+  "slug": "uttar-pradesh",
+  "name": "Uttar Pradesh",
+  "type": "State",
+  "overview": "Northern state with the Taj Mahal in Agra, the holy city of Varanasi and Lucknow's heritage."
+ },
+ {
+  "slug": "uttarakhand",
+  "name": "Uttarakhand",
+  "type": "State",
+  "overview": "Himalayan northern state with Rishikesh, Haridwar, hill stations and pilgrimage routes."
+ },
+ {
+  "slug": "andaman-and-nicobar-islands",
+  "name": "Andaman and Nicobar Islands",
+  "type": "Union Territory",
+  "permitNote": "Some islands and tribal areas are restricted. Check the Ministry of Home Affairs and the island administration before planning.",
+  "overview": "Island territory in the Bay of Bengal, known for beaches and diving. Some islands and tribal areas are restricted."
+ },
+ {
+  "slug": "chandigarh",
+  "name": "Chandigarh",
+  "type": "Union Territory",
+  "overview": "Planned city and union territory shared as capital by Punjab and Haryana, designed by Le Corbusier."
+ },
+ {
+  "slug": "dadra-nagar-haveli-daman-diu",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "type": "Union Territory",
+  "overview": "Small western union territory with Portuguese-era heritage and coastline."
+ },
+ {
+  "slug": "delhi",
+  "name": "Delhi",
+  "type": "Union Territory",
+  "overview": "India's capital territory, the main international gateway, with Mughal and colonial monuments."
+ },
+ {
+  "slug": "jammu-and-kashmir",
+  "name": "Jammu and Kashmir",
+  "type": "Union Territory",
+  "overview": "Northern union territory of valleys and mountains. Check government advisories closely before planning travel, as conditions vary by area and time."
+ },
+ {
+  "slug": "ladakh",
+  "name": "Ladakh",
+  "type": "Union Territory",
+  "overview": "High-altitude union territory of monasteries, passes and desert valleys, with seasonal road access and some permit-restricted areas."
+ },
+ {
+  "slug": "lakshadweep",
+  "name": "Lakshadweep",
+  "type": "Union Territory",
+  "permitNote": "Entry to Lakshadweep needs a permit. Check the Lakshadweep administration before planning.",
+  "overview": "Island territory in the Arabian Sea known for lagoons and coral, with permit-controlled entry."
+ },
+ {
+  "slug": "puducherry",
+  "name": "Puducherry",
+  "type": "Union Territory",
+  "overview": "Former French territory on the southeastern coast, known for its colonial quarter and Sri Aurobindo Ashram."
+ }
+]

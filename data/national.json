@@ -1,0 +1,13 @@
+{
+  "emergency": [
+    {"label": "All-in-one emergency number", "number": "112", "status": "pending_verification"},
+    {"label": "Police", "number": "100", "status": "pending_verification"},
+    {"label": "Fire", "number": "101", "status": "pending_verification"},
+    {"label": "Ambulance", "number": "102 / 108", "status": "pending_verification"},
+    {"label": "Women helpline", "number": "1091", "status": "pending_verification"},
+    {"label": "Tourist helpline (Ministry of Tourism)", "number": "1363", "status": "pending_verification"}
+  ],
+  "emergencyNote": "These numbers are entered from public knowledge, not yet checked against an official source. Availability of 102/108 and the helplines varies by state, so confirm them before you rely on them.",
+  "advisorySources": ["us","uk","de","au","ca"],
+  "visaSource": "visa"
+}

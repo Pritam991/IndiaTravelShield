@@ -1,0 +1,70 @@
+{
+  "visa": {
+    "name": "Indian Visa Online (Government of India e-Visa portal)",
+    "url": "https://indianvisaonline.gov.in/"
+  },
+  "boi": {
+    "name": "Bureau of Immigration, India",
+    "url": "https://boi.gov.in/"
+  },
+  "mha": {
+    "name": "Ministry of Home Affairs, Foreigners Division",
+    "url": "https://www.mha.gov.in/"
+  },
+  "tourism": {
+    "name": "Ministry of Tourism, India Tourism Statistics",
+    "url": "https://tourism.gov.in/market-research-and-statistics"
+  },
+  "ncrb": {
+    "name": "National Crime Records Bureau, Crime in India",
+    "url": "https://ncrb.gov.in/"
+  },
+  "imd": {
+    "name": "India Meteorological Department",
+    "url": "https://mausam.imd.gov.in/"
+  },
+  "us": {
+    "name": "US State Department, India Travel Advisory",
+    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/india-travel-advisory.html"
+  },
+  "uk": {
+    "name": "UK FCDO, India travel advice",
+    "url": "https://www.gov.uk/foreign-travel-advice/india"
+  },
+  "de": {
+    "name": "German Federal Foreign Office, India travel advice",
+    "url": "https://www.auswaertiges-amt.de/en/countryinformation/india-node/indiasicherheit-203224"
+  },
+  "au": {
+    "name": "Australia Smartraveller, India",
+    "url": "https://www.smartraveller.gov.au/destinations/asia/india"
+  },
+  "ca": {
+    "name": "Government of Canada, India travel advice",
+    "url": "https://travel.gc.ca/destinations/india"
+  },
+  "tourhelp": {
+    "name": "Incredible India, Tourist Helpline (Ministry of Tourism)",
+    "url": "https://www.incredibleindia.gov.in/"
+  },
+  "irctc": {
+    "name": "IRCTC (Indian Railways ticketing)",
+    "url": "https://www.irctc.co.in/"
+  },
+  "aai": {
+    "name": "Airports Authority of India",
+    "url": "https://www.aai.aero/"
+  },
+  "wbtourism": {
+    "name": "West Bengal Tourism (state government)",
+    "url": "https://www.wbtourism.gov.in/"
+  },
+  "wbforest": {
+    "name": "West Bengal Forest Department",
+    "url": "https://www.wbforest.gov.in/"
+  },
+  "frro": {
+    "name": "Foreigners Regional Registration Office (FRRO), India",
+    "url": "https://indianfrro.gov.in/"
+  }
+}

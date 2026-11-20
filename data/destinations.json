@@ -1,0 +1,233 @@
+[
+ {
+  "slug": "delhi",
+  "name": "Delhi",
+  "state": "Delhi",
+  "type": "City",
+  "overview": "India's capital and the main international gateway, with Indira Gandhi International Airport.",
+  "airport": "Indira Gandhi International Airport (DEL)",
+  "rail": "New Delhi, Old Delhi and Hazrat Nizamuddin stations",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "agra",
+  "name": "Agra",
+  "state": "Uttar Pradesh",
+  "type": "City",
+  "overview": "Home of the Taj Mahal. Commonly visited from Delhi by train or road.",
+  "airport": "Agra has a limited domestic airport. Most visitors arrive via Delhi.",
+  "rail": "Agra Cantt and Agra Fort stations",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "jaipur",
+  "name": "Jaipur",
+  "state": "Rajasthan",
+  "type": "City",
+  "overview": "The 'Pink City' and capital of Rajasthan, part of the popular Golden Triangle route.",
+  "airport": "Jaipur International Airport (JAI)",
+  "rail": "Jaipur Junction",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "goa",
+  "name": "Goa",
+  "state": "Goa",
+  "type": "State / Beach destination",
+  "overview": "Coastal state known for beaches, with two airports.",
+  "airport": "Goa International Airport (GOX, Dabolim) and Manohar International Airport (GOX/MOPA); confirm current airport codes with the airline",
+  "rail": "Madgaon and Thivim stations",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "kochi",
+  "name": "Kochi",
+  "state": "Kerala",
+  "type": "City",
+  "overview": "Gateway to Kerala's backwaters and hill stations.",
+  "airport": "Cochin International Airport (COK)",
+  "rail": "Ernakulam Junction",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "leh",
+  "name": "Leh",
+  "state": "Ladakh",
+  "type": "City / High altitude",
+  "overview": "High-altitude town and base for treks and road trips. Altitude sickness is a real risk, so plan acclimatization.",
+  "airport": "Kushok Bakula Rimpochee Airport (IXL)",
+  "rail": "No railway. Access by air or by road via Manali or Srinagar (seasonal).",
+  "permit": "Some areas around Leh require special permits for foreign nationals. Check the Ladakh administration and MHA notices for the area you plan to visit.",
+  "sources": [
+   "mha",
+   "tourism",
+   "imd",
+   "aai"
+  ]
+ },
+ {
+  "slug": "rishikesh",
+  "name": "Rishikesh",
+  "state": "Uttarakhand",
+  "type": "Town",
+  "overview": "Yoga and adventure town on the Ganges.",
+  "airport": "Dehradun Airport (DED), about an hour or more by road",
+  "rail": "Rishikesh and Haridwar stations",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "shimla",
+  "name": "Shimla",
+  "state": "Himachal Pradesh",
+  "type": "Hill station",
+  "overview": "Colonial-era hill station and gateway to the Himachal Himalaya. Some border regions of the state need permits.",
+  "airport": "Shimla Airport (SLV), limited service; many visitors use Chandigarh (IXC)",
+  "rail": "Kalka–Shimla narrow-gauge railway",
+  "permit": "Parts of Himachal near the Tibet border (such as Kinnaur and Spiti) may need permits for foreigners. Verify before travel.",
+  "sources": [
+   "mha",
+   "tourism",
+   "imd",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "udaipur",
+  "name": "Udaipur",
+  "state": "Rajasthan",
+  "type": "Lake city",
+  "overview": "The 'City of Lakes' in southern Rajasthan, known for palaces on Lake Pichola, old-town lanes and sunset boat rides.",
+  "airport": "Maharana Pratap Airport (UDR)",
+  "rail": "Udaipur City station",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "jodhpur",
+  "name": "Jodhpur",
+  "state": "Rajasthan",
+  "type": "Fort city",
+  "overview": "The 'Blue City' of western Rajasthan, dominated by the Mehrangarh Fort and an old town of blue-painted houses.",
+  "airport": "Jodhpur Airport (JDH)",
+  "rail": "Jodhpur Junction",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "ncrb",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "munnar",
+  "name": "Munnar",
+  "state": "Kerala",
+  "type": "Hill station",
+  "overview": "Hill station in the Western Ghats covered in tea plantations, with cool air, viewpoints and a national park.",
+  "airport": "No airport in Munnar. Cochin International Airport (COK) is the usual gateway, followed by a long road journey of several hours.",
+  "rail": "No railway in Munnar. The nearest major railheads are around Kochi, followed by a road journey.",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "alappuzha",
+  "name": "Alappuzha (Alleppey)",
+  "state": "Kerala",
+  "type": "Backwaters",
+  "overview": "The gateway to Kerala's backwaters, with canals, lagoons, village life and traditional houseboats.",
+  "airport": "Cochin International Airport (COK), then a road transfer of roughly one and a half to two hours",
+  "rail": "Alappuzha station",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ },
+ {
+  "slug": "manali",
+  "name": "Manali",
+  "state": "Himachal Pradesh",
+  "type": "Hill station / Adventure",
+  "overview": "Himalayan resort town in the Kullu valley, a base for adventure sports and for onward routes towards Lahaul, Spiti and Ladakh.",
+  "airport": "Kullu–Manali Airport at Bhuntar (KUU) has limited service. Many visitors fly to Chandigarh and continue by road.",
+  "rail": "No railway in Manali. Chandigarh is the usual rail connection point, followed by a long road journey.",
+  "permit": "Some high routes and border areas beyond Manali (towards Lahaul, Spiti and Ladakh) have permit or vehicle rules, and some are open only seasonally. Check current rules with the district administration and the Ministry of Home Affairs before you go.",
+  "sources": [
+   "mha",
+   "tourism",
+   "imd",
+   "aai"
+  ]
+ },
+ {
+  "slug": "dharamshala",
+  "name": "Dharamshala and McLeod Ganj",
+  "state": "Himachal Pradesh",
+  "type": "Hill town / Tibetan culture",
+  "overview": "Hill town in the Dhauladhar range, home to a large Tibetan community, monasteries and the seat of the Dalai Lama.",
+  "airport": "Kangra Airport at Gaggal (DHM) has limited service. Many visitors use Chandigarh or Delhi and continue by road or overnight bus.",
+  "rail": "Pathankot is the main railhead, followed by a road journey.",
+  "permit": null,
+  "sources": [
+   "tourism",
+   "imd",
+   "aai",
+   "irctc"
+  ]
+ }
+]
