@@ -183,6 +183,13 @@ export default async function DestinationPage({
       <section id="getting-there" className="layer">
         <Reveal>
           <h2>How to get there</h2>
+          {d.state === "West Bengal" && (
+            <p className="small">
+              Which Kolkata station? See{" "}
+              <Link href="/west-bengal">West Bengal places by category</Link>{" "}
+              for Howrah and Sealdah connections.
+            </p>
+          )}
           <Tabs
             tabs={[
               {

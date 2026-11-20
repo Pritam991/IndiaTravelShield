@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useDocAttr } from "@/lib/useDocAttr";
 
 const LINKS: [string, string][] = [
+  ["/west-bengal", "West Bengal"],
   ["/states", "States"],
   ["/destinations", "Destinations"],
   ["/requirements", "Requirements"],

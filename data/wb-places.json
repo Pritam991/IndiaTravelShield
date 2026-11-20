@@ -1,0 +1,843 @@
+{
+  "meta": {
+    "state": "West Bengal",
+    "basis": "Place list and categories follow the Wikipedia article 'Tourism in West Bengal'. Descriptions are short and general. Railway links are marked by how well we could source them; see each place's rail.confidence.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tourism_in_West_Bengal",
+    "readOn": "2026-11-20"
+  },
+  "categories": [
+    {
+      "id": "hills",
+      "name": "Hill stations and treks",
+      "blurb": "Himalayan foothills and ridge walks in North Bengal."
+    },
+    {
+      "id": "sea",
+      "name": "Sea and beaches",
+      "blurb": "Bay of Bengal beaches in the south of the state."
+    },
+    {
+      "id": "religious",
+      "name": "Religious and pilgrimage",
+      "blurb": "Temples, mosques, churches, gurdwaras, monasteries and Jain sites."
+    },
+    {
+      "id": "wildlife",
+      "name": "Wildlife and national parks",
+      "blurb": "Tiger reserves, mangroves, rhino and elephant forests."
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage and architecture",
+      "blurb": "Palaces, terracotta temples, colonial buildings and old capitals."
+    },
+    {
+      "id": "culture",
+      "name": "Culture and city life",
+      "blurb": "Literary, artistic and everyday Kolkata and Bengal."
+    }
+  ],
+  "places": [
+    {
+      "id": "darjeeling",
+      "slug": "darjeeling",
+      "name": "Darjeeling",
+      "category": "hills",
+      "district": "Darjeeling",
+      "summary": "Hill station known for tea gardens, mountain views and the Darjeeling Himalayan Railway, a UNESCO World Heritage Site.",
+      "known": [
+        "Tea estates",
+        "Kanchenjunga views",
+        "Toy train"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Nearest main railhead, then a road journey of a few hours. The toy train runs from Siliguri/NJP.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Howrah has a Howrah–New Jalpaiguri line, and Sealdah has trains to New Jalpaiguri (for example the Darjeeling Mail). Neither runs to Darjeeling itself, so you change to road or the toy train."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "kalimpong",
+      "slug": "kalimpong",
+      "name": "Kalimpong",
+      "category": "hills",
+      "district": "Kalimpong",
+      "summary": "Quiet hill town with monasteries, orchid nurseries and colonial buildings such as Morgan House.",
+      "known": [
+        "Monasteries",
+        "Orchids",
+        "Morgan House"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Nearest main railhead, then a road journey.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Reached by changing at New Jalpaiguri, which both Howrah and Sealdah connect to by direct trains."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "sandakphu",
+      "slug": "sandakphu",
+      "name": "Sandakphu and Singalila",
+      "category": "hills",
+      "district": "Darjeeling",
+      "summary": "The state's highest point, at 3,636 m per the Wikipedia page, reached by a ridge trek in Singalila National Park.",
+      "known": [
+        "Ridge trek",
+        "Everest and Kanchenjunga views",
+        "Red pandas"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Then road to Manebhanjan, where the trek starts.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via New Jalpaiguri, then road."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": "National park rules, fees and guide requirements apply. Confirm with the West Bengal Forest Department."
+    },
+    {
+      "id": "kurseong",
+      "slug": null,
+      "name": "Kurseong",
+      "category": "hills",
+      "district": "Darjeeling",
+      "summary": "Small hill station between Siliguri and Darjeeling, listed among the state's hill stations.",
+      "known": [
+        "Tea gardens",
+        "Cooler climate"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Road from Siliguri; the toy train line also passes through.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via New Jalpaiguri, then road."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "mirik",
+      "slug": null,
+      "name": "Mirik",
+      "category": "hills",
+      "district": "Darjeeling",
+      "summary": "Lake and hill town, listed among the state's hill stations.",
+      "known": [
+        "Sumendu Lake",
+        "Tea gardens"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Then road.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via New Jalpaiguri, then road."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "lava-rimbick",
+      "slug": null,
+      "name": "Lava, Loleygaon and Rimbick",
+      "category": "hills",
+      "district": "Kalimpong / Darjeeling",
+      "summary": "Small, quieter hill villages listed on the page among North Bengal hill stations.",
+      "known": [
+        "Village stays",
+        "Forest walks"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Then a long road journey.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via New Jalpaiguri, then road."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "digha",
+      "slug": "digha",
+      "name": "Digha",
+      "category": "sea",
+      "district": "Purba Medinipur",
+      "summary": "The best-known beach resort of the state, mainly visited by domestic travellers.",
+      "known": [
+        "Long beach",
+        "Seafood"
+      ],
+      "rail": {
+        "station": "Digha (and Contai Road)",
+        "stationNote": "Digha has its own station.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "partial",
+        "note": "The Howrah station page shows Digha only as a station on a route map and does not say Howrah trains serve it. We could not confirm a direct service from Howrah or Sealdah, so check IRCTC."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "mandarmani",
+      "slug": null,
+      "name": "Mandarmani",
+      "category": "sea",
+      "district": "Purba Medinipur",
+      "summary": "Beach settlement listed on the page. The page notes that some beaches here are firm enough to drive cars on.",
+      "known": [
+        "Beach",
+        "Drivable sands"
+      ],
+      "rail": {
+        "station": "Contai Road or Egra (nearest main stations; confirm locally)",
+        "stationNote": "Then road.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "We have not confirmed the nearest station or which Kolkata terminal has direct trains."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "shankarpur-tajpur",
+      "slug": null,
+      "name": "Shankarpur and Tajpur",
+      "category": "sea",
+      "district": "Purba Medinipur",
+      "summary": "Quieter beach settlements listed on the page.",
+      "known": [
+        "Quieter beaches",
+        "Fishing villages"
+      ],
+      "rail": {
+        "station": "Contai Road or Egra (confirm locally)",
+        "stationNote": "Then road.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "Not confirmed."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "bakkhali-gangasagar",
+      "slug": null,
+      "name": "Bakkhali and Gangasagar",
+      "category": "sea",
+      "district": "South 24 Parganas",
+      "summary": "Coastal settlements in the delta. Gangasagar is also a major pilgrimage site, especially at Makar Sankranti.",
+      "known": [
+        "Beach",
+        "Gangasagar pilgrimage",
+        "Delta scenery"
+      ],
+      "rail": {
+        "station": "Namkhana (for Bakkhali area) and Kakdwip region",
+        "stationNote": "Sealdah's southern suburban lines run to Namkhana, then road and ferry.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "The Sealdah station page lists lines to Kakdwip and Namkhana and a Ganga Sagar Express to Jaynagar. Ferries and road complete the journey."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "dakshineswar",
+      "slug": null,
+      "name": "Dakshineswar Kali Temple",
+      "category": "religious",
+      "district": "North 24 Parganas / Kolkata",
+      "summary": "Major Kali temple on the Hooghly, known for its idol of Goddess Bhavatarini.",
+      "known": [
+        "Kali temple",
+        "Riverside"
+      ],
+      "rail": {
+        "station": "Dakshineswar",
+        "stationNote": "On the Sealdah main line route via Dum Dum and Baranagar.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "The Sealdah page lists a Sealdah–Dum Dum–Baranagar–Dakshineswar route."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "kalighat",
+      "slug": null,
+      "name": "Kalighat Kali Temple",
+      "category": "religious",
+      "district": "Kolkata",
+      "summary": "One of the four Adi Shakta pithas, per the Wikipedia page, in south Kolkata.",
+      "known": [
+        "Shakta pitha",
+        "Kolkata pilgrimage"
+      ],
+      "rail": {
+        "station": "Kalighat metro station (Kolkata Metro)",
+        "stationNote": "Reached by city metro and road rather than long-distance train.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "A city destination: arrive at Howrah or Sealdah, then use metro, taxi or app cab. We have not mapped exact connections."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "belur-math",
+      "slug": null,
+      "name": "Belur Math",
+      "category": "religious",
+      "district": "Howrah",
+      "summary": "Headquarters of the Ramakrishna Mission on the Hooghly, listed among the state's Hindu sites.",
+      "known": [
+        "Ramakrishna Mission",
+        "Riverside temple complex"
+      ],
+      "rail": {
+        "station": "Belur Math (Howrah side)",
+        "stationNote": "On the Howrah suburban network and close to Howrah.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "Belur Math is in Howrah district, but the Howrah and Sealdah station pages do not mention it, so we could not confirm a direct train. Check IRCTC or local transport."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "mayapur",
+      "slug": null,
+      "name": "Mayapur (ISKCON)",
+      "category": "religious",
+      "district": "Nadia",
+      "summary": "Large ISKCON temple complex listed among the state's Hindu sites.",
+      "known": [
+        "ISKCON temple",
+        "Ganga riverside"
+      ],
+      "rail": {
+        "station": "Krishnanagar or Nabadwip Dham (confirm locally)",
+        "stationNote": "Then road.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "The Sealdah page lists Sealdah–Krishnanagar services, and Krishnanagar is in the same district. Final road leg not mapped."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "tarapith",
+      "slug": null,
+      "name": "Tarapith",
+      "category": "religious",
+      "district": "Birbhum",
+      "summary": "Shakta pitha listed on the page, in the Birbhum district.",
+      "known": [
+        "Shakta pitha",
+        "Pilgrimage"
+      ],
+      "rail": {
+        "station": "Rampurhat",
+        "stationNote": "Then road.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "The Sealdah station page lists a Maa Tara Express to Rampurhat, the nearest main station. A direct Howrah service was not confirmed from the Howrah page."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "nizamat-imambara",
+      "slug": "murshidabad",
+      "name": "Murshidabad: Nizamat Imambara and Katra Mosque",
+      "category": "religious",
+      "district": "Murshidabad",
+      "summary": "The page describes the Nizamat Imambara as the largest in India and Bengal. Katra Mosque is also listed.",
+      "known": [
+        "Nizamat Imambara",
+        "Katra Mosque",
+        "Nawabi heritage"
+      ],
+      "rail": {
+        "station": "Berhampore Court or Azimganj",
+        "stationNote": "Then local road.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "The Sealdah page lists Sealdah–Krishnanagar–Berhampore–Lalgola and a Bhagirathi Express to Lalgola. A Howrah link was not confirmed."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "bandel-church",
+      "slug": null,
+      "name": "Bandel Church (Basilica of the Holy Rosary)",
+      "category": "religious",
+      "district": "Hooghly",
+      "summary": "Historic church at Bandel, listed on the page under Christianity.",
+      "known": [
+        "Historic basilica",
+        "Hooghly river town"
+      ],
+      "rail": {
+        "station": "Bandel Junction",
+        "stationNote": "Bandel is a junction on the Howrah suburban main line.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "Bandel is not mentioned on the Howrah or Sealdah station pages we read, so we could not confirm a direct connection. Check IRCTC."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "kolkata-churches-gurdwaras",
+      "slug": null,
+      "name": "Kolkata: St Paul's Cathedral, St John's Church, mosques and gurdwaras",
+      "category": "religious",
+      "district": "Kolkata",
+      "summary": "Kolkata has churches (St. Paul's Cathedral, St. John's, St. James), the Tipu Sultan Shahi Mosque, several gurdwaras and Jain temples, all listed on the page.",
+      "known": [
+        "St. Paul's Cathedral",
+        "Tipu Sultan Shahi Mosque",
+        "Gurudwara Bari Sangat",
+        "Jain temples"
+      ],
+      "rail": {
+        "station": "Howrah or Sealdah, then city transport",
+        "stationNote": "City destinations within Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both Howrah and Sealdah are main Kolkata terminals; use metro, taxi or app cab from there."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "darjeeling-monasteries",
+      "slug": null,
+      "name": "Darjeeling monasteries (Ghoom, Bhutia Busty and others)",
+      "category": "religious",
+      "district": "Darjeeling",
+      "summary": "The page lists Ghoom Monastery, Bhutia Busty Monastery, Mag-Dhog Yolmowa, Tharpa Choling and Zang Dhok Palri Phodang as Buddhist sites in the hill region.",
+      "known": [
+        "Ghoom Monastery",
+        "Bhutia Busty Monastery",
+        "Mahakal Temple (Observatory Hill)"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP), then road or toy train",
+        "stationNote": "Ghoom is also a station on the Darjeeling Himalayan Railway.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via New Jalpaiguri."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "pakbirra",
+      "slug": null,
+      "name": "Pakbirra Jain temple",
+      "category": "religious",
+      "district": "Purulia",
+      "summary": "Jain temple site in Purulia listed on the page.",
+      "known": [
+        "Jain archaeology"
+      ],
+      "rail": {
+        "station": "Purulia area (confirm locally)",
+        "stationNote": "Remote; plan with local transport.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "Not confirmed."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "sundarbans",
+      "slug": "sundarbans",
+      "name": "Sundarbans National Park",
+      "category": "wildlife",
+      "district": "South 24 Parganas",
+      "summary": "A UNESCO World Heritage mangrove forest, tiger conservation area and Biosphere Reserve.",
+      "known": [
+        "Tigers",
+        "Mangroves",
+        "Boat safaris"
+      ],
+      "rail": {
+        "station": "Canning",
+        "stationNote": "Then road and boat.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "The Sealdah page lists Sealdah–Canning and Namkhana lines. A Howrah link was not confirmed."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": "Entry needs a permit from the forest authorities. Book through an authorised operator."
+    },
+    {
+      "id": "jaldapara",
+      "slug": "dooars",
+      "name": "Jaldapara, Gorumara and the Dooars",
+      "category": "wildlife",
+      "district": "Alipurduar / Jalpaiguri",
+      "summary": "Forest parks in North Bengal. Gorumara is noted for the Jatraprosad watch tower views.",
+      "known": [
+        "One-horned rhino",
+        "Elephants",
+        "Watch towers"
+      ],
+      "rail": {
+        "station": "Hasimara, New Mal, Alipurduar or New Jalpaiguri",
+        "stationNote": "Depends on which park.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "The Sealdah station page lists trains to New Alipurduar and Alipurduar. The Howrah page lists a Howrah-New Jalpaiguri line but does not mention Alipurduar, so a Howrah link was not confirmed."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": "Park rules and seasonal closures apply."
+    },
+    {
+      "id": "buxa",
+      "slug": null,
+      "name": "Buxa Tiger Reserve",
+      "category": "wildlife",
+      "district": "Alipurduar",
+      "summary": "Tiger reserve in North Bengal listed on the page.",
+      "known": [
+        "Forest reserve",
+        "Border hills"
+      ],
+      "rail": {
+        "station": "Alipurduar Junction or New Alipurduar",
+        "stationNote": "Then road.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Sealdah has trains to New Alipurduar and Alipurduar."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": "Reserve rules apply. Confirm with the forest department."
+    },
+    {
+      "id": "neora-valley",
+      "slug": null,
+      "name": "Neora Valley National Park",
+      "category": "wildlife",
+      "district": "Kalimpong",
+      "summary": "Described on the page as one of the richest biological zones in the Northeast.",
+      "known": [
+        "Biodiversity",
+        "Dense forest"
+      ],
+      "rail": {
+        "station": "New Jalpaiguri (NJP)",
+        "stationNote": "Then a long road journey.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via New Jalpaiguri."
+      },
+      "airport": "Bagdogra (IXB)",
+      "permit": "Permission is usually needed to enter. Confirm with the forest department."
+    },
+    {
+      "id": "victoria-memorial",
+      "slug": null,
+      "name": "Victoria Memorial and the Maidan",
+      "category": "heritage",
+      "district": "Kolkata",
+      "summary": "Iconic marble memorial and museum, named on the page as a Kolkata landmark and one of the state's seven wonders.",
+      "known": [
+        "Victoria Memorial",
+        "Maidan"
+      ],
+      "rail": {
+        "station": "Howrah or Sealdah, then metro or road",
+        "stationNote": "Central Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both terminals are in Kolkata. Use metro, taxi or app cab to the Maidan area."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "howrah-bridge",
+      "slug": null,
+      "name": "Howrah Bridge (Rabindra Setu)",
+      "category": "heritage",
+      "district": "Kolkata / Howrah",
+      "summary": "Famous bridge over the Hooghly, named as a Kolkata landmark and one of the state's seven wonders.",
+      "known": [
+        "Hooghly crossing",
+        "Flower market nearby"
+      ],
+      "rail": {
+        "station": "Howrah Junction",
+        "stationNote": "The bridge ends at Howrah station.",
+        "howrah": "yes",
+        "sealdah": "unverified",
+        "confidence": "partial",
+        "note": "The bridge links Kolkata and Howrah, and Howrah Junction is at its western end. This is general geography rather than a statement from the station page."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "botanic-garden",
+      "slug": null,
+      "name": "Acharya Jagadish Chandra Bose Indian Botanic Garden",
+      "category": "heritage",
+      "district": "Howrah",
+      "summary": "Botanic garden at Shibpur, home to the Great Banyan Tree. The page says it is the oldest and largest of its kind in Southeast Asia.",
+      "known": [
+        "Great Banyan Tree",
+        "Botanical collections"
+      ],
+      "rail": {
+        "station": "Howrah Junction (nearby)",
+        "stationNote": "Then local road.",
+        "howrah": "yes",
+        "sealdah": "unverified",
+        "confidence": "partial",
+        "note": "Located in Shibpur, Howrah district."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "bishnupur",
+      "slug": "bishnupur",
+      "name": "Bishnupur terracotta temples",
+      "category": "heritage",
+      "district": "Bankura",
+      "summary": "Temples known for their terracotta work, one of the state's seven wonders on the page.",
+      "known": [
+        "Terracotta temples",
+        "Baluchari saris"
+      ],
+      "rail": {
+        "station": "Bishnupur",
+        "stationNote": "Has its own station.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "partial",
+        "note": "The Howrah station page shows a Sheoraphuli–Bishnupur branch via Tarakeswar but does not say Howrah trains run directly. Check IRCTC for current trains."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "hazarduari",
+      "slug": null,
+      "name": "Hazarduari Palace, Murshidabad",
+      "category": "heritage",
+      "district": "Murshidabad",
+      "summary": "Three-storey palace and ASI museum, noted on the page for its large chandelier and staircase.",
+      "known": [
+        "Palace museum",
+        "Nawabi history"
+      ],
+      "rail": {
+        "station": "Berhampore Court or Azimganj",
+        "stationNote": "Then local road.",
+        "howrah": "unverified",
+        "sealdah": "yes",
+        "confidence": "partial",
+        "note": "Via the Sealdah–Krishnanagar–Berhampore route."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "cooch-behar-palace",
+      "slug": "cooch-behar",
+      "name": "Cooch Behar Palace",
+      "category": "heritage",
+      "district": "Cooch Behar",
+      "summary": "Palace built in 1887 and modelled on Buckingham Palace, per the page.",
+      "known": [
+        "Royal palace",
+        "Museum"
+      ],
+      "rail": {
+        "station": "Cooch Behar or New Cooch Behar",
+        "stationNote": "Part of the North Bengal rail network.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "Not confirmed which Kolkata terminal has direct trains."
+      },
+      "airport": "Cooch Behar (limited) or Bagdogra (IXB)",
+      "permit": null
+    },
+    {
+      "id": "kolkata-cemeteries",
+      "slug": null,
+      "name": "South Park Street Cemetery",
+      "category": "heritage",
+      "district": "Kolkata",
+      "summary": "British-era cemetery listed on the page.",
+      "known": [
+        "Colonial-era tombs"
+      ],
+      "rail": {
+        "station": "Howrah or Sealdah, then metro or road",
+        "stationNote": "Central Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both terminals are in Kolkata."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "kolkata",
+      "slug": "kolkata",
+      "name": "Kolkata",
+      "category": "culture",
+      "district": "Kolkata",
+      "summary": "State capital, called the 'City of Palaces' on the page, with colonial buildings, food and festivals.",
+      "known": [
+        "Colonial buildings",
+        "Durga Puja",
+        "Food"
+      ],
+      "rail": {
+        "station": "Howrah, Sealdah, Shalimar, Santragachi and Kolkata stations",
+        "stationNote": "The page names these as the five intercity stations serving Howrah and Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both Howrah and Sealdah serve the city directly."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "shantiniketan",
+      "slug": "shantiniketan",
+      "name": "Shantiniketan",
+      "category": "culture",
+      "district": "Birbhum",
+      "summary": "Place linked with Rabindranath Tagore and Visva-Bharati University.",
+      "known": [
+        "Tagore heritage",
+        "Poush Mela",
+        "Craft markets"
+      ],
+      "rail": {
+        "station": "Bolpur Shantiniketan",
+        "stationNote": "Has its own station.",
+        "howrah": "unverified",
+        "sealdah": "unverified",
+        "confidence": "unverified",
+        "note": "Neither the Howrah nor the Sealdah station page mentions Bolpur or Shantiniketan, so we could not confirm which Kolkata terminal has direct trains. Check IRCTC."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "jorasanko",
+      "slug": null,
+      "name": "Jorasanko Thakur Bari",
+      "category": "culture",
+      "district": "Kolkata",
+      "summary": "Tagore family residence in north Kolkata that attracts visitors, per the page.",
+      "known": [
+        "Tagore family home",
+        "Museum"
+      ],
+      "rail": {
+        "station": "Howrah or Sealdah, then metro or road",
+        "stationNote": "North Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both terminals are in Kolkata."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "kumartuli",
+      "slug": null,
+      "name": "Kumartuli",
+      "category": "culture",
+      "district": "Kolkata",
+      "summary": "North Kolkata potters' quarter where clay idols are made. The page counts it among Kolkata's seven wonders.",
+      "known": [
+        "Idol makers",
+        "Durga Puja preparation"
+      ],
+      "rail": {
+        "station": "Howrah or Sealdah, then metro or road",
+        "stationNote": "North Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both terminals are in Kolkata."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    },
+    {
+      "id": "eden-gardens",
+      "slug": null,
+      "name": "Eden Gardens",
+      "category": "culture",
+      "district": "Kolkata",
+      "summary": "Cricket stadium listed on the page.",
+      "known": [
+        "Cricket"
+      ],
+      "rail": {
+        "station": "Howrah or Sealdah, then metro or road",
+        "stationNote": "Central Kolkata.",
+        "howrah": "yes",
+        "sealdah": "yes",
+        "confidence": "good",
+        "note": "Both terminals are in Kolkata."
+      },
+      "airport": "Kolkata (CCU)",
+      "permit": null
+    }
+  ]
+}

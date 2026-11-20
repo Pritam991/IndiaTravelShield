@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const UA = "IndiaTravelShield/0.1 (image attribution script; contact: set-your-email@example.com)";
+const UA = "IndiaTravelShield/0.1 (https://github.com/Pritam991/IndiaTravelShield; image attribution script)";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "public", "images", "destinations");
 fs.mkdirSync(OUT, { recursive: true });

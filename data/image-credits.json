@@ -152,5 +152,33 @@
     "license": "CC BY-SA 4.0",
     "author": "Amit Phulera",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dharamshala_03_(Cropped).jpg"
+  },
+  "sandakphu": {
+    "file": "sandakphu.jpg",
+    "title": "Sandakphu.jpg",
+    "license": "CC BY 2.0",
+    "author": "solarshakti",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandakphu.jpg"
+  },
+  "murshidabad": {
+    "file": "murshidabad.jpg",
+    "title": "Nizamat Imambara 2, Murshidabad.jpg",
+    "license": "CC BY 4.0",
+    "author": "MaheshPatil95",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nizamat_Imambara_2,_Murshidabad.jpg"
+  },
+  "kochi": {
+    "file": "kochi.jpg",
+    "title": "Kochi Skyline.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Fsquares (The Ibrahims)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kochi_Skyline.jpg"
+  },
+  "jodhpur": {
+    "file": "jodhpur.jpg",
+    "title": "Mehrangarh Fort sanhita.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Sanhitasinha",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_sanhita.jpg"
   }
 }

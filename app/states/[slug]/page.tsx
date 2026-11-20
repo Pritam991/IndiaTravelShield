@@ -60,6 +60,17 @@ export default async function StatePage({
         </p>
       )}
 
+      {s.slug === "west-bengal" && (
+        <p className="edit-note">
+          <strong>Browse by category:</strong>{" "}
+          <Link href="/west-bengal">
+            hills, sea, religious, wildlife and heritage places, with railway
+            connections to Howrah and Sealdah
+          </Link>
+          .
+        </p>
+      )}
+
       <section className="plain">
         <Reveal>
           <h2>Destinations in {s.name}</h2>
