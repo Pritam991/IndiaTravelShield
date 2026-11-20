@@ -68,6 +68,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 <Link href="/methodology">Sources &amp; method</Link>
               </p>
             </div>
+            <div>
+              <strong>About</strong>
+              <p>
+                <Link href="/about">About us</Link>
+                <br />
+                <Link href="/contact">Contact &amp; corrections</Link>
+                <br />
+                <Link href="/privacy">Privacy policy</Link>
+              </p>
+            </div>
           </div>
           <p className="small">
             Information is compiled from the official sources linked on each

@@ -208,7 +208,7 @@ html[data-mode3d="on"] .cf-slide{transform-style:preserve-3d;transform:translate
 
 /* ================= Footer ================= */
 footer{border-top:1px solid var(--bd);color:var(--mut);font-size:.88rem;margin-top:48px}
-.foot-in{display:grid;grid-template-columns:2fr 1fr;gap:24px;margin-bottom:12px}
+.foot-in{display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px;margin-bottom:12px}
 .foot-in strong{color:var(--fg)}
 @media(max-width:600px){.foot-in{grid-template-columns:1fr}}
 
@@ -261,3 +261,9 @@ footer{border-top:1px solid var(--bd);color:var(--mut);font-size:.88rem;margin-t
 .g-src:hover{opacity:1}
 .g-src:focus-visible{outline-color:#fff}
 .glance-note{max-width:760px;margin:6px auto 0}
+
+/* ================= Long-form pages (about, contact, privacy) ================= */
+.prose{max-width:760px;margin:0 auto}
+.prose h2{margin-top:1.6em}
+.prose p,.prose li{line-height:1.7}
+.pending-inline{background:var(--warn);padding:1px 8px;border-radius:6px;font-size:.9em}

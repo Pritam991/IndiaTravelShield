@@ -8,6 +8,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/destinations",
     "/requirements",
     "/methodology",
+    "/about",
+    "/contact",
+    "/privacy",
     ...states.map((s) => `/states/${s.slug}`),
     ...destinations.map((d) => `/destinations/${d.slug}`),
   ];
