@@ -79,13 +79,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </p>
             </div>
           </div>
-          <p className="small">
-            Information is compiled from the official sources linked on each
-            page and may be out of date. Confirm with the official source
-            before you travel. We provide risk information, not a guarantee of
-            safety. Entries marked &quot;data not yet loaded&quot; are
-            intentionally empty rather than estimated.
-          </p>
         </footer>
         <BackToTop />
       </body>
