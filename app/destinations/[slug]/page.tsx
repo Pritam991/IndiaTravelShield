@@ -24,6 +24,8 @@ import SectionNav from "@/components/SectionNav";
 import Tabs from "@/components/Tabs";
 import Reveal from "@/components/Reveal";
 import PhotoCard from "@/components/PhotoCard";
+import QuickFacts from "@/components/QuickFacts";
+import { getPlaceBySlug } from "@/lib/wb";
 
 export const dynamicParams = false;
 
@@ -64,6 +66,7 @@ export default async function DestinationPage({
   const state = getStateByName(d.state);
   const img = getImage(d.slug);
   const info = getDetails(d.slug);
+  const placeRail = getPlaceBySlug(d.slug);
   const nearby = destinations
     .filter((x) => x.state === d.state && x.slug !== d.slug)
     .slice(0, 4);
@@ -95,188 +98,196 @@ export default async function DestinationPage({
 
       <SectionNav items={NAV} />
 
-      {info && (
-        <section id="overview" className="layer">
-          <Reveal>
-            <h2>Overview: what to see and when to go</h2>
-            <EditorialNote text={guidance.editorialNote} />
-            <h3>Highlights</h3>
-            <BulletList items={info.highlights} />
-            <h3>Best time to visit</h3>
-            <p>{info.bestTime}</p>
-            <h3>Getting around</h3>
-            <p>{info.gettingAround}</p>
-          </Reveal>
-        </section>
-      )}
-
-      <section id="safety" className="layer">
-        <Reveal>
-          <h2>Safety intelligence</h2>
+      <div className="dlayout">
+        <div className="dmain">
           {info && (
-            <>
-              <h3>Practical risks to plan for in {d.name}</h3>
-              <BulletList items={info.safety} />
-            </>
+            <section id="overview" className="layer">
+              <Reveal>
+                <h2>Overview: what to see and when to go</h2>
+                <EditorialNote text={guidance.editorialNote} />
+                <h3>Highlights</h3>
+                <BulletList items={info.highlights} />
+                <h3>Best time to visit</h3>
+                <p>{info.bestTime}</p>
+                <h3>Getting around</h3>
+                <p>{info.gettingAround}</p>
+              </Reveal>
+            </section>
           )}
-          <h3>Official government advisories</h3>
-          <p>
-            Government travel advisories apply to India as a whole and sometimes
-            name specific regions. Read the current version from your own
-            government before booking:
-          </p>
-          <SourceList ids={national.advisorySources} />
-          <Pending label={`Crime statistics for ${d.name} (NCRB)`} />
-          <p className="small">
-            We show no combined safety score. See{" "}
-            <Link href="/methodology">our methodology</Link>.
-          </p>
-        </Reveal>
-      </section>
 
-      <section id="visitors" className="layer">
-        <Reveal>
-          <h2>International visitors</h2>
-          {guidance.visitorsExplainer.map((t) => (
-            <p key={t}>{t}</p>
-          ))}
-          <Pending label={`Foreign tourist visits to ${d.state}`} />
-          <p className="small">
-            Source when loaded: <SourceLink id="tourism" />
-          </p>
-        </Reveal>
-      </section>
+          <section id="safety" className="layer">
+            <Reveal>
+              <h2>Safety intelligence</h2>
+              {info && (
+                <>
+                  <h3>Practical risks to plan for in {d.name}</h3>
+                  <BulletList items={info.safety} />
+                </>
+              )}
+              <h3>Official government advisories</h3>
+              <p>
+                Government travel advisories apply to India as a whole and sometimes
+                name specific regions. Read the current version from your own
+                government before booking:
+              </p>
+              <SourceList ids={national.advisorySources} />
+              <Pending label={`Crime statistics for ${d.name} (NCRB)`} />
+              <p className="small">
+                We show no combined safety score. See{" "}
+                <Link href="/methodology">our methodology</Link>.
+              </p>
+            </Reveal>
+          </section>
 
-      <section id="documents" className="layer">
-        <Reveal>
-          <h2>Documents</h2>
-          <p>
-            Most foreign visitors need a visa or e-Visa. Eligibility depends on
-            nationality. Apply only on the official portal:{" "}
-            <SourceLink id="visa" />.
-          </p>
-          {guidance.documents.map((doc, i) => (
-            <Disclosure key={doc.title} title={doc.title} open={i === 0}>
-              <p>{doc.body}</p>
-            </Disclosure>
-          ))}
-          {d.permit ? (
-            <p className="warn">
-              <strong>Special permit note:</strong> {d.permit} Check{" "}
-              <SourceLink id="mha" />.
-            </p>
-          ) : (
-            <p>
-              No special area permit is recorded for {d.name} in our data. This
-              is not a guarantee, so verify with <SourceLink id="mha" /> before
-              you travel.
-            </p>
-          )}
-          <p>
-            <Link className="btn sm" href="/requirements">
-              Check by nationality
-            </Link>
-          </p>
-        </Reveal>
-      </section>
+          <section id="visitors" className="layer">
+            <Reveal>
+              <h2>International visitors</h2>
+              {guidance.visitorsExplainer.map((t) => (
+                <p key={t}>{t}</p>
+              ))}
+              <Pending label={`Foreign tourist visits to ${d.state}`} />
+              <p className="small">
+                Source when loaded: <SourceLink id="tourism" />
+              </p>
+            </Reveal>
+          </section>
 
-      <section id="getting-there" className="layer">
-        <Reveal>
-          <h2>How to get there</h2>
-          {d.state === "West Bengal" && (
-            <p className="small">
-              Which Kolkata station? See{" "}
-              <Link href="/west-bengal">West Bengal places by category</Link>{" "}
-              for Howrah and Sealdah connections.
-            </p>
-          )}
-          <Tabs
-            tabs={[
-              {
-                id: "air",
-                label: "By air",
-                content: (
-                  <p>
-                    <strong>{d.airport}</strong>
-                    <br />
-                    <span className="small">
-                      Check airports at <SourceLink id="aai" />.
-                    </span>
-                  </p>
-                ),
-              },
-              {
-                id: "rail",
-                label: "By rail",
-                content: (
-                  <p>
-                    <strong>{d.rail}</strong>
-                    <br />
-                    <span className="small">
-                      Book trains on <SourceLink id="irctc" />.
-                    </span>
-                  </p>
-                ),
-              },
-            ]}
-          />
-        </Reveal>
-      </section>
+          <section id="documents" className="layer">
+            <Reveal>
+              <h2>Documents</h2>
+              <p>
+                Most foreign visitors need a visa or e-Visa. Eligibility depends on
+                nationality. Apply only on the official portal:{" "}
+                <SourceLink id="visa" />.
+              </p>
+              {guidance.documents.map((doc, i) => (
+                <Disclosure key={doc.title} title={doc.title} open={i === 0}>
+                  <p>{doc.body}</p>
+                </Disclosure>
+              ))}
+              {d.permit ? (
+                <p className="warn">
+                  <strong>Special permit note:</strong> {d.permit} Check{" "}
+                  <SourceLink id="mha" />.
+                </p>
+              ) : (
+                <p>
+                  No special area permit is recorded for {d.name} in our data. This
+                  is not a guarantee, so verify with <SourceLink id="mha" /> before
+                  you travel.
+                </p>
+              )}
+              <p>
+                <Link className="btn sm" href="/requirements">
+                  Check by nationality
+                </Link>
+              </p>
+            </Reveal>
+          </section>
 
-      <section id="health" className="layer">
-        <Reveal>
-          <h2>Health &amp; local laws</h2>
-          <Disclosure title={`Health advice for ${d.name}`} open>
-            {info && <BulletList items={info.health} />}
-            <h3>General health precautions</h3>
-            <BulletList items={guidance.health} />
-            <Pending label={`Named hospitals and pharmacies in ${d.name}`} />
-          </Disclosure>
-          <Disclosure title="Local laws and rules">
-            <BulletList items={guidance.laws} />
-            <Pending label={`Local rules specific to ${d.name}`} />
-          </Disclosure>
-          <Disclosure title="Culture and etiquette">
-            <BulletList items={guidance.culture} />
-          </Disclosure>
-          {info && (
-            <Disclosure title={`Practical tips for ${d.name}`}>
-              <BulletList items={info.tips} />
-            </Disclosure>
-          )}
-        </Reveal>
-      </section>
+          <section id="getting-there" className="layer">
+            <Reveal>
+              <h2>How to get there</h2>
+              {d.state === "West Bengal" && (
+                <p className="small">
+                  Which Kolkata station? See{" "}
+                  <Link href="/west-bengal">West Bengal places by category</Link>{" "}
+                  for Howrah and Sealdah connections.
+                </p>
+              )}
+              <Tabs
+                tabs={[
+                  {
+                    id: "air",
+                    label: "By air",
+                    content: (
+                      <p>
+                        <strong>{d.airport}</strong>
+                        <br />
+                        <span className="small">
+                          Check airports at <SourceLink id="aai" />.
+                        </span>
+                      </p>
+                    ),
+                  },
+                  {
+                    id: "rail",
+                    label: "By rail",
+                    content: (
+                      <p>
+                        <strong>{d.rail}</strong>
+                        <br />
+                        <span className="small">
+                          Book trains on <SourceLink id="irctc" />.
+                        </span>
+                      </p>
+                    ),
+                  },
+                ]}
+              />
+            </Reveal>
+          </section>
 
-      <section id="emergency" className="layer">
-        <Reveal>
-          <h2>Emergency help</h2>
-          <ul className="emerg">
-            {national.emergency.map((e) => (
-              <li key={e.label}>
-                <b>{e.number}</b>
-                <span>{e.label}</span>
-                <em>
-                  {e.status === "verified"
-                    ? `checked ${national.verifiedOn}`
-                    : "not yet verified"}
-                </em>
-              </li>
-            ))}
-          </ul>
-          <p className="small">
-            {national.emergencyNote} Source: <SourceLink id={national.verifiedSource} />.
-          </p>
-          <h3>If something goes wrong</h3>
-          <BulletList items={guidance.emergencyGuide} />
-        </Reveal>
-      </section>
+          <section id="health" className="layer">
+            <Reveal>
+              <h2>Health &amp; local laws</h2>
+              <Disclosure title={`Health advice for ${d.name}`} open>
+                {info && <BulletList items={info.health} />}
+                <h3>General health precautions</h3>
+                <BulletList items={guidance.health} />
+                <Pending label={`Named hospitals and pharmacies in ${d.name}`} />
+              </Disclosure>
+              <Disclosure title="Local laws and rules">
+                <BulletList items={guidance.laws} />
+                <Pending label={`Local rules specific to ${d.name}`} />
+              </Disclosure>
+              <Disclosure title="Culture and etiquette">
+                <BulletList items={guidance.culture} />
+              </Disclosure>
+              {info && (
+                <Disclosure title={`Practical tips for ${d.name}`}>
+                  <BulletList items={info.tips} />
+                </Disclosure>
+              )}
+            </Reveal>
+          </section>
 
-      <section id="sources" className="layer">
-        <Reveal>
-          <h2>Sources for this page</h2>
-          <SourceList ids={d.sources} />
-        </Reveal>
-      </section>
+          <section id="emergency" className="layer">
+            <Reveal>
+              <h2>Emergency help</h2>
+              <ul className="emerg">
+                {national.emergency.map((e) => (
+                  <li key={e.label}>
+                    <b>{e.number}</b>
+                    <span>{e.label}</span>
+                    <em>
+                      {e.status === "verified"
+                        ? `checked ${national.verifiedOn}`
+                        : "not yet verified"}
+                    </em>
+                  </li>
+                ))}
+              </ul>
+              <p className="small">
+                {national.emergencyNote} Source: <SourceLink id={national.verifiedSource} />.
+              </p>
+              <h3>If something goes wrong</h3>
+              <BulletList items={guidance.emergencyGuide} />
+            </Reveal>
+          </section>
+
+          <section id="sources" className="layer">
+            <Reveal>
+              <h2>Sources for this page</h2>
+              <SourceList ids={d.sources} />
+            </Reveal>
+          </section>
+
+        </div>
+        <aside aria-label="Plan at a glance">
+          <QuickFacts d={d} rail={placeRail?.rail ?? null} />
+        </aside>
+      </div>
 
       {nearby.length > 0 && (
         <section className="plain">

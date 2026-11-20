@@ -10,6 +10,7 @@ import {
 import { creditLine } from "@/lib/images";
 import WbExplorer, { type ExplorerPlace } from "@/components/WbExplorer";
 import Reveal from "@/components/Reveal";
+import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
   title: "West Bengal places to visit by category",
@@ -38,16 +39,17 @@ export default function WestBengalPage() {
 
   return (
     <>
-      <nav className="crumb">
-        <Link href="/">Home</Link> /{" "}
-        <Link href="/states/west-bengal">West Bengal</Link> / Places
-      </nav>
-      <h1>Places to visit in West Bengal</h1>
-      <p className="lead">
-        Browse by what you want to do: hills, the sea, temples, wildlife or
-        heritage. Each place shows its nearest railway station and whether
-        Howrah and Sealdah connect to it.
-      </p>
+      <PageHeader
+        eyebrow="West Bengal"
+        title="Places to visit in West Bengal"
+        crumbs={
+          <>
+            <Link href="/">Home</Link> /{" "}
+            <Link href="/states/west-bengal">West Bengal</Link> / Places
+          </>
+        }
+        lead="Browse by what you want to do: hills, the sea, temples, wildlife or heritage. Each place shows its nearest railway station and whether Howrah and Sealdah connect to it."
+      />
 
       <Reveal>
         <p className="edit-note">

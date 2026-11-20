@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Photo from "./Photo";
 
 export type ExplorerPlace = {
@@ -34,6 +34,17 @@ export default function WbExplorer({
   const [rail, setRail] = useState<"any" | "howrah" | "sealdah">("any");
   const [q, setQ] = useState("");
   const v = q.trim().toLowerCase();
+
+  // A link like /west-bengal#hills opens that category.
+  useEffect(() => {
+    const apply = () => {
+      const h = window.location.hash.replace("#", "");
+      if (categories.some((c) => c.id === h)) setCat(h);
+    };
+    apply();
+    window.addEventListener("hashchange", apply);
+    return () => window.removeEventListener("hashchange", apply);
+  }, [categories]);
 
   const shown = places.filter((p) => {
     if (cat !== "all" && p.category !== cat) return false;

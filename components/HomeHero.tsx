@@ -101,7 +101,7 @@ export default function HomeHero({
   const cur = slides[idx];
 
   return (
-    <section ref={rootRef} className="hh" aria-label="Welcome">
+    <section ref={rootRef} className="hh full" aria-label="Welcome">
       <div className="hh-bg" aria-hidden="true">
         {slides.map((s, i) => (
           <div key={s.slug} className={`hh-slide${i === idx ? " on" : ""}`}>
@@ -147,7 +147,7 @@ export default function HomeHero({
             id="hh-q"
             type="search"
             autoComplete="off"
-            placeholder="Where do you want to go? Try Darjeeling, Kerala, Leh…"
+            placeholder="Search a place, e.g. Darjeeling"
             value={q}
             role="combobox"
             aria-expanded={showList}

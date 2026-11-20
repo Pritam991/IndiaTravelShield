@@ -28,7 +28,7 @@ export type Place = {
   permit: string | null;
 };
 
-export type Category = { id: string; name: string; blurb: string };
+export type Category = { id: string; name: string; blurb: string; cover?: string };
 
 const data = placesJson as {
   meta: { basis: string; sourceUrl: string; readOn: string };
@@ -42,6 +42,8 @@ export const wbCategories = data.categories;
 export const wbPlaces = data.places;
 
 export const getPlace = (id: string) => wbPlaces.find((p) => p.id === id);
+export const getPlaceBySlug = (slug: string) =>
+  wbPlaces.find((p) => p.slug === slug);
 export const placesIn = (cat: string) =>
   wbPlaces.filter((p) => p.category === cat);
 export const categoryOf = (id: string) =>

@@ -8,6 +8,11 @@ import FeaturedStates from "@/components/FeaturedStates";
 import IndiaStats from "@/components/IndiaStats";
 import PhotoCard from "@/components/PhotoCard";
 import Reveal from "@/components/Reveal";
+import Band from "@/components/Band";
+import CategoryTiles from "@/components/CategoryTiles";
+import FeatureStrip from "@/components/FeatureStrip";
+import Timeline from "@/components/Timeline";
+import { placeImage, placesIn, getPlace, wbCategories, wbPlaces } from "@/lib/wb";
 import CountUp from "@/components/CountUp";
 import { Disclosure } from "@/components/Ui";
 
@@ -38,37 +43,6 @@ const FEATURED_STATES = [
     name: "Himachal Pradesh",
     blurb: "Himalayan hill stations, Tibetan culture and adventure.",
     destinations: ["shimla", "manali", "dharamshala"],
-  },
-];
-
-const STEPS = [
-  {
-    n: "01",
-    title: "Know before you go",
-    body: "Read the official advisories for your country and the notes on the region you plan to visit. We link every source.",
-    href: "/methodology",
-    cta: "How we use sources",
-  },
-  {
-    n: "02",
-    title: "Check what you need",
-    body: "Find the visa, passport and special-area permit points to verify for your destination and nationality.",
-    href: "/requirements",
-    cta: "Open the checklist",
-  },
-  {
-    n: "03",
-    title: "Choose your destination",
-    body: "Browse states, cities, hill stations and heritage towns, with how to reach each by air and rail.",
-    href: "/destinations",
-    cta: "Browse destinations",
-  },
-  {
-    n: "04",
-    title: "Plan every step",
-    body: "Airports, trains and emergency numbers on one page, so arrival day is no surprise.",
-    href: "/states/west-bengal",
-    cta: "Start with West Bengal",
   },
 ];
 
@@ -128,13 +102,55 @@ export default function Home() {
         };
       }),
   })).filter((fs) => fs.slides.length > 0);
-  const wb = destinations.filter((d) => d.state === "West Bengal").length;
+  const wbPlaceCount = wbPlaces.length;
+  const catTiles = wbCategories.map((c) => {
+    const cover = c.cover ? getPlace(c.cover) : undefined;
+    const img = cover ? placeImage(cover) : null;
+    return {
+      id: c.id,
+      name: c.name,
+      blurb: c.blurb,
+      count: placesIn(c.id).length,
+      img: img?.src ?? null,
+      credit: img ? creditLine(img) : null,
+    };
+  });
 
   return (
     <>
       <HomeHero slides={heroSlides} items={searchItems} />
       <Ticker items={tickerItems} />
       <QuickActions />
+
+      <Band tone="soft" label="Places in West Bengal by category">
+        <Reveal>
+          <p className="eyebrow dk">West Bengal</p>
+          <h2>Find places by what you enjoy</h2>
+          <p className="lead">
+            Hills, beaches, temples, wildlife and heritage. Each place lists its
+            nearest railway station and whether Howrah and Sealdah connect to
+            it.
+          </p>
+        </Reveal>
+        <CategoryTiles tiles={catTiles} />
+        <p className="center">
+          <Link className="btn" href="/west-bengal">
+            See all West Bengal places
+          </Link>
+        </p>
+      </Band>
+
+      <Band tone="dark" label="What this site does">
+        <Reveal>
+          <p className="eyebrow">Why use it</p>
+          <h2>Built to help you plan, not to persuade you</h2>
+          <p className="lead on-dark-text">
+            We show what is easy to reach, what needs a permit and where to read
+            the official advice. You decide.
+          </p>
+        </Reveal>
+        <FeatureStrip />
+      </Band>
 
       <Reveal>
         <section className="stats" aria-label="Coverage">
@@ -152,9 +168,9 @@ export default function Home() {
           </div>
           <div>
             <b>
-              <CountUp to={wb} />
+              <CountUp to={wbPlaceCount} />
             </b>
-            <span>in West Bengal</span>
+            <span>West Bengal places</span>
           </div>
           <div>
             <b>
@@ -167,30 +183,20 @@ export default function Home() {
 
       <IndiaStats />
 
-      <section className="band">
+      <Band tone="soft" label="Featured states" align="center">
         <Reveal>
           <h2>Featured states</h2>
         </Reveal>
         <FeaturedStates states={featuredStates} />
-      </section>
+      </Band>
 
-      <section className="steps-wrap" aria-labelledby="how">
+      <Band tone="soft" label="How to plan">
         <Reveal>
-          <h2 id="how">How it works</h2>
+          <p className="eyebrow dk">How it works</p>
+          <h2>From idea to boarding pass in four steps</h2>
         </Reveal>
-        <ol className="steps">
-          {STEPS.map((s, i) => (
-            <li key={s.n} className="step" style={{ "--i": i } as React.CSSProperties}>
-              <span className="step-n">{s.n}</span>
-              <div>
-                <h3>{s.title}</h3>
-                <p>{s.body}</p>
-                <Link href={s.href}>{s.cta} &rarr;</Link>
-              </div>
-            </li>
-          ))}
-        </ol>
-      </section>
+        <Timeline />
+      </Band>
 
       <section className="plain">
         <Reveal>
@@ -200,12 +206,11 @@ export default function Home() {
           {destinations
             .filter((d) => d.state !== "West Bengal")
             .slice(0, 8)
-            .map((d, i) => {
+            .map((d) => {
               const img = getImage(d.slug);
               return (
                 <li key={d.slug}>
-                  <Reveal delay={(i % 4) * 80}>
-                    <PhotoCard
+                  <PhotoCard
                       href={`/destinations/${d.slug}`}
                       title={d.name}
                       sub={d.state}
@@ -214,7 +219,6 @@ export default function Home() {
                       credit={img ? creditLine(img) : null}
                       badge={d.permit ? "Permit note" : undefined}
                     />
-                  </Reveal>
                 </li>
               );
             })}

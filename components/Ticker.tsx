@@ -19,7 +19,7 @@ export default function Ticker({ items }: { items: Item[] }) {
     </ul>
   );
   return (
-    <div className="tk" role="region" aria-label="Destinations to explore">
+    <div className="tk full" role="region" aria-label="Destinations to explore">
       <div className="tk-track">
         {row(false)}
         {row(true)}

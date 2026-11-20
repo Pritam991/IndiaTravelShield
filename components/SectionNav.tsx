@@ -25,7 +25,7 @@ export default function SectionNav({
   }, [items]);
 
   return (
-    <nav className="secnav" aria-label="On this page">
+    <nav className="secnav full" aria-label="On this page">
       {items.map((i) => (
         <a
           key={i.id}

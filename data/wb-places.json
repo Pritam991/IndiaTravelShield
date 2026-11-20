@@ -9,32 +9,38 @@
     {
       "id": "hills",
       "name": "Hill stations and treks",
-      "blurb": "Himalayan foothills and ridge walks in North Bengal."
+      "blurb": "Himalayan foothills and ridge walks in North Bengal.",
+      "cover": "darjeeling"
     },
     {
       "id": "sea",
       "name": "Sea and beaches",
-      "blurb": "Bay of Bengal beaches in the south of the state."
+      "blurb": "Bay of Bengal beaches in the south of the state.",
+      "cover": "mandarmani"
     },
     {
       "id": "religious",
       "name": "Religious and pilgrimage",
-      "blurb": "Temples, mosques, churches, gurdwaras, monasteries and Jain sites."
+      "blurb": "Temples, mosques, churches, gurdwaras, monasteries and Jain sites.",
+      "cover": "dakshineswar"
     },
     {
       "id": "wildlife",
       "name": "Wildlife and national parks",
-      "blurb": "Tiger reserves, mangroves, rhino and elephant forests."
+      "blurb": "Tiger reserves, mangroves, rhino and elephant forests.",
+      "cover": "sundarbans"
     },
     {
       "id": "heritage",
       "name": "Heritage and architecture",
-      "blurb": "Palaces, terracotta temples, colonial buildings and old capitals."
+      "blurb": "Palaces, terracotta temples, colonial buildings and old capitals.",
+      "cover": "victoria-memorial"
     },
     {
       "id": "culture",
       "name": "Culture and city life",
-      "blurb": "Literary, artistic and everyday Kolkata and Bengal."
+      "blurb": "Literary, artistic and everyday Kolkata and Bengal.",
+      "cover": "shantiniketan"
     }
   ],
   "places": [

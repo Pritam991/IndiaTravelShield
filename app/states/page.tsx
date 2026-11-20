@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { destinationsInState, states } from "@/lib/data";
+import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Indian states and territories",
@@ -12,7 +13,11 @@ export const metadata: Metadata = {
 export default function StatesPage() {
   return (
     <>
-      <h1>States and union territories</h1>
+      <PageHeader
+        eyebrow="States"
+        title="States and union territories"
+        lead="Every Indian state and union territory, with the destinations we cover and any permit notes."
+      />
       <ul className="cards">
         {states.map((s) => {
           const n = destinationsInState(s.name).length;

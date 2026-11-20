@@ -68,7 +68,7 @@ export default function ParallaxHero({
   }, []);
 
   return (
-    <div ref={ref} className={`plx plx-${size}`}>
+    <div ref={ref} className={`plx plx-${size} full`}>
       <div className="plx-bg">
         <Photo src={src} alt={alt} name={name} sizes="100vw" priority />
       </div>
