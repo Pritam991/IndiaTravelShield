@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { SITE_URL } from "@/lib/data";
 import SiteHeader from "@/components/SiteHeader";
 import ScrollProgress from "@/components/ScrollProgress";
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
   description:
     "Sourced travel advisories, entry requirements and logistics for international visitors to India.",
   openGraph: { siteName: "IndiaTravelShield", type: "website" },
+  other: { "google-adsense-account": "ca-pub-2502630111748192" },
 };
 
 // Runs before first paint so the saved theme and 3D choice never flash.
@@ -27,12 +29,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: INIT }} />
-        {/* Google AdSense: kept as a plain tag so AdSense can find it in the page source. */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2502630111748192"
-          crossOrigin="anonymous"
-        />
       </head>
       <body>
         <ScrollProgress />
@@ -81,6 +77,20 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
         </footer>
         <BackToTop />
+        {/*
+          Google AdSense. It must load AFTER React hydrates: the AdSense loader
+          inserts its own <script> into <head>, and a plain <script> tag there
+          made React report a hydration mismatch. afterInteractive runs it once
+          hydration is done. Site ownership is declared by the
+          google-adsense-account meta tag in `metadata.other` above.
+        */}
+        <Script
+          id="adsense-loader"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2502630111748192"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
