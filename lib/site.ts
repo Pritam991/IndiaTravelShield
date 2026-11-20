@@ -1,8 +1,10 @@
 // Site-wide settings that are not content data.
 //
-// Set NEXT_PUBLIC_CONTACT_EMAIL (for example in the Amplify environment
-// variables, or in a local .env.local file) to the address people should write
-// to. It is deliberately not hard-coded: this repository is public.
-export const CONTACT_EMAIL = (process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "").trim();
+// The contact address is shown on the Contact, About and Privacy pages, so it
+// is public on the live site either way. NEXT_PUBLIC_CONTACT_EMAIL overrides
+// the default if you later move to an address on your own domain.
+export const CONTACT_EMAIL = (
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "pritammanijoy2001@gmail.com"
+).trim();
 
 export const LEGAL_UPDATED = "20 November 2026";
