@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/west-bengal",
     "/destinations",
     "/requirements",
+    "/insights",
     "/methodology",
     "/about",
     "/contact",

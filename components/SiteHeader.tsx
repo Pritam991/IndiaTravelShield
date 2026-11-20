@@ -8,6 +8,7 @@ import { useDocAttr } from "@/lib/useDocAttr";
 const LINKS: [string, string][] = [
   ["/states", "States"],
   ["/destinations", "Destinations"],
+  ["/insights", "Insights"],
   ["/requirements", "Requirements"],
   ["/methodology", "Sources & Method"],
 ];

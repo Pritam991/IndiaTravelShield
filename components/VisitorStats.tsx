@@ -127,6 +127,11 @@ export default function VisitorStats() {
             These numbers describe where visitors came from and where they were
             recorded. They are not a measure of how safe a place is.
           </p>
+          <p>
+            <Link className="btn sm" href="/insights">
+              See states, monuments, airports and places the data points to
+            </Link>
+          </p>
           <p className="small">
             Source:{" "}
             <a href={DATASET_URL} target="_blank" rel="noopener noreferrer">

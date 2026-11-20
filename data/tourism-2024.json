@@ -1,0 +1,1960 @@
+{
+ "meta": {
+  "organisation": "Ministry of Tourism",
+  "publisher": "data.gov.in",
+  "fetchedOn": "2026-11-20",
+  "sources": {
+   "states": {
+    "title": "State/UT-wise Details of Domestic and Foreign Tourist Visits during 2024-25",
+    "resourceId": "515c5fea-46b9-438e-b8c3-db01d4afc8c4",
+    "updated": "2026-08-24",
+    "url": "https://www.data.gov.in/resource/515c5fea-46b9-438e-b8c3-db01d4afc8c4"
+   },
+   "monuments": {
+    "title": "Monument-wise Details of Visitors to Centrally Protected Ticketed Monuments during 2023-24 and 2024-25",
+    "resourceId": "33998e59-7b58-4659-a427-23f75088757d",
+    "updated": "2026-08-24",
+    "url": "https://www.data.gov.in/resource/33998e59-7b58-4659-a427-23f75088757d"
+   },
+   "airports": {
+    "title": "Airport-wise Details of Foreign Tourist Arrivals (FTAs) through International Airports of India during 2024",
+    "resourceId": "625365ed-0b19-41a4-9276-f9f52efcf3c7",
+    "updated": "2026-08-24",
+    "url": "https://www.data.gov.in/resource/625365ed-0b19-41a4-9276-f9f52efcf3c7"
+   },
+   "peakLean": {
+    "title": "Country-wise Percentage of Peak and Lean Month of Foreign Tourist Arrivals (FTAs) from Top Source Countries during 2024",
+    "resourceId": "1e0c4690-cb51-4f7f-bbf0-04f5a36c01ff",
+    "updated": "2026-08-24",
+    "url": "https://www.data.gov.in/resource/1e0c4690-cb51-4f7f-bbf0-04f5a36c01ff"
+   },
+   "yearly": {
+    "title": "Year-wise Details of Domestic and Foreign Tourist Visits to States/Uts during 1991, 2001, and 2011 to 2024",
+    "resourceId": "146c04bc-ef3a-4693-8dff-c1219e95b787",
+    "updated": "2026-08-24",
+    "url": "https://www.data.gov.in/resource/146c04bc-ef3a-4693-8dff-c1219e95b787"
+   }
+  },
+  "checks": [
+   {
+    "label": "State foreign visits 2024 (millions): 36 states vs published Overall",
+    "parts": 20.94,
+    "published": 20.942,
+    "ok": true
+   },
+   {
+    "label": "State foreign-visit shares add to 100%",
+    "parts": 100.01,
+    "published": 100,
+    "ok": true
+   },
+   {
+    "label": "Monuments foreign visitors 2024-25: 145 monuments vs published Grand Total",
+    "parts": 2415000,
+    "published": 2415000,
+    "ok": true
+   },
+   {
+    "label": "Airport arrivals: 20 airports + Others vs published air-mode total",
+    "parts": 8300540,
+    "published": 8300540,
+    "ok": true
+   },
+   {
+    "label": "Year-wise 2024 foreign visits vs state table Overall",
+    "parts": 20942074,
+    "published": 20942000,
+    "ok": true
+   }
+  ],
+  "allChecksPass": true,
+  "monumentsWithNoForeignFigure": [
+   "Mattancherry Palace Museum Kochi"
+  ]
+ },
+ "states": [
+  {
+   "name": "Chandigarh",
+   "region": "North",
+   "foreign2024": 0.039,
+   "foreign2023": 0.031,
+   "domestic2024": 0.999,
+   "domestic2023": 0.366,
+   "foreignGrowthPct": 24,
+   "foreignSharePct": 0.19,
+   "domesticSharePct": 0.03
+  },
+  {
+   "name": "Delhi",
+   "region": "North",
+   "foreign2024": 1.999,
+   "foreign2023": 1.828,
+   "domestic2024": 46.257,
+   "domestic2023": 39.415,
+   "foreignGrowthPct": 9.37,
+   "foreignSharePct": 9.55,
+   "domesticSharePct": 1.57
+  },
+  {
+   "name": "Haryana",
+   "region": "North",
+   "foreign2024": 0.001,
+   "foreign2023": 0.001,
+   "domestic2024": 1.892,
+   "domestic2023": 2.012,
+   "foreignGrowthPct": -59.66,
+   "foreignSharePct": 0,
+   "domesticSharePct": 0.06
+  },
+  {
+   "name": "Himachal Pradesh",
+   "region": "North",
+   "foreign2024": 0.083,
+   "foreign2023": 0.063,
+   "domestic2024": 18.042,
+   "domestic2023": 15.942,
+   "foreignGrowthPct": 31.78,
+   "foreignSharePct": 0.4,
+   "domesticSharePct": 0.61
+  },
+  {
+   "name": "Jammu and Kashmir",
+   "region": "North",
+   "foreign2024": 0.065,
+   "foreign2023": 0.055,
+   "domestic2024": 23.013,
+   "domestic2023": 20.679,
+   "foreignGrowthPct": 18.28,
+   "foreignSharePct": 0.31,
+   "domesticSharePct": 0.78
+  },
+  {
+   "name": "Ladakh",
+   "region": "North",
+   "foreign2024": 0.0397,
+   "foreign2023": 0.036,
+   "domestic2024": 0.3367,
+   "domestic2023": 0.4891,
+   "foreignGrowthPct": 9.33,
+   "foreignSharePct": 0.19,
+   "domesticSharePct": 0.01
+  },
+  {
+   "name": "Punjab",
+   "region": "North",
+   "foreign2024": 0.542,
+   "foreign2023": 0.742,
+   "domestic2024": 27.745,
+   "domestic2023": 35.708,
+   "foreignGrowthPct": -26.96,
+   "foreignSharePct": 2.59,
+   "domesticSharePct": 0.94
+  },
+  {
+   "name": "Rajasthan",
+   "region": "North",
+   "foreign2024": 2.072,
+   "foreign2023": 1.7,
+   "domestic2024": 230.084,
+   "domestic2023": 179.052,
+   "foreignGrowthPct": 21.92,
+   "foreignSharePct": 9.9,
+   "domesticSharePct": 7.8
+  },
+  {
+   "name": "Uttar Pradesh",
+   "region": "North",
+   "foreign2024": 2.269,
+   "foreign2023": 1.602,
+   "domestic2024": 646.807,
+   "domestic2023": 478.526,
+   "foreignGrowthPct": 41.68,
+   "foreignSharePct": 10.83,
+   "domesticSharePct": 21.94
+  },
+  {
+   "name": "Uttarakhand",
+   "region": "North",
+   "foreign2024": 0.139,
+   "foreign2023": 0.143,
+   "domestic2024": 60.849,
+   "domestic2023": 57.571,
+   "foreignGrowthPct": -2.55,
+   "foreignSharePct": 0.67,
+   "domesticSharePct": 2.06
+  },
+  {
+   "name": "Andaman and Nicobar Islands",
+   "region": "East",
+   "foreign2024": 0.011,
+   "foreign2023": 0.009,
+   "domestic2024": 0.71,
+   "domestic2023": 0.323,
+   "foreignGrowthPct": 27.39,
+   "foreignSharePct": 0.05,
+   "domesticSharePct": 0.02
+  },
+  {
+   "name": "Bihar",
+   "region": "East",
+   "foreign2024": 0.737,
+   "foreign2023": 0.547,
+   "domestic2024": 65.463,
+   "domestic2023": 81.586,
+   "foreignGrowthPct": 34.79,
+   "foreignSharePct": 3.52,
+   "domesticSharePct": 2.22
+  },
+  {
+   "name": "Jharkhand",
+   "region": "East",
+   "foreign2024": 0.045,
+   "foreign2023": 0.189,
+   "domestic2024": 54.041,
+   "domestic2023": 35.776,
+   "foreignGrowthPct": -76.08,
+   "foreignSharePct": 0.22,
+   "domesticSharePct": 1.83
+  },
+  {
+   "name": "Odisha",
+   "region": "East",
+   "foreign2024": 0.0879,
+   "foreign2023": 0.045,
+   "domestic2024": 10.999,
+   "domestic2023": 9.725,
+   "foreignGrowthPct": 94.48,
+   "foreignSharePct": 0.42,
+   "domesticSharePct": 0.37
+  },
+  {
+   "name": "West Bengal",
+   "region": "East",
+   "foreign2024": 3.124,
+   "foreign2023": 2.707,
+   "domestic2024": 184.476,
+   "domestic2023": 145.669,
+   "foreignGrowthPct": 15.42,
+   "foreignSharePct": 14.92,
+   "domesticSharePct": 6.26
+  },
+  {
+   "name": "Arunachal Pradesh",
+   "region": "North East",
+   "foreign2024": 0.005,
+   "foreign2023": 0.004,
+   "domestic2024": 0.87,
+   "domestic2023": 1.041,
+   "foreignGrowthPct": 4.85,
+   "foreignSharePct": 0.02,
+   "domesticSharePct": 0.03
+  },
+  {
+   "name": "Assam",
+   "region": "North East",
+   "foreign2024": 0.027,
+   "foreign2023": 0.024,
+   "domestic2024": 7.608,
+   "domestic2023": 7.613,
+   "foreignGrowthPct": 14.07,
+   "foreignSharePct": 0.13,
+   "domesticSharePct": 0.26
+  },
+  {
+   "name": "Manipur",
+   "region": "North East",
+   "foreign2024": 0.003,
+   "foreign2023": 0.004,
+   "domestic2024": 0.029,
+   "domestic2023": 0.058,
+   "foreignGrowthPct": -31.35,
+   "foreignSharePct": 0.01,
+   "domesticSharePct": 0
+  },
+  {
+   "name": "Meghalaya",
+   "region": "North East",
+   "foreign2024": 0.023,
+   "foreign2023": 0.02,
+   "domestic2024": 1.586,
+   "domestic2023": 1.403,
+   "foreignGrowthPct": 15.24,
+   "foreignSharePct": 0.11,
+   "domesticSharePct": 0.05
+  },
+  {
+   "name": "Mizoram",
+   "region": "North East",
+   "foreign2024": 0.005,
+   "foreign2023": 0.004,
+   "domestic2024": 0.422,
+   "domestic2023": 0.209,
+   "foreignGrowthPct": 44.22,
+   "foreignSharePct": 0.03,
+   "domesticSharePct": 0.02
+  },
+  {
+   "name": "Nagaland",
+   "region": "North East",
+   "foreign2024": 0.006,
+   "foreign2023": 0.005,
+   "domestic2024": 0.126,
+   "domestic2023": 0.1,
+   "foreignGrowthPct": 19.01,
+   "foreignSharePct": 0.03,
+   "domesticSharePct": 0
+  },
+  {
+   "name": "Sikkim",
+   "region": "North East",
+   "foreign2024": 0.085,
+   "foreign2023": 0.094,
+   "domestic2024": 1.54,
+   "domestic2023": 1.321,
+   "foreignGrowthPct": -9.68,
+   "foreignSharePct": 0.41,
+   "domesticSharePct": 0.05
+  },
+  {
+   "name": "Tripura",
+   "region": "North East",
+   "foreign2024": 0.091,
+   "foreign2023": 0.067,
+   "domestic2024": 0.601,
+   "domestic2023": 0.366,
+   "foreignGrowthPct": 36.15,
+   "foreignSharePct": 0.43,
+   "domesticSharePct": 0.02
+  },
+  {
+   "name": "Chhattisgarh",
+   "region": "West and Central",
+   "foreign2024": 0.003,
+   "foreign2023": 0.001,
+   "domestic2024": 31.488,
+   "domestic2023": 26.022,
+   "foreignGrowthPct": 265.69,
+   "foreignSharePct": 0.02,
+   "domesticSharePct": 1.07
+  },
+  {
+   "name": "Goa",
+   "region": "West and Central",
+   "foreign2024": 0.468,
+   "foreign2023": 0.453,
+   "domestic2024": 9.941,
+   "domestic2023": 8.175,
+   "foreignGrowthPct": 3.36,
+   "foreignSharePct": 2.23,
+   "domesticSharePct": 0.34
+  },
+  {
+   "name": "Gujarat",
+   "region": "West and Central",
+   "foreign2024": 2.274,
+   "foreign2023": 2.807,
+   "domestic2024": 184.014,
+   "domestic2023": 178.067,
+   "foreignGrowthPct": -18.97,
+   "foreignSharePct": 10.86,
+   "domesticSharePct": 6.24
+  },
+  {
+   "name": "Madhya Pradesh",
+   "region": "West and Central",
+   "foreign2024": 0.168,
+   "foreign2023": 0.183,
+   "domestic2024": 133.176,
+   "domestic2023": 111.946,
+   "foreignGrowthPct": -8.29,
+   "foreignSharePct": 0.8,
+   "domesticSharePct": 4.52
+  },
+  {
+   "name": "Maharashtra",
+   "region": "West and Central",
+   "foreign2024": 3.705,
+   "foreign2023": 3.388,
+   "domestic2024": 189.372,
+   "domestic2023": 161.36,
+   "foreignGrowthPct": 9.37,
+   "foreignSharePct": 17.69,
+   "domesticSharePct": 6.42
+  },
+  {
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "region": "West and Central",
+   "foreign2024": 0.003,
+   "foreign2023": 0.004,
+   "domestic2024": 1.359,
+   "domestic2023": 1.004,
+   "foreignGrowthPct": -35.13,
+   "foreignSharePct": 0.01,
+   "domesticSharePct": 0.05
+  },
+  {
+   "name": "Andhra Pradesh",
+   "region": "South",
+   "foreign2024": 0.262,
+   "foreign2023": 0.06,
+   "domestic2024": 290.266,
+   "domestic2023": 254.706,
+   "foreignGrowthPct": 334.3,
+   "foreignSharePct": 1.25,
+   "domesticSharePct": 9.85
+  },
+  {
+   "name": "Karnataka",
+   "region": "South",
+   "foreign2024": 0.485,
+   "foreign2023": 0.409,
+   "domestic2024": 304.564,
+   "domestic2023": 284.121,
+   "foreignGrowthPct": 18.54,
+   "foreignSharePct": 2.31,
+   "domesticSharePct": 10.33
+  },
+  {
+   "name": "Kerala",
+   "region": "South",
+   "foreign2024": 0.738,
+   "foreign2023": 0.649,
+   "domestic2024": 22.247,
+   "domestic2023": 21.872,
+   "foreignGrowthPct": 13.76,
+   "foreignSharePct": 3.53,
+   "domesticSharePct": 0.75
+  },
+  {
+   "name": "Lakshadweep",
+   "region": "South",
+   "foreign2024": 0.001,
+   "foreign2023": 0.001,
+   "domestic2024": 0.067,
+   "domestic2023": 0.046,
+   "foreignGrowthPct": 18.94,
+   "foreignSharePct": 0,
+   "domesticSharePct": 0
+  },
+  {
+   "name": "Puducherry",
+   "region": "South",
+   "foreign2024": 0.018,
+   "foreign2023": 0.031,
+   "domestic2024": 2.12,
+   "domestic2023": 2.092,
+   "foreignGrowthPct": -42.91,
+   "foreignSharePct": 0.09,
+   "domesticSharePct": 0.07
+  },
+  {
+   "name": "Tamil Nadu",
+   "region": "South",
+   "foreign2024": 1.161,
+   "foreign2023": 1.175,
+   "domestic2024": 306.842,
+   "domestic2023": 286.012,
+   "foreignGrowthPct": -1.16,
+   "foreignSharePct": 5.55,
+   "domesticSharePct": 10.41
+  },
+  {
+   "name": "Telangana",
+   "region": "South",
+   "foreign2024": 0.155,
+   "foreign2023": 0.161,
+   "domestic2024": 88.24,
+   "domestic2023": 58.448,
+   "foreignGrowthPct": -3.48,
+   "foreignSharePct": 0.74,
+   "domesticSharePct": 2.99
+  }
+ ],
+ "stateOverall": {
+  "foreign2024": 20.942,
+  "foreign2023": 19.241,
+  "domestic2024": 2948.191
+ },
+ "monuments": [
+  {
+   "name": "Taj Mahal",
+   "circle": "Agra",
+   "foreign2425": 645624,
+   "foreign2324": 681339,
+   "domestic2425": 6264225,
+   "foreignGrowthPct": -5.24
+  },
+  {
+   "name": "Agra Fort",
+   "circle": "Agra",
+   "foreign2425": 224924,
+   "foreign2324": 218144,
+   "domestic2425": 1545550,
+   "foreignGrowthPct": 3.11
+  },
+  {
+   "name": "FatehpurSikri",
+   "circle": "Agra",
+   "foreign2425": 97441,
+   "foreign2324": 93963,
+   "domestic2425": 443158,
+   "foreignGrowthPct": 3.7
+  },
+  {
+   "name": "Akbar TombSikandra",
+   "circle": "Agra",
+   "foreign2425": 16368,
+   "foreign2324": 15914,
+   "domestic2425": 218139,
+   "foreignGrowthPct": 2.85
+  },
+  {
+   "name": "Mariam Tomb, Sikandra",
+   "circle": "Agra",
+   "foreign2425": 203,
+   "foreign2324": 162,
+   "domestic2425": 18159,
+   "foreignGrowthPct": 25.31
+  },
+  {
+   "name": "Itimad-ud-Daulah Tomb",
+   "circle": "Agra",
+   "foreign2425": 90367,
+   "foreign2324": 84326,
+   "domestic2425": 185282,
+   "foreignGrowthPct": 7.16
+  },
+  {
+   "name": "Ram Bagh",
+   "circle": "Agra",
+   "foreign2425": 546,
+   "foreign2324": 2073,
+   "domestic2425": 45707,
+   "foreignGrowthPct": -73.66
+  },
+  {
+   "name": "Mehtab Bagh",
+   "circle": "Agra",
+   "foreign2425": 27516,
+   "foreign2324": 24584,
+   "domestic2425": 129153,
+   "foreignGrowthPct": 11.93
+  },
+  {
+   "name": "Mausoleum",
+   "circle": "Agra",
+   "foreign2425": 8218,
+   "foreign2324": 4142,
+   "domestic2425": 578712,
+   "foreignGrowthPct": 98.41
+  },
+  {
+   "name": "Site of Sahet Mahet",
+   "circle": "Lucknow",
+   "foreign2425": 73312,
+   "foreign2324": 71120,
+   "domestic2425": 105345,
+   "foreignGrowthPct": 3.08
+  },
+  {
+   "name": "Residency Buildings",
+   "circle": "Lucknow",
+   "foreign2425": 4220,
+   "foreign2324": 3571,
+   "domestic2425": 156542,
+   "foreignGrowthPct": 18.17
+  },
+  {
+   "name": "Piprahwa and Ganwaria",
+   "circle": "Lucknow",
+   "foreign2425": 19317,
+   "foreign2324": 18061,
+   "domestic2425": 38375,
+   "foreignGrowthPct": 6.95
+  },
+  {
+   "name": "Gupta and Varah Temple, Deogarh",
+   "circle": "Jhansi",
+   "foreign2425": 20,
+   "foreign2324": 18,
+   "domestic2425": 2238,
+   "foreignGrowthPct": 11.11
+  },
+  {
+   "name": "Kalinjar Fort",
+   "circle": "Jhansi",
+   "foreign2425": 387,
+   "foreign2324": 192,
+   "domestic2425": 128447,
+   "foreignGrowthPct": 101.56
+  },
+  {
+   "name": "Rani Lakshmi Bai Mahal",
+   "circle": "Jhansi",
+   "foreign2425": 43,
+   "foreign2324": 43,
+   "domestic2425": 26359,
+   "foreignGrowthPct": 0
+  },
+  {
+   "name": "Rani Jhansi Fort",
+   "circle": "Jhansi",
+   "foreign2425": 625,
+   "foreign2324": 611,
+   "domestic2425": 521136,
+   "foreignGrowthPct": 2.29
+  },
+  {
+   "name": "Lord Cornwallis Tomb",
+   "circle": "Sarnath",
+   "foreign2425": 113,
+   "foreign2324": 125,
+   "domestic2425": 25710,
+   "foreignGrowthPct": -9.6
+  },
+  {
+   "name": "Old Fort (Shahi Fort) Jaunpur",
+   "circle": "Sarnath",
+   "foreign2425": 115,
+   "foreign2324": 272,
+   "domestic2425": 150737,
+   "foreignGrowthPct": -57.72
+  },
+  {
+   "name": "Observator y of Man Singh",
+   "circle": "Sarnath",
+   "foreign2425": 913,
+   "foreign2324": 1179,
+   "domestic2425": 85382,
+   "foreignGrowthPct": -22.56
+  },
+  {
+   "name": "Excavated Remains at sarnath",
+   "circle": "Sarnath",
+   "foreign2425": 59086,
+   "foreign2324": 76785,
+   "domestic2425": 744213,
+   "foreignGrowthPct": -23.05
+  },
+  {
+   "name": "Tomb of Lal Khan",
+   "circle": "Sarnath",
+   "foreign2425": 50,
+   "foreign2324": 20,
+   "domestic2425": 5907,
+   "foreignGrowthPct": 150
+  },
+  {
+   "name": "Ancient Buddhist Site know as Chaukhan di Stupa",
+   "circle": "Sarnath",
+   "foreign2425": 5351,
+   "foreign2324": 5816,
+   "domestic2425": 36423,
+   "foreignGrowthPct": -8
+  },
+  {
+   "name": "Bekal Fort, Pallikkare Distt. Kasargod",
+   "circle": "Thrissur",
+   "foreign2425": 516,
+   "foreign2324": 534,
+   "domestic2425": 374766,
+   "foreignGrowthPct": -3.37
+  },
+  {
+   "name": "Mattancherry Palace Museum Kochi",
+   "circle": "Thrissur",
+   "foreign2425": null,
+   "foreign2324": null,
+   "domestic2425": null,
+   "foreignGrowthPct": null
+  },
+  {
+   "name": "Fort Palakkad",
+   "circle": "Thrissur",
+   "foreign2425": 434,
+   "foreign2324": 410,
+   "domestic2425": 265090,
+   "foreignGrowthPct": 5.85
+  },
+  {
+   "name": "Fort St. Angelo, Kannur",
+   "circle": "Thrissur",
+   "foreign2425": 1074,
+   "foreign2324": 818,
+   "domestic2425": 242895,
+   "foreignGrowthPct": 31.3
+  },
+  {
+   "name": "Group of Monuments, Mamallapuram",
+   "circle": "Chennai",
+   "foreign2425": 41416,
+   "foreign2324": 44943,
+   "domestic2425": 967048,
+   "foreignGrowthPct": -7.85
+  },
+  {
+   "name": "Gingee Fort",
+   "circle": "Chennai",
+   "foreign2425": 1411,
+   "foreign2324": 1745,
+   "domestic2425": 149329,
+   "foreignGrowthPct": -19.14
+  },
+  {
+   "name": "Tiger headed Rock cut temple and two other monument s, Saluvankuppam",
+   "circle": "Chennai",
+   "foreign2425": 1324,
+   "foreign2324": 1109,
+   "domestic2425": 42684,
+   "foreignGrowthPct": 19.39
+  },
+  {
+   "name": "Fort, St. George",
+   "circle": "Chennai",
+   "foreign2425": 7313,
+   "foreign2324": 5474,
+   "domestic2425": 24664,
+   "foreignGrowthPct": 33.6
+  },
+  {
+   "name": "Fort on Rock, Dindigul",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 241,
+   "foreign2324": 77,
+   "domestic2425": 36711,
+   "foreignGrowthPct": 212.99
+  },
+  {
+   "name": "Moovarkoil Kodambalur",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 14,
+   "foreign2324": 5,
+   "domestic2425": 2517,
+   "foreignGrowthPct": 180
+  },
+  {
+   "name": "Rock Cut Jain Temple, Sittanavasal",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 173,
+   "foreign2324": 230,
+   "domestic2425": 44538,
+   "foreignGrowthPct": -24.78
+  },
+  {
+   "name": "Tirumalai Nayaks Palace, Srivilliputhur",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 0,
+   "foreign2324": 3,
+   "domestic2425": 927,
+   "foreignGrowthPct": -100
+  },
+  {
+   "name": "Natural Caven with Inscription Eladipattam, Sittannavasal",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 43,
+   "foreign2324": 28,
+   "domestic2425": 16744,
+   "foreignGrowthPct": 53.57
+  },
+  {
+   "name": "Fort museaum Tirumayam",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 990,
+   "foreign2324": 694,
+   "domestic2425": 90100,
+   "foreignGrowthPct": 42.65
+  },
+  {
+   "name": "Fort Vattakottai",
+   "circle": "Thiruchirapalli",
+   "foreign2425": 366,
+   "foreign2324": 242,
+   "domestic2425": 99669,
+   "foreignGrowthPct": 51.24
+  },
+  {
+   "name": "Buddhist Caves Bagh, Mandu",
+   "circle": "Bhopal",
+   "foreign2425": 59,
+   "foreign2324": 26,
+   "domestic2425": 25091,
+   "foreignGrowthPct": 126.92
+  },
+  {
+   "name": "The Palace in the Fort Burhanpur",
+   "circle": "Bhopal",
+   "foreign2425": 410,
+   "foreign2324": 280,
+   "domestic2425": 33258,
+   "foreignGrowthPct": 46.43
+  },
+  {
+   "name": "Hoshang Shahs Tomb,",
+   "circle": "Bhopal",
+   "foreign2425": 1274,
+   "foreign2324": 1176,
+   "domestic2425": 80429,
+   "foreignGrowthPct": 8.33
+  },
+  {
+   "name": "Group of Monuments, Royal Palace Mandu",
+   "circle": "Bhopal",
+   "foreign2425": 1740,
+   "foreign2324": 1609,
+   "domestic2425": 372116,
+   "foreignGrowthPct": 8.14
+  },
+  {
+   "name": "Roopmatis Pavilion,",
+   "circle": "Bhopal",
+   "foreign2425": 1037,
+   "foreign2324": 1031,
+   "domestic2425": 276403,
+   "foreignGrowthPct": 0.58
+  },
+  {
+   "name": "Buddhist Monuments, Sanchi",
+   "circle": "Bhopal",
+   "foreign2425": 19490,
+   "foreign2324": 11692,
+   "domestic2425": 296042,
+   "foreignGrowthPct": 66.7
+  },
+  {
+   "name": "Gwalior Fort",
+   "circle": "Bhopal",
+   "foreign2425": 9660,
+   "foreign2324": 7933,
+   "domestic2425": 318649,
+   "foreignGrowthPct": 21.77
+  },
+  {
+   "name": "Buddhist Cave No.01 to 51, Dhamnar, Tehsil Garoth",
+   "circle": "Bhopal",
+   "foreign2425": 134,
+   "foreign2324": 72,
+   "domestic2425": 34804,
+   "foreignGrowthPct": 86.11
+  },
+  {
+   "name": "Badal Mahal Gateway, Chanderi",
+   "circle": "Bhopal",
+   "foreign2425": 125,
+   "foreign2324": 9,
+   "domestic2425": 14607,
+   "foreignGrowthPct": 1288.89
+  },
+  {
+   "name": "Caves 1 to 20 Udaygiri Vidisha",
+   "circle": "Bhopal",
+   "foreign2425": 878,
+   "foreign2324": 726,
+   "domestic2425": 68753,
+   "foreignGrowthPct": 20.94
+  },
+  {
+   "name": "Bir Singh Palace Datia",
+   "circle": "Bhopal",
+   "foreign2425": 943,
+   "foreign2324": 763,
+   "domestic2425": 42443,
+   "foreignGrowthPct": 23.59
+  },
+  {
+   "name": "Ancient site and adamgarh rock shelter, kalamdi rasuliya and kishanpur",
+   "circle": "Jabalpur",
+   "foreign2425": 1,
+   "foreign2324": 0,
+   "domestic2425": 21336,
+   "foreignGrowthPct": null
+  },
+  {
+   "name": "Western Group of Temples, Khajuraho",
+   "circle": "Jabalpur",
+   "foreign2425": 38478,
+   "foreign2324": 27082,
+   "domestic2425": 523075,
+   "foreignGrowthPct": 42.08
+  },
+  {
+   "name": "Group of Temple, Paramesh var Shiv and Karan Temple, Amarkantak",
+   "circle": "Jabalpur",
+   "foreign2425": 152,
+   "foreign2324": 145,
+   "domestic2425": 49323,
+   "foreignGrowthPct": 4.83
+  },
+  {
+   "name": "Durga Temple, Aihole",
+   "circle": "Dharwad",
+   "foreign2425": 3825,
+   "foreign2324": 3245,
+   "domestic2425": 210076,
+   "foreignGrowthPct": 17.87
+  },
+  {
+   "name": "Jaina and Vaishnava Cave, Badami",
+   "circle": "Dharwad",
+   "foreign2425": 5708,
+   "foreign2324": 5083,
+   "domestic2425": 438834,
+   "foreignGrowthPct": 12.3
+  },
+  {
+   "name": "Group of Monuments (WH), Pattadakal",
+   "circle": "Dharwad",
+   "foreign2425": 4289,
+   "foreign2324": 3662,
+   "domestic2425": 320326,
+   "foreignGrowthPct": 17.12
+  },
+  {
+   "name": "Gol-Gumbaz, VIjayapura",
+   "circle": "Dharwad",
+   "foreign2425": 1362,
+   "foreign2324": 1368,
+   "domestic2425": 857297,
+   "foreignGrowthPct": -0.44
+  },
+  {
+   "name": "Ibrahim Rauza, Vijayapura",
+   "circle": "Dharwad",
+   "foreign2425": 1081,
+   "foreign2324": 1095,
+   "domestic2425": 188375,
+   "foreignGrowthPct": -1.28
+  },
+  {
+   "name": "Temples and Sculpture shed, Iakkumdi",
+   "circle": "Dharwad",
+   "foreign2425": 179,
+   "foreign2324": 118,
+   "domestic2425": 20621,
+   "foreignGrowthPct": 51.69
+  },
+  {
+   "name": "Group of Monuments, Hampi",
+   "circle": "Hampi",
+   "foreign2425": 22472,
+   "foreign2324": 21935,
+   "domestic2425": 986249,
+   "foreignGrowthPct": 2.45
+  },
+  {
+   "name": "Bellary Fort",
+   "circle": "Hampi",
+   "foreign2425": 53,
+   "foreign2324": 40,
+   "domestic2425": 37401,
+   "foreignGrowthPct": 32.5
+  },
+  {
+   "name": "Daryia Daulat Baghtna",
+   "circle": "Bangalore",
+   "foreign2425": 15159,
+   "foreign2324": 12621,
+   "domestic2425": 500077,
+   "foreignGrowthPct": 20.11
+  },
+  {
+   "name": "Keshava Templepur",
+   "circle": "Bangalore",
+   "foreign2425": 10744,
+   "foreign2324": 8510,
+   "domestic2425": 199083,
+   "foreignGrowthPct": 26.25
+  },
+  {
+   "name": "Palace of Tipu Sultan,",
+   "circle": "Bangalore",
+   "foreign2425": 13692,
+   "foreign2324": 11770,
+   "domestic2425": 216281,
+   "foreignGrowthPct": 16.33
+  },
+  {
+   "name": "Fortress and Temple Chitradurg a Fort",
+   "circle": "Bangalore",
+   "foreign2425": 3078,
+   "foreign2324": 2568,
+   "domestic2425": 381095,
+   "foreignGrowthPct": 19.86
+  },
+  {
+   "name": "Cooch Bihar Palace",
+   "circle": "Raiganj",
+   "foreign2425": 261,
+   "foreign2324": 150,
+   "domestic2425": 682443,
+   "foreignGrowthPct": 74
+  },
+  {
+   "name": "Hazarduari Palace",
+   "circle": "Raiganj",
+   "foreign2425": 1907,
+   "foreign2324": 1454,
+   "domestic2425": 906992,
+   "foreignGrowthPct": 31.16
+  },
+  {
+   "name": "Bishnupur Temples",
+   "circle": "Kolkata",
+   "foreign2425": 507,
+   "foreign2324": 464,
+   "domestic2425": 183156,
+   "foreignGrowthPct": 9.27
+  },
+  {
+   "name": "Matcalfe-Hall",
+   "circle": "Kolkata",
+   "foreign2425": 225,
+   "foreign2324": 210,
+   "domestic2425": 32280,
+   "foreignGrowthPct": 7.14
+  },
+  {
+   "name": "Asokan Rock Edict, Junagadh",
+   "circle": "Rajkot",
+   "foreign2425": 297,
+   "foreign2324": 240,
+   "domestic2425": 27611,
+   "foreignGrowthPct": 23.75
+  },
+  {
+   "name": "Buddhisht Caves, Junagadh",
+   "circle": "Rajkot",
+   "foreign2425": 242,
+   "foreign2324": 165,
+   "domestic2425": 42610,
+   "foreignGrowthPct": 46.67
+  },
+  {
+   "name": "Baba Pyara Caves, Junagadh and Khaprakodia Caves Junagadh",
+   "circle": "Rajkot",
+   "foreign2425": 24,
+   "foreign2324": 11,
+   "domestic2425": 3323,
+   "foreignGrowthPct": 118.18
+  },
+  {
+   "name": "Champaner Monuments Pavagadh",
+   "circle": "Vadodara",
+   "foreign2425": 1924,
+   "foreign2324": 1762,
+   "domestic2425": 52017,
+   "foreignGrowthPct": 9.19
+  },
+  {
+   "name": "Sun Temple, Modhera",
+   "circle": "Vadodara",
+   "foreign2425": 4248,
+   "foreign2324": 3886,
+   "domestic2425": 341424,
+   "foreignGrowthPct": 9.32
+  },
+  {
+   "name": "Rani Ki-Vav, Patan",
+   "circle": "Vadodara",
+   "foreign2425": 3977,
+   "foreign2324": 3636,
+   "domestic2425": 367768,
+   "foreignGrowthPct": 9.38
+  },
+  {
+   "name": "Rudabai Step Well, Adalaj",
+   "circle": "Vadodara",
+   "foreign2425": 7890,
+   "foreign2324": 8090,
+   "domestic2425": 277021,
+   "foreignGrowthPct": -2.47
+  },
+  {
+   "name": "Sun Temple, Konarak",
+   "circle": "Bhubaneswar",
+   "foreign2425": 5059,
+   "foreign2324": 5070,
+   "domestic2425": 3571289,
+   "foreignGrowthPct": -0.22
+  },
+  {
+   "name": "Ancient Remains on both Udaigiri and Khandagiri Hills",
+   "circle": "Bhubaneswar",
+   "foreign2425": 2241,
+   "foreign2324": 2721,
+   "domestic2425": 1240354,
+   "foreignGrowthPct": -17.64
+  },
+  {
+   "name": "Rajarani Temple",
+   "circle": "Bhubaneswar",
+   "foreign2425": 1072,
+   "foreign2324": 1099,
+   "domestic2425": 112959,
+   "foreignGrowthPct": -2.46
+  },
+  {
+   "name": "The Hill Containing Many Valuable Sculptures and Images, Ratnagiri",
+   "circle": "Bhubaneswar",
+   "foreign2425": 676,
+   "foreign2324": 554,
+   "domestic2425": 147824,
+   "foreignGrowthPct": 22.02
+  },
+  {
+   "name": "Ruins of Buddhist Temples and Images, Lalitgiri",
+   "circle": "Bhubaneswar",
+   "foreign2425": 454,
+   "foreign2324": 399,
+   "domestic2425": 52329,
+   "foreignGrowthPct": 13.78
+  },
+  {
+   "name": "Ajanta caves",
+   "circle": "Aurangabad",
+   "foreign2425": 20855,
+   "foreign2324": 18829,
+   "domestic2425": 442065,
+   "foreignGrowthPct": 10.76
+  },
+  {
+   "name": "Ellora Caves",
+   "circle": "Aurangabad",
+   "foreign2425": 20710,
+   "foreign2324": 19643,
+   "domestic2425": 1739873,
+   "foreignGrowthPct": 5.43
+  },
+  {
+   "name": "Tomb of RabiaDura ni (Bibi KaMaqbara)",
+   "circle": "Aurangabad",
+   "foreign2425": 10612,
+   "foreign2324": 9606,
+   "domestic2425": 2004535,
+   "foreignGrowthPct": 10.47
+  },
+  {
+   "name": "Daulatabad Fort",
+   "circle": "Aurangabad",
+   "foreign2425": 4032,
+   "foreign2324": 3809,
+   "domestic2425": 545635,
+   "foreignGrowthPct": 5.85
+  },
+  {
+   "name": "Pandulena Caves, Nasik",
+   "circle": "Aurangabad",
+   "foreign2425": 1222,
+   "foreign2324": 1048,
+   "domestic2425": 277313,
+   "foreignGrowthPct": 16.6
+  },
+  {
+   "name": "Aurangabad Caves",
+   "circle": "Aurangabad",
+   "foreign2425": 1609,
+   "foreign2324": 1495,
+   "domestic2425": 126327,
+   "foreignGrowthPct": 7.63
+  },
+  {
+   "name": "Elephanta Caves",
+   "circle": "Mumbai",
+   "foreign2425": 26119,
+   "foreign2324": 21584,
+   "domestic2425": 476385,
+   "foreignGrowthPct": 21.01
+  },
+  {
+   "name": "Buddhist Caves, Kanheri",
+   "circle": "Mumbai",
+   "foreign2425": 7685,
+   "foreign2324": 7571,
+   "domestic2425": 385776,
+   "foreignGrowthPct": 1.51
+  },
+  {
+   "name": "Shaniwarw ada",
+   "circle": "Mumbai",
+   "foreign2425": 6402,
+   "foreign2324": 6542,
+   "domestic2425": 1127815,
+   "foreignGrowthPct": -2.14
+  },
+  {
+   "name": "Aga Khan Palace Building, Pune",
+   "circle": "Mumbai",
+   "foreign2425": 3837,
+   "foreign2324": 3645,
+   "domestic2425": 214392,
+   "foreignGrowthPct": 5.27
+  },
+  {
+   "name": "Cave, Temple and Inscriptions, Junnar",
+   "circle": "Mumbai",
+   "foreign2425": 401,
+   "foreign2324": 844,
+   "domestic2425": 373182,
+   "foreignGrowthPct": -52.49
+  },
+  {
+   "name": "Caves, Temples and inscriptions, Karla",
+   "circle": "Mumbai",
+   "foreign2425": 1817,
+   "foreign2324": 1860,
+   "domestic2425": 187184,
+   "foreignGrowthPct": -2.31
+  },
+  {
+   "name": "Cave, Temple and Inscriptions, Bhaja",
+   "circle": "Mumbai",
+   "foreign2425": 144,
+   "foreign2324": 413,
+   "domestic2425": 55693,
+   "foreignGrowthPct": -65.13
+  },
+  {
+   "name": "Raigad Fort",
+   "circle": "Mumbai",
+   "foreign2425": 146,
+   "foreign2324": 101,
+   "domestic2425": 340940,
+   "foreignGrowthPct": 44.55
+  },
+  {
+   "name": "KolabaFort, Alibag",
+   "circle": "Mumbai",
+   "foreign2425": 103,
+   "foreign2324": 156,
+   "domestic2425": 94800,
+   "foreignGrowthPct": -33.97
+  },
+  {
+   "name": "Old fort Sholapur Fort",
+   "circle": "Mumbai",
+   "foreign2425": 27,
+   "foreign2324": 28,
+   "domestic2425": 38296,
+   "foreignGrowthPct": -3.57
+  },
+  {
+   "name": "Janjira Fort, Murd",
+   "circle": "Mumbai",
+   "foreign2425": 695,
+   "foreign2324": 207,
+   "domestic2425": 246804,
+   "foreignGrowthPct": 235.75
+  },
+  {
+   "name": "Kondiote Caves",
+   "circle": "Mumbai",
+   "foreign2425": 595,
+   "foreign2324": 659,
+   "domestic2425": 25165,
+   "foreignGrowthPct": -9.71
+  },
+  {
+   "name": "Lohgad Fort",
+   "circle": "Mumbai",
+   "foreign2425": 323,
+   "foreign2324": 207,
+   "domestic2425": 138327,
+   "foreignGrowthPct": 56.04
+  },
+  {
+   "name": "Gawilgarh Fort",
+   "circle": "Nagpur",
+   "foreign2425": 6,
+   "foreign2324": 27,
+   "domestic2425": 21609,
+   "foreignGrowthPct": -77.78
+  },
+  {
+   "name": "Anncient Buddhist Remains, comprising monstery stupa rock sculptures inscriptions etc mansar",
+   "circle": "Nagpur",
+   "foreign2425": 92,
+   "foreign2324": 128,
+   "domestic2425": 3552,
+   "foreignGrowthPct": -28.13
+  },
+  {
+   "name": "Suraj Kund",
+   "circle": "Chandigarh",
+   "foreign2425": 29,
+   "foreign2324": 8,
+   "domestic2425": 10732,
+   "foreignGrowthPct": 262.5
+  },
+  {
+   "name": "Sheikj Chillis Tomb",
+   "circle": "Chandigarh",
+   "foreign2425": 217,
+   "foreign2324": 346,
+   "domestic2425": 81589,
+   "foreignGrowthPct": -37.28
+  },
+  {
+   "name": "Khan-I-Khana",
+   "circle": "Delhi",
+   "foreign2425": 45,
+   "foreign2324": 27,
+   "domestic2425": 4511,
+   "foreignGrowthPct": 66.67
+  },
+  {
+   "name": "Sultan Garhi Tomb",
+   "circle": "Delhi",
+   "foreign2425": 9,
+   "foreign2324": 6,
+   "domestic2425": 674,
+   "foreignGrowthPct": 50
+  },
+  {
+   "name": "Tughlaqab ad Fort",
+   "circle": "Delhi",
+   "foreign2425": 243,
+   "foreign2324": 316,
+   "domestic2425": 28176,
+   "foreignGrowthPct": -23.1
+  },
+  {
+   "name": "Red Fort",
+   "circle": "Delhi",
+   "foreign2425": 79311,
+   "foreign2324": 84177,
+   "domestic2425": 2884399,
+   "foreignGrowthPct": -5.78
+  },
+  {
+   "name": "Humayuns Tomb",
+   "circle": "Delhi",
+   "foreign2425": 158043,
+   "foreign2324": 116904,
+   "domestic2425": 1005606,
+   "foreignGrowthPct": 35.19
+  },
+  {
+   "name": "Qutub Minar",
+   "circle": "Delhi",
+   "foreign2425": 220044,
+   "foreign2324": 220017,
+   "domestic2425": 3204760,
+   "foreignGrowthPct": 0.01
+  },
+  {
+   "name": "Hauzkhas",
+   "circle": "Delhi",
+   "foreign2425": 1663,
+   "foreign2324": 1305,
+   "domestic2425": 110405,
+   "foreignGrowthPct": 27.43
+  },
+  {
+   "name": "Jantar Mantar",
+   "circle": "Delhi",
+   "foreign2425": 4697,
+   "foreign2324": 3916,
+   "domestic2425": 249987,
+   "foreignGrowthPct": 19.94
+  },
+  {
+   "name": "Safdarjung Tomb",
+   "circle": "Delhi",
+   "foreign2425": 8413,
+   "foreign2324": 9770,
+   "domestic2425": 143474,
+   "foreignGrowthPct": -13.89
+  },
+  {
+   "name": "Kotla Firoz Shah",
+   "circle": "Delhi",
+   "foreign2425": 893,
+   "foreign2324": 922,
+   "domestic2425": 105840,
+   "foreignGrowthPct": -3.15
+  },
+  {
+   "name": "Purana Qila",
+   "circle": "Delhi",
+   "foreign2425": 1600,
+   "foreign2324": 1727,
+   "domestic2425": 192216,
+   "foreignGrowthPct": -7.35
+  },
+  {
+   "name": "Ahom Rajas Palace",
+   "circle": "Guwahati",
+   "foreign2425": 175,
+   "foreign2324": 160,
+   "domestic2425": 123656,
+   "foreignGrowthPct": 9.38
+  },
+  {
+   "name": "Kareghar of Ahom Kings",
+   "circle": "Guwahati",
+   "foreign2425": 804,
+   "foreign2324": 788,
+   "domestic2425": 197111,
+   "foreignGrowthPct": 2.03
+  },
+  {
+   "name": "Ranghar Pavillion Jaisagar Ruins",
+   "circle": "Guwahati",
+   "foreign2425": 796,
+   "foreign2324": 680,
+   "domestic2425": 172275,
+   "foreignGrowthPct": 17.06
+  },
+  {
+   "name": "Bishnudol Temple",
+   "circle": "Guwahati",
+   "foreign2425": 24,
+   "foreign2324": 10,
+   "domestic2425": 5777,
+   "foreignGrowthPct": 140
+  },
+  {
+   "name": "Group of Four Maidams charaideo, sibsagar",
+   "circle": "Guwahati",
+   "foreign2425": 102,
+   "foreign2324": 86,
+   "domestic2425": 76896,
+   "foreignGrowthPct": 18.6
+  },
+  {
+   "name": "Upper Fort Aguada",
+   "circle": "Goa",
+   "foreign2425": 13025,
+   "foreign2324": 10411,
+   "domestic2425": 1358790,
+   "foreignGrowthPct": 25.11
+  },
+  {
+   "name": "Charminar",
+   "circle": "Hyderabad",
+   "foreign2425": 9562,
+   "foreign2324": 8040,
+   "domestic2425": 1343503,
+   "foreignGrowthPct": 18.93
+  },
+  {
+   "name": "Golkonda Fort",
+   "circle": "Hyderabad",
+   "foreign2425": 15958,
+   "foreign2324": 15839,
+   "domestic2425": 1563524,
+   "foreignGrowthPct": 0.75
+  },
+  {
+   "name": "Warangal Fort",
+   "circle": "Hyderabad",
+   "foreign2425": 280,
+   "foreign2324": 242,
+   "domestic2425": 106447,
+   "foreignGrowthPct": 15.7
+  },
+  {
+   "name": "Ancient Site, Bhangarh",
+   "circle": "Jaipur",
+   "foreign2425": 2085,
+   "foreign2324": 2575,
+   "domestic2425": 234945,
+   "foreignGrowthPct": -19.03
+  },
+  {
+   "name": "Baori at Abhaneri",
+   "circle": "Jaipur",
+   "foreign2425": 116378,
+   "foreign2324": 96080,
+   "domestic2425": 101710,
+   "foreignGrowthPct": 21.13
+  },
+  {
+   "name": "Deeg Bhawan",
+   "circle": "Jaipur",
+   "foreign2425": 366,
+   "foreign2324": 245,
+   "domestic2425": 37987,
+   "foreignGrowthPct": 49.39
+  },
+  {
+   "name": "Chittaurgarh Fort",
+   "circle": "Jodhpur",
+   "foreign2425": 12930,
+   "foreign2324": 13118,
+   "domestic2425": 1057243,
+   "foreignGrowthPct": -1.43
+  },
+  {
+   "name": "Kumbhalgarh Fort",
+   "circle": "Jodhpur",
+   "foreign2425": 9342,
+   "foreign2324": 7390,
+   "domestic2425": 378780,
+   "foreignGrowthPct": 26.41
+  },
+  {
+   "name": "Marble Pavillion and balustrade on the Ana sagar bund and ruins of the marble hammam behind tha Ana Sagar Bund",
+   "circle": "Jodhpur",
+   "foreign2425": 152,
+   "foreign2324": 150,
+   "domestic2425": 370056,
+   "foreignGrowthPct": 1.33
+  },
+  {
+   "name": "Ancient Palace Leh",
+   "circle": "Leh",
+   "foreign2425": 7660,
+   "foreign2324": 7924,
+   "domestic2425": 86277,
+   "foreignGrowthPct": -3.33
+  },
+  {
+   "name": "Remains of Patliputra Site of Mauryan Place Kumrahar",
+   "circle": "Patna",
+   "foreign2425": 1766,
+   "foreign2324": 1322,
+   "domestic2425": 129868,
+   "foreignGrowthPct": 33.59
+  },
+  {
+   "name": "Ancient site of Vaishali, Kolhua",
+   "circle": "Patna",
+   "foreign2425": 28795,
+   "foreign2324": 25602,
+   "domestic2425": 70289,
+   "foreignGrowthPct": 12.47
+  },
+  {
+   "name": "Excavated Site, Nalanda",
+   "circle": "Patna",
+   "foreign2425": 88151,
+   "foreign2324": 65506,
+   "domestic2425": 501000,
+   "foreignGrowthPct": 34.57
+  },
+  {
+   "name": "Ancient Site of Vikramshila",
+   "circle": "Patna",
+   "foreign2425": 461,
+   "foreign2324": 588,
+   "domestic2425": 97891,
+   "foreignGrowthPct": -21.6
+  },
+  {
+   "name": "Sher Shahs Tomb",
+   "circle": "Patna",
+   "foreign2425": 231,
+   "foreign2324": 154,
+   "domestic2425": 311750,
+   "foreignGrowthPct": 50
+  },
+  {
+   "name": "Temple of Laxman and old sites including sculptures sirpur Temple,Sirpur",
+   "circle": "Raipur",
+   "foreign2425": 34,
+   "foreign2324": 67,
+   "domestic2425": 81085,
+   "foreignGrowthPct": -49.25
+  },
+  {
+   "name": "Ruined fort Kangra Fort",
+   "circle": "Shimla",
+   "foreign2425": 3067,
+   "foreign2324": 2478,
+   "domestic2425": 127818,
+   "foreignGrowthPct": 23.77
+  },
+  {
+   "name": "Rock-cut Temples and Sculptures , Masrur",
+   "circle": "Shimla",
+   "foreign2425": 1341,
+   "foreign2324": 2603,
+   "domestic2425": 41624,
+   "foreignGrowthPct": -48.48
+  },
+  {
+   "name": "Palace complex at ramnagar,Distt. Udhampur",
+   "circle": "Srinagar",
+   "foreign2425": 0,
+   "foreign2324": 0,
+   "domestic2425": 5963,
+   "foreignGrowthPct": null
+  },
+  {
+   "name": "Avantiswamin temple, avantipur district pulwana",
+   "circle": "Srinagar",
+   "foreign2425": 276,
+   "foreign2324": 385,
+   "domestic2425": 41685,
+   "foreignGrowthPct": -28.31
+  },
+  {
+   "name": "Group of Temples, Kiramchi, District Udhampur",
+   "circle": "Srinagar",
+   "foreign2425": 15,
+   "foreign2324": 12,
+   "domestic2425": 13842,
+   "foreignGrowthPct": 25
+  },
+  {
+   "name": "Amaravati Mahastupa",
+   "circle": "Amaravati",
+   "foreign2425": 271,
+   "foreign2324": 106,
+   "domestic2425": 7819,
+   "foreignGrowthPct": 155.66
+  },
+  {
+   "name": "Undavalli caves",
+   "circle": "Amaravati",
+   "foreign2425": 374,
+   "foreign2324": 411,
+   "domestic2425": 146263,
+   "foreignGrowthPct": -9
+  },
+  {
+   "name": "Nagarjuna konda",
+   "circle": "Amaravati",
+   "foreign2425": 696,
+   "foreign2324": 452,
+   "domestic2425": 59130,
+   "foreignGrowthPct": 53.98
+  },
+  {
+   "name": "Chandragiri Monuments",
+   "circle": "Amaravati",
+   "foreign2425": 96,
+   "foreign2324": 97,
+   "domestic2425": 112435,
+   "foreignGrowthPct": -1.03
+  },
+  {
+   "name": "Buddhist Remains, on hill top at Guntupalli W.G. District",
+   "circle": "Amaravati",
+   "foreign2425": 47,
+   "foreign2324": 35,
+   "domestic2425": 13754,
+   "foreignGrowthPct": 34.29
+  }
+ ],
+ "monumentsGrand": {
+  "foreign2425": 2415000,
+  "foreign2324": 2314641,
+  "domestic2425": 54231255
+ },
+ "airports": {
+  "rows": [
+   {
+    "name": "Delhi",
+    "id": "delhi",
+    "ftas": 3224675,
+    "sharePct": 38.85
+   },
+   {
+    "name": "Mumbai",
+    "id": "mumbai",
+    "ftas": 1557196,
+    "sharePct": 18.76
+   },
+   {
+    "name": "Chennai",
+    "id": "chennai",
+    "ftas": 814594,
+    "sharePct": 9.81
+   },
+   {
+    "name": "Bengaluru",
+    "id": "bengaluru",
+    "ftas": 696924,
+    "sharePct": 8.4
+   },
+   {
+    "name": "Hyderabad",
+    "id": "hyderabad",
+    "ftas": 394824,
+    "sharePct": 4.76
+   },
+   {
+    "name": "Cochin",
+    "id": "cochin",
+    "ftas": 372217,
+    "sharePct": 4.48
+   },
+   {
+    "name": "Kolkata",
+    "id": "kolkata",
+    "ftas": 276667,
+    "sharePct": 3.33
+   },
+   {
+    "name": "Ahmedabad",
+    "id": "ahmedabad",
+    "ftas": 219993,
+    "sharePct": 2.65
+   },
+   {
+    "name": "Amritsar",
+    "id": "amritsar",
+    "ftas": 148237,
+    "sharePct": 1.79
+   },
+   {
+    "name": "Tiruchirappalli",
+    "id": "tiruchirappalli",
+    "ftas": 116499,
+    "sharePct": 1.4
+   },
+   {
+    "name": "Thiruvananthapuram",
+    "id": "thiruvananthapuram",
+    "ftas": 110980,
+    "sharePct": 1.34
+   },
+   {
+    "name": "Mopa (Goa)",
+    "id": "mopa-goa",
+    "ftas": 87369,
+    "sharePct": 1.05
+   },
+   {
+    "name": "Dabolim (Goa)",
+    "id": "dabolim-goa",
+    "ftas": 74749,
+    "sharePct": 0.9
+   },
+   {
+    "name": "Gaya",
+    "id": "gaya",
+    "ftas": 47500,
+    "sharePct": 0.57
+   },
+   {
+    "name": "Calicut",
+    "id": "calicut",
+    "ftas": 35982,
+    "sharePct": 0.43
+   },
+   {
+    "name": "Coimbatore",
+    "id": "coimbatore",
+    "ftas": 17886,
+    "sharePct": 0.22
+   },
+   {
+    "name": "Jaipur",
+    "id": "jaipur",
+    "ftas": 16069,
+    "sharePct": 0.19
+   },
+   {
+    "name": "Lucknow",
+    "id": "lucknow",
+    "ftas": 15506,
+    "sharePct": 0.19
+   },
+   {
+    "name": "Pune",
+    "id": "pune",
+    "ftas": 10663,
+    "sharePct": 0.13
+   },
+   {
+    "name": "Madurai",
+    "id": "madurai",
+    "ftas": 10570,
+    "sharePct": 0.13
+   }
+  ],
+  "others": 51440,
+  "airModeTotal": 8300540
+ },
+ "peakLean": [
+  {
+   "country": "United States",
+   "peakMonth": "December",
+   "peakSharePct": 14.25,
+   "leanMonth": "April",
+   "leanSharePct": 5.14
+  },
+  {
+   "country": "Bangladesh",
+   "peakMonth": "June",
+   "peakSharePct": 11.68,
+   "leanMonth": "December",
+   "leanSharePct": 3.6
+  },
+  {
+   "country": "United Kingdom",
+   "peakMonth": "June",
+   "peakSharePct": 11.89,
+   "leanMonth": "May",
+   "leanSharePct": 4.2
+  },
+  {
+   "country": "Australia",
+   "peakMonth": "December",
+   "peakSharePct": 21.11,
+   "leanMonth": "May",
+   "leanSharePct": 4.22
+  },
+  {
+   "country": "Canada",
+   "peakMonth": "December",
+   "peakSharePct": 12.8,
+   "leanMonth": "May",
+   "leanSharePct": 4.35
+  },
+  {
+   "country": "Malaysia",
+   "peakMonth": "February",
+   "peakSharePct": 13.47,
+   "leanMonth": "May",
+   "leanSharePct": 6.26
+  },
+  {
+   "country": "Sri Lanka",
+   "peakMonth": "August",
+   "peakSharePct": 10.76,
+   "leanMonth": "June",
+   "leanSharePct": 5.82
+  },
+  {
+   "country": "Germany",
+   "peakMonth": "November",
+   "peakSharePct": 11.51,
+   "leanMonth": "June",
+   "leanSharePct": 4.66
+  },
+  {
+   "country": "France",
+   "peakMonth": "February",
+   "peakSharePct": 12.54,
+   "leanMonth": "May",
+   "leanSharePct": 4.46
+  },
+  {
+   "country": "Singapore",
+   "peakMonth": "December",
+   "peakSharePct": 12.47,
+   "leanMonth": "April",
+   "leanSharePct": 6.54
+  },
+  {
+   "country": "Nepal",
+   "peakMonth": "October",
+   "peakSharePct": 12.04,
+   "leanMonth": "May",
+   "leanSharePct": 5.87
+  },
+  {
+   "country": "Japan",
+   "peakMonth": "November",
+   "peakSharePct": 10.91,
+   "leanMonth": "May",
+   "leanSharePct": 5.94
+  },
+  {
+   "country": "Russian Federation",
+   "peakMonth": "December",
+   "peakSharePct": 14.33,
+   "leanMonth": "June",
+   "leanSharePct": 2.91
+  },
+  {
+   "country": "Italy",
+   "peakMonth": "December",
+   "peakSharePct": 12.95,
+   "leanMonth": "May",
+   "leanSharePct": 4.09
+  },
+  {
+   "country": "Thailand",
+   "peakMonth": "December",
+   "peakSharePct": 13.43,
+   "leanMonth": "June",
+   "leanSharePct": 3.77
+  }
+ ],
+ "yearly": [
+  {
+   "year": 1991,
+   "domestic": 66670303,
+   "foreign": 3146652
+  },
+  {
+   "year": 2001,
+   "domestic": 236469599,
+   "foreign": 5436261
+  },
+  {
+   "year": 2011,
+   "domestic": 864532718,
+   "foreign": 19497126
+  },
+  {
+   "year": 2012,
+   "domestic": 1045047536,
+   "foreign": 18263074
+  },
+  {
+   "year": 2013,
+   "domestic": 1142529465,
+   "foreign": 19951026
+  },
+  {
+   "year": 2014,
+   "domestic": 1282801629,
+   "foreign": 22334031
+  },
+  {
+   "year": 2015,
+   "domestic": 1431973794,
+   "foreign": 23326163
+  },
+  {
+   "year": 2016,
+   "domestic": 1615388619,
+   "foreign": 24714503
+  },
+  {
+   "year": 2017,
+   "domestic": 1657546152,
+   "foreign": 26886684
+  },
+  {
+   "year": 2018,
+   "domestic": 1853787719,
+   "foreign": 28851130
+  },
+  {
+   "year": 2019,
+   "domestic": 2321982663,
+   "foreign": 31408666
+  },
+  {
+   "year": 2020,
+   "domestic": 610216157,
+   "foreign": 7171769
+  },
+  {
+   "year": 2021,
+   "domestic": 677632981,
+   "foreign": 1054642
+  },
+  {
+   "year": 2022,
+   "domestic": 1731013539,
+   "foreign": 8587562
+  },
+  {
+   "year": 2023,
+   "domestic": 2508817710,
+   "foreign": 19241212
+  },
+  {
+   "year": 2024,
+   "domestic": 2948190825,
+   "foreign": 20942074
+  }
+ ]
+}
