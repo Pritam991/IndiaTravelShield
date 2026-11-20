@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { destinations, states } from "@/lib/data";
 import { creditLine, getImage } from "@/lib/images";
-import ParallaxHero from "@/components/ParallaxHero";
+import HomeHero, { type HeroSlide, type SearchItem } from "@/components/HomeHero";
+import Ticker from "@/components/Ticker";
+import QuickActions from "@/components/QuickActions";
 import FeaturedStates from "@/components/FeaturedStates";
 import IndiaStats from "@/components/IndiaStats";
 import PhotoCard from "@/components/PhotoCard";
 import Reveal from "@/components/Reveal";
 import CountUp from "@/components/CountUp";
-import { PhotoCredit, Disclosure } from "@/components/Ui";
+import { Disclosure } from "@/components/Ui";
 
 // Featured states shown in the home-page carousel. West Bengal leads.
 // Each lists the destination slugs to slide through.
@@ -90,7 +92,24 @@ const FAQ = [
 ];
 
 export default function Home() {
-  const hero = getImage("darjeeling");
+  // Photos that rotate behind the hero. Only destinations with a licensed photo.
+  const HERO_SLUGS = ["darjeeling", "jaipur", "goa", "leh", "kolkata", "munnar"];
+  const heroSlides: HeroSlide[] = HERO_SLUGS.flatMap((slug) => {
+    const d = destinations.find((x) => x.slug === slug);
+    const img = getImage(slug);
+    return d && img
+      ? [{ slug, name: d.name, state: d.state, src: img.src, credit: creditLine(img) }]
+      : [];
+  });
+  const searchItems: SearchItem[] = [
+    ...destinations.map((d) => ({
+      slug: d.slug, name: d.name, state: d.state, type: d.type, kind: "destination" as const,
+    })),
+    ...states.map((s) => ({
+      slug: s.slug, name: s.name, state: s.name, type: s.type, kind: "state" as const,
+    })),
+  ];
+  const tickerItems = destinations.map((d) => ({ slug: d.slug, name: d.name, state: d.state }));
   const featuredStates = FEATURED_STATES.map((fs) => ({
     slug: fs.slug,
     name: fs.name,
@@ -113,34 +132,9 @@ export default function Home() {
 
   return (
     <>
-      <ParallaxHero
-        src={hero?.src ?? null}
-        alt="Darjeeling, West Bengal"
-        name="India"
-        floaters={
-          <>
-            <span className="fl f1">Advisories linked</span>
-            <span className="fl f2">Permit notes</span>
-            <span className="fl f3">Official sources</span>
-          </>
-        }
-      >
-        <p className="eyebrow">Travel India. Travel informed.</p>
-        <h1>Explore India with confidence.</h1>
-        <p className="hero-sub">
-          Destinations, travel advisories, entry requirements and how to get
-          there, all from official sources.
-        </p>
-        <p className="cta">
-          <Link className="btn" href="/destinations">
-            Explore destinations
-          </Link>
-          <Link className="btn ghost" href="/requirements">
-            Check my requirements
-          </Link>
-        </p>
-        {hero && <PhotoCredit img={hero} />}
-      </ParallaxHero>
+      <HomeHero slides={heroSlides} items={searchItems} />
+      <Ticker items={tickerItems} />
+      <QuickActions />
 
       <Reveal>
         <section className="stats" aria-label="Coverage">
@@ -202,15 +196,15 @@ export default function Home() {
         <Reveal>
           <h2>More destinations</h2>
         </Reveal>
-        <ul className="cards3">
+        <ul className="hscroll">
           {destinations
             .filter((d) => d.state !== "West Bengal")
-            .slice(0, 4)
+            .slice(0, 8)
             .map((d, i) => {
               const img = getImage(d.slug);
               return (
                 <li key={d.slug}>
-                  <Reveal delay={i * 80}>
+                  <Reveal delay={(i % 4) * 80}>
                     <PhotoCard
                       href={`/destinations/${d.slug}`}
                       title={d.name}
