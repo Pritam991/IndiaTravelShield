@@ -66,5 +66,9 @@
   "frro": {
     "name": "Foreigners Regional Registration Office (FRRO), India",
     "url": "https://indianfrro.gov.in/"
+  },
+  "helpline": {
+    "name": "National Portal of India, Helpline directory",
+    "url": "https://www.india.gov.in/directory/helpline"
   }
 }

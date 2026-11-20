@@ -32,6 +32,8 @@ export const sources = sourcesJson as Record<string, Source>;
 export const national = nationalJson as {
   emergency: Emergency[];
   emergencyNote: string;
+  verifiedOn: string;
+  verifiedSource: string;
   advisorySources: string[];
   visaSource: string;
 };

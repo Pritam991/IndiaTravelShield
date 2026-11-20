@@ -249,14 +249,16 @@ export default async function DestinationPage({
                 <b>{e.number}</b>
                 <span>{e.label}</span>
                 <em>
-                  {e.status === "pending_verification"
-                    ? "to be verified against the official source"
-                    : "verified"}
+                  {e.status === "verified"
+                    ? `checked ${national.verifiedOn}`
+                    : "not yet verified"}
                 </em>
               </li>
             ))}
           </ul>
-          <p className="small">{national.emergencyNote}</p>
+          <p className="small">
+            {national.emergencyNote} Source: <SourceLink id={national.verifiedSource} />.
+          </p>
           <h3>If something goes wrong</h3>
           <BulletList items={guidance.emergencyGuide} />
         </Reveal>
