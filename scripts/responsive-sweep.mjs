@@ -50,7 +50,8 @@ try {
   await new Promise((r) => (ws.onopen = r));
   ws.onmessage = (m) => {
     const d = JSON.parse(m.data);
-    if (d.id && pend.has(d.id)) { const p = pend.get(d.id); pend.delete(d.id); d.error ? p.rej(new Error(JSON.stringify(d.error))) : p.res(d.result); }
+    if (d.id && pend.has(d.id)) { const p = pend.get(d.id); pend.delete(d.id); if (d.error) p.rej(new Error(JSON.stringify(d.error)));
+      else p.res(d.result); }
   };
   await send("Page.enable");
 

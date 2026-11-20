@@ -1,0 +1,254 @@
+{
+  "readOn": "2026-11-20",
+  "sources": {
+    "evisa": { "label": "Indian Visa Online: e-Visa instructions (Government of India)", "url": "https://indianvisaonline.gov.in/evisa/tvoa.html", "kind": "official" },
+    "arunachal": { "label": "Arunachal Pradesh Tourism (state government)", "url": "https://www.arunachaltourism.com/", "kind": "official" },
+    "chardham": { "label": "Char Dham and Hemkund Sahib registration portal (Uttarakhand Tourism)", "url": "https://registrationandtouristcare.uk.gov.in/", "kind": "official" },
+    "pap": { "label": "Wikipedia: Protected Area Permit", "url": "https://en.wikipedia.org/wiki/Protected_Area_Permit", "kind": "wikipedia" },
+    "ilp": { "label": "Wikipedia: Inner Line Permit", "url": "https://en.wikipedia.org/wiki/Inner_Line_Permit", "kind": "wikipedia" },
+    "kedarnath": { "label": "Wikipedia: Kedarnath Temple", "url": "https://en.wikipedia.org/wiki/Kedarnath_Temple", "kind": "wikipedia" },
+    "frro": { "label": "FRRO India (foreigner registration)", "url": "https://indianfrro.gov.in/", "kind": "official" },
+    "mha": { "label": "Ministry of Home Affairs, Foreigners Division", "url": "https://www.mha.gov.in/", "kind": "official" },
+    "wbforest": { "label": "West Bengal Forest Department", "url": "https://www.wbforest.gov.in/", "kind": "official" },
+    "ours": { "label": "Our own destination guides (not verified)", "url": "/destinations", "kind": "editorial" }
+  },
+
+  "quick": [
+    { "id": "visa", "title": "A visa", "body": "Most foreign visitors need one. Many nationalities can apply online for an e-Visa, and the rest apply at an Indian embassy or consulate.", "href": "#evisa", "cta": "e-Visa details" },
+    { "id": "permit", "title": "A permit, in some areas", "body": "Parts of the Northeast, the Himalaya, border districts and some islands need an extra permit for foreign nationals.", "href": "#special", "cta": "See the special cases" },
+    { "id": "register", "title": "Registration, for some pilgrimages", "body": "The Char Dham yatra, including Kedarnath, needs online registration before you travel. It is free.", "href": "#kedarnath", "cta": "Kedarnath and Char Dham" }
+  ],
+
+  "checklist": [
+    {
+      "id": "documents",
+      "title": "Documents to carry",
+      "blurb": "What the official e-Visa page asks for, plus a few papers worth having.",
+      "items": [
+        { "id": "d-passport", "kind": "required", "text": "Passport valid for at least six months when you apply for an e-Visa", "note": "From the official e-Visa page. If you apply through an embassy instead, check that office's rule." },
+        { "id": "d-eta", "kind": "required", "text": "Printed copy of your approved e-Visa (the ETA)", "note": "You show it at the immigration check post, where the e-Visa is stamped on your passport." },
+        { "id": "d-ticket", "kind": "required", "text": "Return or onward ticket", "note": "The official page says travellers should hold one, and have enough money for their stay." },
+        { "id": "d-permit", "kind": "if-applies", "text": "Any special-area permit, printed", "note": "Only if your route enters a protected or restricted area. See the special cases below." },
+        { "id": "d-yatra", "kind": "if-applies", "text": "Yatra registration letter with its QR code", "note": "Only for the Char Dham and Hemkund Sahib pilgrimages." },
+        { "id": "d-bookings", "kind": "good", "text": "Hotel bookings and a copy of your itinerary", "note": "Not listed on the e-Visa page, but useful if an officer asks where you are staying." },
+        { "id": "d-copies", "kind": "good", "text": "Copies of your passport photo page and visa, kept apart from the originals", "note": "Also keep a photo of them on your phone." }
+      ]
+    },
+    {
+      "id": "apply",
+      "title": "Applying for the e-Visa",
+      "blurb": "For eligible nationalities. Others apply at an Indian mission.",
+      "items": [
+        { "id": "a-elig", "kind": "required", "text": "Check your nationality is on the official e-Visa list", "note": "The list is on the official site. Pakistani passport holders, and people of Pakistani origin, apply for a regular visa at an Indian mission." },
+        { "id": "a-4days", "kind": "required", "text": "Apply online at least 4 days before you arrive", "note": "The official page gives this as the minimum for e-Tourist and e-Business visas." },
+        { "id": "a-photo", "kind": "required", "text": "Upload a recent front-facing photo on a white background, and your passport photo page", "note": "The application can be rejected if uploads are unclear." },
+        { "id": "a-extra", "kind": "required", "text": "Upload the extra document your visa type needs", "note": "The official page says one more document is needed, depending on the e-Visa type." },
+        { "id": "a-fee", "kind": "required", "text": "Pay the fee online, at least 4 days before you travel", "note": "The fee depends on your country. A 3% bank charge is added, and the fee is non-refundable." },
+        { "id": "a-official", "kind": "required", "text": "Use only the official government site", "note": "The government says it makes no provision for emergency, express or extra e-Visa fees." }
+      ]
+    },
+    {
+      "id": "route",
+      "title": "Check your route",
+      "blurb": "Do this before you book flights and hotels inside India.",
+      "items": [
+        { "id": "r-look", "kind": "required", "text": "Look up every area on your route in the special cases below", "note": "A permit can take days to arrange and may need a registered agent." },
+        { "id": "r-permit", "kind": "if-applies", "text": "Get your Protected or Restricted Area Permit before you enter the area", "note": "For example Arunachal Pradesh, Sikkim, parts of Ladakh, Spiti and the Andaman and Nicobar Islands." },
+        { "id": "r-register", "kind": "if-applies", "text": "Register online for the pilgrimage before you set out", "note": "Kedarnath, Badrinath, Gangotri, Yamunotri and Hemkund Sahib." },
+        { "id": "r-open", "kind": "required", "text": "Confirm the place is open on your dates", "note": "Some shrines and high passes are open for only part of the year." },
+        { "id": "r-park", "kind": "if-applies", "text": "Check entry rules for any national park or reserve", "note": "Fees, seasons and guide rules are set by the park authority." }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Good to have",
+      "blurb": "Our general advice, not an entry rule.",
+      "items": [
+        { "id": "h-insurance", "kind": "good", "text": "Travel insurance covering medical care and emergency evacuation", "note": "Check that it covers trekking, rafting or high altitude if you plan them." },
+        { "id": "h-vax", "kind": "good", "text": "See a doctor or travel clinic 4 to 8 weeks before you go", "note": "Vaccine and malaria advice depends on where you go and the season." },
+        { "id": "h-meds", "kind": "good", "text": "Regular medicines in original packaging, with a prescription", "note": "Some medicines that are ordinary elsewhere are controlled in India." },
+        { "id": "h-advice", "kind": "good", "text": "Read your own government's current travel advice for India", "note": "Links are on every destination page." },
+        { "id": "h-numbers", "kind": "good", "text": "Save the emergency number 112 and your embassy's number", "note": "Keep them offline as well, since mobile coverage is poor in the mountains." }
+      ]
+    }
+  ],
+
+  "evisa": {
+    "intro": "The e-Visa is an online travel authorisation for eligible nationalities. These facts are from the official e-Visa page, read on the date above. Fees, the eligible-country list and the allowed airports change, so always check the live page.",
+    "facts": [
+      { "k": "Tourist options", "v": "A 30-day visa (multiple entry, not extendable and not convertible), a 1-year visa and a 5-year visa." },
+      { "k": "Longest stay each year", "v": "For the 1-year and 5-year tourist visas, no more than 180 days in one calendar year." },
+      { "k": "Other e-Visa categories", "v": "Business, medical, medical attendant, student, family, transit and miscellaneous." },
+      { "k": "When to apply", "v": "At least 4 days before your arrival date. For medical and medical attendant visas the arrival date can be up to 120 days after you apply." },
+      { "k": "Passport", "v": "At least six months' validity when you apply. Each traveller needs their own passport, so a visa cannot be endorsed on a parent's or spouse's passport." },
+      { "k": "Not available to", "v": "Holders of diplomatic or official passports, laissez-passer holders, and travellers with a document other than a passport." },
+      { "k": "Where you can land", "v": "Only at the authorised immigration check posts. The official site has a list, so check your arrival airport is on it." }
+    ],
+    "steps": [
+      "Apply online and upload your photo and passport page.",
+      "Pay the e-Visa fee online.",
+      "Receive the Electronic Travel Authorisation (ETA) by email.",
+      "Print the ETA and show it at the immigration check post, where the e-Visa is stamped on your passport."
+    ],
+    "warning": "Look-alike websites charge extra fees. The government says it charges no emergency or express e-Visa fees, so a site that offers one is not the official site."
+  },
+
+  "special": [
+    {
+      "id": "arunachal",
+      "title": "Arunachal Pradesh",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "Foreign visitors need a Protected Area Permit, not the Inner Line Permit that Indian tourists use.",
+      "points": [
+        "The state tourism site says the online Inner Line Permit (eILP) is for Indian citizens only, and that foreign nationals may apply for a Protected Area Permit (PAP) or Restricted Area Permit (RAP).",
+        "Wikipedia's page on the permit says the PAP is issued under the Foreigners (Protected Areas) Order, 1958, normally lasts 10 days (extendable by 7), and that tourists must travel in groups of at least two with a registered travel agent. That page describes the position as of 2018, so confirm the current rule.",
+        "It also says a PAP can be issued by the Ministry of Home Affairs, state authorities and Indian missions abroad, that a travel agent usually handles the application, and that some areas allow only certain entry and exit points.",
+        "Citizens of Pakistan, Bangladesh, China and Myanmar can get a PAP only with approval from the Ministry of Home Affairs."
+      ],
+      "how": ["On the state tourism site, choose the link for foreign tourists to apply for a Protected Area Permit.", "Apply well before you book internal travel, and keep the permit with your passport."],
+      "sources": ["arunachal", "pap"]
+    },
+    {
+      "id": "sikkim",
+      "title": "Sikkim",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "Wikipedia lists the whole state as partly protected and partly restricted.",
+      "points": [
+        "Depending on the area, a Protected Area Permit or a Restricted Area Permit can apply.",
+        "We could not read Sikkim's official tourism site, so we cannot say which permit your route needs.",
+        "Ask your hotel or tour operator which permit applies to your exact route, then confirm it with the Sikkim government or the Ministry of Home Affairs."
+      ],
+      "sources": ["pap", "mha"]
+    },
+    {
+      "id": "northeast",
+      "title": "Nagaland, Manipur and Mizoram",
+      "tag": "Check locally",
+      "applies": "Foreign nationals",
+      "summary": "The rules here have changed more than once, so verify before you book.",
+      "points": [
+        "Wikipedia's permit page lists all three states as protected areas, and says they were left out of the Protected Area regime from 30 December 2010 to 31 December 2012.",
+        "Its Inner Line Permit page says Nagaland's permit covers anyone who is not an indigenous inhabitant, Indian or foreign, with a fee of ₹200 for Indian and ₹300 for foreign tourists. It gives no such detail for Manipur or Mizoram.",
+        "Our sources do not agree on what a foreign visitor needs today. Treat this as a prompt to check with the Ministry of Home Affairs and the state government before you plan."
+      ],
+      "sources": ["pap", "ilp", "mha"]
+    },
+    {
+      "id": "ladakh",
+      "title": "Ladakh",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "Some areas around Leh need a Protected Area Permit.",
+      "points": [
+        "Wikipedia's permit page lists these Ladakh areas: Khalatse, the Nubra sub-division including the Turtuk valley, the Pangong Lake area, and the Chiktan and Batalik areas of Kargil (as of 2018).",
+        "Its Inner Line Permit page says foreigners need a PAP for Leh, and notes that the permit rules there were dropped in 2014, brought back in 2017 and dropped again in 2021.",
+        "Because those two statements do not line up, confirm the current rule for your route with the Ladakh administration, a local operator or the Ministry of Home Affairs."
+      ],
+      "sources": ["pap", "ilp", "mha"]
+    },
+    {
+      "id": "himachal",
+      "title": "Spiti and Kinnaur (Himachal Pradesh)",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "Two border areas of the state are protected.",
+      "points": [
+        "Wikipedia lists the Pooh block of Kinnaur and the Spiti sub-division of Lahaul and Spiti as Protected Areas (as of 2018).",
+        "Manali, Shimla and Dharamshala are not in that list."
+      ],
+      "sources": ["pap", "mha"]
+    },
+    {
+      "id": "uttarakhand",
+      "title": "Uttarakhand border areas",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "Areas between the Inner Line and the international border are protected.",
+      "points": [
+        "Wikipedia names the Nanda Devi sanctuary, Niti Valley, Kalindi Pass and Milam Glacier areas (as of 2018).",
+        "This is separate from the Char Dham registration below, which applies to pilgrims on the main yatra routes."
+      ],
+      "sources": ["pap", "mha"]
+    },
+    {
+      "id": "rajasthan",
+      "title": "Rajasthan border",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "A strip along the border with Pakistan is protected.",
+      "points": [
+        "Wikipedia describes it as generally the area within about 40 km of the international border, west of National Highway 68 (as of 2018).",
+        "Jaipur, Udaipur and Jodhpur are not described as being in it."
+      ],
+      "sources": ["pap", "mha"]
+    },
+    {
+      "id": "andaman",
+      "title": "Andaman and Nicobar Islands",
+      "tag": "Permit",
+      "applies": "Foreign nationals",
+      "summary": "A Restricted Area Permit applies to parts of the islands, but was relaxed for many.",
+      "points": [
+        "Wikipedia says that in 2018, 30 inhabited islands no longer needed a Restricted Area Permit for foreigners.",
+        "It says RAPs are generally available to individual travellers, and in some cases, such as at Port Blair's airport, can be issued on the spot.",
+        "Other islands may still need one, so confirm for each island you plan to visit."
+      ],
+      "sources": ["pap", "mha"]
+    },
+    {
+      "id": "lakshadweep",
+      "title": "Lakshadweep",
+      "tag": "Check locally",
+      "applies": "All visitors",
+      "summary": "Entry arrangements have changed over time.",
+      "points": [
+        "Wikipedia's permit page lists all of Lakshadweep as formerly protected or restricted, which suggests the foreigner permit rules were relaxed.",
+        "That does not mean there is no permission to arrange. The islands have their own administration, so check with it before you plan."
+      ],
+      "sources": ["pap", "mha"]
+    },
+    {
+      "id": "kedarnath",
+      "title": "Kedarnath and the Char Dham yatra",
+      "tag": "Registration",
+      "applies": "All pilgrims and visitors",
+      "summary": "You must register online before you travel, and verify yourself at each shrine.",
+      "points": [
+        "The official Uttarakhand portal says that, as per the state government's travel policy, you must register yourself and your vehicles before you start the Char Dham or Hemkund Sahib journey, and verify yourself at each shrine when you arrive.",
+        "The portal calls the registration free. It covers Kedarnath, Badrinath, Gangotri, Yamunotri and Hemkund Sahib.",
+        "The portal does not say anything different for foreign nationals in the text we read. Foreign visitors should check with Tourist Care Uttarakhand.",
+        "Wikipedia says the temple is open to the public between April (Akshaya Tritiya) and November (Kartik Purnima), and that it is reached by a 17 km uphill trek from Gaurikund."
+      ],
+      "how": [
+        "Click Register/Login on the portal or use the Tourist Care Uttarakhand app. New users sign up first.",
+        "Create a tour: choose your start and end dates, the number of travellers, the shrines and the date you will visit each one.",
+        "Enter each pilgrim's details, then download the Yatra Registration Letter, which carries a QR code, and carry it.",
+        "Keep the letter ready at the verification points, and collect a darshan slot token at the shrine.",
+        "Carry a valid ID, your prescribed medicines and warm clothes.",
+        "Helicopter services can be booked only through IRCTC, according to the portal."
+      ],
+      "help": "Tourist Care Uttarakhand: toll free 1364, or 0135 3520100.",
+      "sources": ["chardham", "kedarnath"]
+    },
+    {
+      "id": "parks",
+      "title": "National parks and tiger reserves",
+      "tag": "Check locally",
+      "applies": "All visitors",
+      "summary": "Each park sets its own entry rules, seasons and fees.",
+      "points": [
+        "In West Bengal, our destination guides note that the Sundarbans needs a permit through the forest authorities, that the Singalila trek has park and guide rules, and that Jaldapara and Gorumara close or limit entry in the monsoon.",
+        "These notes come from our own guides and have not been checked against an official source. Confirm with the West Bengal Forest Department before you go."
+      ],
+      "sources": ["wbforest", "ours"]
+    }
+  ],
+
+  "after": [
+    { "title": "Registering with the FRRO", "body": "Some foreign nationals must register with the Foreigners Regional Registration Office. The official e-Visa page says, for example, that a business visa holder staying more than 180 days must register within two weeks after those 180 days. Check the conditions printed on your own visa, and use the official FRRO site." },
+    { "title": "Keep your passport and permits with you", "body": "Permit areas often have check posts where your passport, visa and permit are inspected." },
+    { "title": "If something goes wrong", "body": "Dial 112 in an emergency. If you lose your passport or are the victim of a serious crime, tell your embassy or consulate." }
+  ]
+}
