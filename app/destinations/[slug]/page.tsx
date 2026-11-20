@@ -147,7 +147,9 @@ export default async function DestinationPage({
               ))}
               <Pending label={`Foreign tourist visits to ${d.state}`} />
               <p className="small">
-                Source when loaded: <SourceLink id="tourism" />
+                Source when loaded: <SourceLink id="tourism" />. National
+                figures by region of India are on the{" "}
+                <Link href="/#visitors">home page</Link>.
               </p>
             </Reveal>
           </section>

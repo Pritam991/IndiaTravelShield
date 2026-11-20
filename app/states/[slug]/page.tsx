@@ -131,7 +131,8 @@ export default async function StatePage({
           <Pending label={`Crime statistics for ${s.name} (NCRB)`} />
           <p className="small">
             Sources when loaded: <SourceLink id="tourism" />,{" "}
-            <SourceLink id="ncrb" />
+            <SourceLink id="ncrb" />. National foreign arrivals by region of
+            India are on the <Link href="/#visitors">home page</Link>.
           </p>
         </Reveal>
       </section>

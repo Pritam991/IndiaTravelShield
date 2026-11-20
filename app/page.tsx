@@ -6,6 +6,7 @@ import Ticker from "@/components/Ticker";
 import QuickActions from "@/components/QuickActions";
 import FeaturedStates from "@/components/FeaturedStates";
 import IndiaStats from "@/components/IndiaStats";
+import VisitorStats from "@/components/VisitorStats";
 import PhotoCard from "@/components/PhotoCard";
 import Reveal from "@/components/Reveal";
 import Band from "@/components/Band";
@@ -182,6 +183,8 @@ export default function Home() {
       </Reveal>
 
       <IndiaStats />
+
+      <VisitorStats />
 
       <Band tone="soft" label="Featured states" align="center">
         <Reveal>

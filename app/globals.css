@@ -601,3 +601,64 @@ html,body{overflow-x:clip}
   .rc-group,.sc{break-inside:avoid;box-shadow:none}
   .reveal{opacity:1!important;transform:none!important}
 }
+
+/* ================= Visitor stats (data.gov.in arrivals) =================
+   Chart colour: the data-viz skill's categorical slot 1 (blue), the only hue
+   used, because the bars are one nominal series. Validated with its
+   validate_palette.js on the light surface (#ffffff) and this site's dark
+   surface (#10151c): all checks pass. Text never wears the bar colour. */
+.vs{--viz:#2a78d6;--viz-hover:#1c5cab;--viz-track:#e8eef6}
+:root[data-theme="dark"] .vs{--viz:#3987e5;--viz-hover:#6da7ec;--viz-track:#1c2733}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .vs{--viz:#3987e5;--viz-hover:#6da7ec;--viz-track:#1c2733}}
+.vs{margin-block:clamp(36px,6vw,72px)}
+.vs h2{font-size:clamp(1.6rem,3.6vw,2.4rem);margin:.1em 0 .4em}
+.vs .lead{max-width:62ch}
+.vs-h3{margin:clamp(28px,4vw,44px) 0 12px;font-size:1.25rem}
+
+.vs-hero{margin:22px 0;padding:clamp(20px,3vw,32px);border-radius:var(--radius);border:1px solid var(--bd);background:var(--soft)}
+.vs-num{margin:0;font-size:clamp(2.6rem,8vw,4.5rem);font-weight:800;line-height:1.02;letter-spacing:-.02em;color:var(--fg)}
+.vs-cap{margin:.4em 0 0;max-width:60ch;color:var(--mut);font-size:1.05rem}
+.vs-cols{display:grid;gap:18px;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+@media(max-width:900px){.vs-cols{grid-template-columns:1fr}}
+
+.vz{margin:0;padding:18px 20px 16px;border:1px solid var(--bd);border-radius:var(--radius);background:var(--bg);box-shadow:var(--shadow);min-width:0}
+.vz figcaption{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;margin-bottom:10px}
+.vz h3{margin:0;font-size:1.02rem;line-height:1.3}
+.vz-tabs{display:inline-flex;border:1px solid var(--bd);border-radius:99px;overflow:hidden}
+.vz-tabs button{padding:5px 14px;border:0;background:transparent;color:var(--mut);font:inherit;font-size:.82rem;font-weight:600;cursor:pointer}
+.vz-tabs button.on{background:var(--brand);color:var(--on-brand)}
+
+.vz-bars{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.vz-bars li{display:grid;grid-template-columns:minmax(78px,32%) minmax(0,1fr) auto;align-items:center;gap:10px;padding:4px 6px;border-radius:8px;outline-offset:1px}
+.vz-bars li.is-active{background:var(--soft)}
+.vz-bars li.is-dim{opacity:.45}
+.vz-name{font-size:.88rem;color:var(--fg);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vz-track{display:block;height:20px;border-radius:0;position:relative}
+.vz-fill{display:block;height:100%;background:var(--viz);border-radius:0 4px 4px 0;transition:background .15s,width .5s ease}
+.vz-bars li.is-active .vz-fill{background:var(--viz-hover)}
+.vz-val{font-size:.85rem;font-variant-numeric:tabular-nums;color:var(--fg);min-width:5.2ch;text-align:right}
+.vz-read{margin:10px 0 0;min-height:2.8em;font-size:.88rem;color:var(--fg)}
+.vz-table{overflow-x:auto}
+.vz-table table{width:100%;border-collapse:collapse;font-size:.88rem}
+.vz-table caption{text-align:left;color:var(--mut);padding-bottom:6px}
+.vz-table th,.vz-table td{padding:6px 8px;border-top:1px solid var(--bd);text-align:left;vertical-align:top}
+.vz-table td:nth-child(2){font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:520px){
+  .vz-bars li{grid-template-columns:minmax(0,1fr) auto;row-gap:2px}
+  .vz-track{grid-column:1 / -1;grid-row:2}
+  .vz-name{grid-column:1}
+  .vz-val{grid-column:2;grid-row:1}
+}
+
+/* country picker */
+.ax-pick label{display:block;font-weight:600;margin-bottom:4px}
+.ax-pick input{max-width:380px;margin-bottom:10px}
+.ax-grid{display:grid;gap:18px;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;margin-top:8px}
+.ax-lead{margin:0 0 10px}
+@media(max-width:900px){.ax-grid{grid-template-columns:1fr}}
+
+.vs-note{margin-top:clamp(20px,3vw,32px);padding:16px 20px;border-radius:12px;background:var(--soft);border:1px solid var(--bd)}
+.vs-note p{margin:.3em 0}
+
+@media(prefers-reduced-motion:reduce){.vz-fill{transition:none}}
+@media print{.vz-tabs{display:none}}

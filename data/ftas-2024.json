@@ -1,0 +1,3921 @@
+{
+ "meta": {
+  "title": "Country/Territory and Region-wise Details of Foreign Tourist Arrivals and Their Percentage Distribution Across Indian Regions during 2024",
+  "organisation": "Ministry of Tourism",
+  "sector": "Travel and Tourism",
+  "resourceId": "5bbc2b00-288e-4aa1-81ce-30c4ced91970",
+  "publisher": "data.gov.in",
+  "year": 2024,
+  "apiUpdated": "2026-08-24T16:34:22.000Z",
+  "fetchedOn": "2026-11-20",
+  "recordCount": 230,
+  "grandTotal": 9951722,
+  "grandTotalRegions": {
+   "north": 35.62,
+   "south": 26.27,
+   "westCentral": 19.94,
+   "east": 16.6,
+   "northEast": 1.6
+  },
+  "checks": {
+   "allPartsAddUp": true,
+   "mismatches": [],
+   "rowsWhoseRegionPercentagesMissHundred": []
+  }
+ },
+ "rows": [
+  {
+   "id": "africa",
+   "n": 1,
+   "name": "Africa",
+   "sourceName": "Africa",
+   "level": "continent",
+   "continent": null,
+   "subregion": null,
+   "arrivals": 338605,
+   "regions": {
+    "north": 33.08,
+    "south": 17.24,
+    "westCentral": 48.74,
+    "east": 0.94,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "north-africa",
+   "n": 2,
+   "name": "North Africa",
+   "sourceName": "North Africa",
+   "level": "subregion",
+   "continent": "Africa",
+   "subregion": null,
+   "arrivals": 28826,
+   "regions": {
+    "north": 29.87,
+    "south": 42.23,
+    "westCentral": 23.91,
+    "east": 3.95,
+    "northEast": 0.05
+   }
+  },
+  {
+   "id": "algeria",
+   "n": 3,
+   "name": "Algeria",
+   "sourceName": "Algeria",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "North Africa",
+   "arrivals": 2522,
+   "regions": {
+    "north": 41.24,
+    "south": 29.38,
+    "westCentral": 22.6,
+    "east": 6.78,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "morocco",
+   "n": 4,
+   "name": "Morocco",
+   "sourceName": "Morocco",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "North Africa",
+   "arrivals": 9831,
+   "regions": {
+    "north": 31.92,
+    "south": 44.65,
+    "westCentral": 18.02,
+    "east": 5.27,
+    "northEast": 0.13
+   }
+  },
+  {
+   "id": "sudan",
+   "n": 5,
+   "name": "Sudan",
+   "sourceName": "Sudan",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "North Africa",
+   "arrivals": 10887,
+   "regions": {
+    "north": 27.6,
+    "south": 37.7,
+    "westCentral": 34.47,
+    "east": 0.23,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "tunisia",
+   "n": 6,
+   "name": "Tunisia",
+   "sourceName": "Tunisia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "North Africa",
+   "arrivals": 5586,
+   "regions": {
+    "north": 25.53,
+    "south": 52.58,
+    "westCentral": 14.29,
+    "east": 7.61,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "sub-saharan-africa",
+   "n": 7,
+   "name": "Sub-Saharan Africa",
+   "sourceName": "Sub-Saharan Africa",
+   "level": "subregion",
+   "continent": "Africa",
+   "subregion": null,
+   "arrivals": 309779,
+   "regions": {
+    "north": 33.37,
+    "south": 14.92,
+    "westCentral": 51.05,
+    "east": 0.66,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "angola",
+   "n": 8,
+   "name": "Angola",
+   "sourceName": "Angola",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1202,
+   "regions": {
+    "north": 35.94,
+    "south": 23.21,
+    "westCentral": 40.27,
+    "east": 0.58,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "benin",
+   "n": 9,
+   "name": "Benin",
+   "sourceName": "Benin",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 436,
+   "regions": {
+    "north": 51.38,
+    "south": 8.03,
+    "westCentral": 40.14,
+    "east": 0.46,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "botswana",
+   "n": 10,
+   "name": "Botswana",
+   "sourceName": "Botswana",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1275,
+   "regions": {
+    "north": 41.02,
+    "south": 16.63,
+    "westCentral": 41.33,
+    "east": 1.02,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "burkina-faso",
+   "n": 11,
+   "name": "Burkina Faso",
+   "sourceName": "Burkina Faso",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 659,
+   "regions": {
+    "north": 57.81,
+    "south": 7.44,
+    "westCentral": 34.45,
+    "east": 0.3,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "burundi",
+   "n": 12,
+   "name": "Burundi",
+   "sourceName": "Burundi",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 341,
+   "regions": {
+    "north": 32.84,
+    "south": 15.25,
+    "westCentral": 51.32,
+    "east": 0.59,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "cameroon",
+   "n": 13,
+   "name": "Cameroon",
+   "sourceName": "Cameroon",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 4322,
+   "regions": {
+    "north": 52.85,
+    "south": 11.36,
+    "westCentral": 35.56,
+    "east": 0.23,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "cabo-verde",
+   "n": 14,
+   "name": "Cabo Verde",
+   "sourceName": "Cabo Verde",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 39,
+   "regions": {
+    "north": 66.67,
+    "south": 17.95,
+    "westCentral": 15.38,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "central-african-republic",
+   "n": 15,
+   "name": "Central African Republic",
+   "sourceName": "Centr. African rep.",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 24,
+   "regions": {
+    "north": 58.33,
+    "south": 8.33,
+    "westCentral": 33.33,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "chad",
+   "n": 16,
+   "name": "Chad",
+   "sourceName": "Chad",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1438,
+   "regions": {
+    "north": 59.81,
+    "south": 17.32,
+    "westCentral": 22.81,
+    "east": 0.07,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "congo",
+   "n": 17,
+   "name": "Congo",
+   "sourceName": "Congo",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 431,
+   "regions": {
+    "north": 59.4,
+    "south": 9.74,
+    "westCentral": 30.63,
+    "east": 0.23,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "comoros",
+   "n": 18,
+   "name": "Comoros",
+   "sourceName": "Comoros",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1517,
+   "regions": {
+    "north": 12.85,
+    "south": 21.89,
+    "westCentral": 65.13,
+    "east": 0.13,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "c-te-d-ivoire",
+   "n": 19,
+   "name": "Côte d'Ivoire",
+   "sourceName": "Cote d'lvoire",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1660,
+   "regions": {
+    "north": 40.12,
+    "south": 14.4,
+    "westCentral": 44.28,
+    "east": 1.2,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "democratic-republic-of-the-congo",
+   "n": 20,
+   "name": "Democratic Republic of the Congo",
+   "sourceName": "Dem.rep. Congo",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 3952,
+   "regions": {
+    "north": 60.96,
+    "south": 8.65,
+    "westCentral": 30.19,
+    "east": 0.2,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "djibouti",
+   "n": 21,
+   "name": "Djibouti",
+   "sourceName": "Djibouti",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1008,
+   "regions": {
+    "north": 40.38,
+    "south": 31.45,
+    "westCentral": 28.08,
+    "east": 0.1,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "equatorial-guinea",
+   "n": 22,
+   "name": "Equatorial Guinea",
+   "sourceName": "Equatorial Guinea",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 92,
+   "regions": {
+    "north": 59.78,
+    "south": 16.3,
+    "westCentral": 21.74,
+    "east": 2.17,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "eritrea",
+   "n": 23,
+   "name": "Eritrea",
+   "sourceName": "Eritrea",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 407,
+   "regions": {
+    "north": 57,
+    "south": 21.87,
+    "westCentral": 21.13,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "ethiopia",
+   "n": 24,
+   "name": "Ethiopia",
+   "sourceName": "Ethiopia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 32391,
+   "regions": {
+    "north": 45.72,
+    "south": 15.68,
+    "westCentral": 38.5,
+    "east": 0.1,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "eswatini",
+   "n": 25,
+   "name": "Eswatini",
+   "sourceName": "Eswatini",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 740,
+   "regions": {
+    "north": 27.97,
+    "south": 10.81,
+    "westCentral": 60.95,
+    "east": 0.27,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "gabon",
+   "n": 26,
+   "name": "Gabon",
+   "sourceName": "Gabon",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 158,
+   "regions": {
+    "north": 50.63,
+    "south": 15.82,
+    "westCentral": 33.54,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "gambia",
+   "n": 27,
+   "name": "Gambia",
+   "sourceName": "Gambia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 700,
+   "regions": {
+    "north": 60.57,
+    "south": 6.43,
+    "westCentral": 32.71,
+    "east": 0.29,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "ghana",
+   "n": 28,
+   "name": "Ghana",
+   "sourceName": "Ghana",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 6049,
+   "regions": {
+    "north": 49.07,
+    "south": 14.56,
+    "westCentral": 34.02,
+    "east": 2.35,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "guinea",
+   "n": 29,
+   "name": "Guinea",
+   "sourceName": "Guinea",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1256,
+   "regions": {
+    "north": 49.76,
+    "south": 8.28,
+    "westCentral": 41.64,
+    "east": 0.32,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "guinea-bissau",
+   "n": 30,
+   "name": "Guinea-Bissau",
+   "sourceName": "Guinea-Bissau",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 24,
+   "regions": {
+    "north": 50,
+    "south": 20.83,
+    "westCentral": 29.17,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "kenya",
+   "n": 31,
+   "name": "Kenya",
+   "sourceName": "Kenya",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 52294,
+   "regions": {
+    "north": 27.68,
+    "south": 7.08,
+    "westCentral": 64.79,
+    "east": 0.45,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "lesotho",
+   "n": 32,
+   "name": "Lesotho",
+   "sourceName": "Lesotho",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 750,
+   "regions": {
+    "north": 36.8,
+    "south": 10,
+    "westCentral": 52.8,
+    "east": 0.4,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "liberia",
+   "n": 33,
+   "name": "Liberia",
+   "sourceName": "Liberia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1699,
+   "regions": {
+    "north": 44.44,
+    "south": 3.65,
+    "westCentral": 51.85,
+    "east": 0.06,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "madagascar",
+   "n": 34,
+   "name": "Madagascar",
+   "sourceName": "Madagascar",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 3578,
+   "regions": {
+    "north": 12.74,
+    "south": 3.75,
+    "westCentral": 83.29,
+    "east": 0.22,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "malawi",
+   "n": 35,
+   "name": "Malawi",
+   "sourceName": "Malawi",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 2441,
+   "regions": {
+    "north": 39.98,
+    "south": 8.28,
+    "westCentral": 51.7,
+    "east": 0.04,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "mali",
+   "n": 36,
+   "name": "Mali",
+   "sourceName": "Mali",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 869,
+   "regions": {
+    "north": 42.35,
+    "south": 10.24,
+    "westCentral": 46.49,
+    "east": 0.92,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "mauritania",
+   "n": 37,
+   "name": "Mauritania",
+   "sourceName": "Mauritania",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 182,
+   "regions": {
+    "north": 30.77,
+    "south": 25.27,
+    "westCentral": 43.41,
+    "east": 0.55,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "mauritius",
+   "n": 38,
+   "name": "Mauritius",
+   "sourceName": "Mauritius",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 48683,
+   "regions": {
+    "north": 30.56,
+    "south": 14.54,
+    "westCentral": 54.36,
+    "east": 0.55,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "mozambique",
+   "n": 39,
+   "name": "Mozambique",
+   "sourceName": "Mozambique",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 5741,
+   "regions": {
+    "north": 30.62,
+    "south": 9.98,
+    "westCentral": 59.29,
+    "east": 0.1,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "namibia",
+   "n": 40,
+   "name": "Namibia",
+   "sourceName": "Namibia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 737,
+   "regions": {
+    "north": 46.13,
+    "south": 17.5,
+    "westCentral": 35.14,
+    "east": 1.22,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "niger",
+   "n": 41,
+   "name": "Niger",
+   "sourceName": "Niger",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 709,
+   "regions": {
+    "north": 47.53,
+    "south": 4.65,
+    "westCentral": 47.67,
+    "east": 0.14,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "nigeria",
+   "n": 42,
+   "name": "Nigeria",
+   "sourceName": "Nigeria",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 10059,
+   "regions": {
+    "north": 53.37,
+    "south": 13.68,
+    "westCentral": 32.72,
+    "east": 0.24,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "reunion",
+   "n": 43,
+   "name": "Reunion",
+   "sourceName": "Reunion",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 8,
+   "regions": {
+    "north": 0,
+    "south": 25,
+    "westCentral": 75,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "rwanda",
+   "n": 44,
+   "name": "Rwanda",
+   "sourceName": "Rwanda",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 1890,
+   "regions": {
+    "north": 47.04,
+    "south": 14.55,
+    "westCentral": 37.78,
+    "east": 0.63,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "s-o-tom-and-pr-ncipe",
+   "n": 45,
+   "name": "São Tomé & Príncipe",
+   "sourceName": "Sap Tome & Principe",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 38,
+   "regions": {
+    "north": 84.21,
+    "south": 2.63,
+    "westCentral": 13.16,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "senegal",
+   "n": 46,
+   "name": "Senegal",
+   "sourceName": "Senegal",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 2008,
+   "regions": {
+    "north": 33.96,
+    "south": 15.94,
+    "westCentral": 49.3,
+    "east": 0.8,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "seychelles",
+   "n": 47,
+   "name": "Seychelles",
+   "sourceName": "Seychelles",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 3733,
+   "regions": {
+    "north": 6.7,
+    "south": 69.25,
+    "westCentral": 23.23,
+    "east": 0.83,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "sierra-leone",
+   "n": 48,
+   "name": "Sierra Leone",
+   "sourceName": "Sierra Leone",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 731,
+   "regions": {
+    "north": 39.53,
+    "south": 10.26,
+    "westCentral": 49.79,
+    "east": 0.41,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "somalia",
+   "n": 49,
+   "name": "Somalia",
+   "sourceName": "Somalia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 12320,
+   "regions": {
+    "north": 50.15,
+    "south": 32.13,
+    "westCentral": 17.72,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "south-africa",
+   "n": 50,
+   "name": "South Africa",
+   "sourceName": "South Africa",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 44168,
+   "regions": {
+    "north": 27.38,
+    "south": 22.79,
+    "westCentral": 47.47,
+    "east": 2.35,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "south-sudan",
+   "n": 51,
+   "name": "South Sudan",
+   "sourceName": "South Sudan",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 2466,
+   "regions": {
+    "north": 60.46,
+    "south": 16.67,
+    "westCentral": 22.87,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "tanzania",
+   "n": 52,
+   "name": "Tanzania",
+   "sourceName": "Tanzania",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 30730,
+   "regions": {
+    "north": 18.83,
+    "south": 9.66,
+    "westCentral": 71.32,
+    "east": 0.19,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "togo",
+   "n": 53,
+   "name": "Togo",
+   "sourceName": "Togo",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 503,
+   "regions": {
+    "north": 60.24,
+    "south": 13.72,
+    "westCentral": 26.04,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "uganda",
+   "n": 54,
+   "name": "Uganda",
+   "sourceName": "Uganda",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 11711,
+   "regions": {
+    "north": 21.06,
+    "south": 14.7,
+    "westCentral": 64.08,
+    "east": 0.17,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "zambia",
+   "n": 55,
+   "name": "Zambia",
+   "sourceName": "Zambia",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 4762,
+   "regions": {
+    "north": 29.23,
+    "south": 12.83,
+    "westCentral": 57.71,
+    "east": 0.23,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "zimbabwe",
+   "n": 56,
+   "name": "Zimbabwe",
+   "sourceName": "Zimbabwe",
+   "level": "country",
+   "continent": "Africa",
+   "subregion": "Sub-Saharan Africa",
+   "arrivals": 6848,
+   "regions": {
+    "north": 48.07,
+    "south": 9.86,
+    "westCentral": 41.56,
+    "east": 0.51,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "americas",
+   "n": 57,
+   "name": "Americas",
+   "sourceName": "Americas",
+   "level": "continent",
+   "continent": null,
+   "subregion": null,
+   "arrivals": 2372058,
+   "regions": {
+    "north": 42.36,
+    "south": 30.92,
+    "westCentral": 24.92,
+    "east": 1.78,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "caribbean",
+   "n": 58,
+   "name": "Caribbean",
+   "sourceName": "Caribbean",
+   "level": "subregion",
+   "continent": "Americas",
+   "subregion": null,
+   "arrivals": 8925,
+   "regions": {
+    "north": 45.88,
+    "south": 17.73,
+    "westCentral": 33.93,
+    "east": 2.44,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "anguilla",
+   "n": 59,
+   "name": "Anguilla",
+   "sourceName": "Anguilla",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 4,
+   "regions": {
+    "north": 75,
+    "south": 0,
+    "westCentral": 25,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "antigua-and-barbuda",
+   "n": 60,
+   "name": "Antigua & Barbuda",
+   "sourceName": "Antigua & Barbuda",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 427,
+   "regions": {
+    "north": 44.5,
+    "south": 20.61,
+    "westCentral": 30.91,
+    "east": 3.98,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "aruba",
+   "n": 61,
+   "name": "Aruba",
+   "sourceName": "Aruba",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 4,
+   "regions": {
+    "north": 50,
+    "south": 50,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "bahamas",
+   "n": 62,
+   "name": "Bahamas",
+   "sourceName": "Bahamas",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 195,
+   "regions": {
+    "north": 56.92,
+    "south": 21.54,
+    "westCentral": 18.46,
+    "east": 2.56,
+    "northEast": 0.51
+   }
+  },
+  {
+   "id": "barbados",
+   "n": 63,
+   "name": "Barbados",
+   "sourceName": "Barbados",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 730,
+   "regions": {
+    "north": 14.52,
+    "south": 8.49,
+    "westCentral": 76.03,
+    "east": 0.82,
+    "northEast": 0.14
+   }
+  },
+  {
+   "id": "british-virgin-islands",
+   "n": 64,
+   "name": "British Virgin Islands",
+   "sourceName": "Brit. Virgin Islands",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 4,
+   "regions": {
+    "north": 100,
+    "south": 0,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "cayman-islands",
+   "n": 65,
+   "name": "Cayman Islands",
+   "sourceName": "Cayman Islands",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 20,
+   "regions": {
+    "north": 55,
+    "south": 5,
+    "westCentral": 40,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "cuba",
+   "n": 66,
+   "name": "Cuba",
+   "sourceName": "Cuba",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 382,
+   "regions": {
+    "north": 62.3,
+    "south": 14.92,
+    "westCentral": 18.32,
+    "east": 4.45,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "dominica",
+   "n": 67,
+   "name": "Dominica",
+   "sourceName": "Dominica",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 843,
+   "regions": {
+    "north": 52.55,
+    "south": 14.59,
+    "westCentral": 29.77,
+    "east": 3.08,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "dominican-republic",
+   "n": 68,
+   "name": "Dominican Republic",
+   "sourceName": "Dominican Rep.",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 501,
+   "regions": {
+    "north": 62.67,
+    "south": 8.78,
+    "westCentral": 27.15,
+    "east": 1.4,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "grenada",
+   "n": 69,
+   "name": "Grenada",
+   "sourceName": "Grenada",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 972,
+   "regions": {
+    "north": 35.08,
+    "south": 12.65,
+    "westCentral": 49.18,
+    "east": 3.09,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "haiti",
+   "n": 70,
+   "name": "Haiti",
+   "sourceName": "Haiti",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 63,
+   "regions": {
+    "north": 52.38,
+    "south": 14.29,
+    "westCentral": 33.33,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "jamaica",
+   "n": 71,
+   "name": "Jamaica",
+   "sourceName": "Jamaica",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 1021,
+   "regions": {
+    "north": 34.28,
+    "south": 31.15,
+    "westCentral": 31.24,
+    "east": 3.33,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "netherlands-antilles",
+   "n": 72,
+   "name": "Netherlands Antilles",
+   "sourceName": "Neth. Antilles",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 6,
+   "regions": {
+    "north": 50,
+    "south": 16.67,
+    "westCentral": 0,
+    "east": 33.33,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "saint-lucia",
+   "n": 73,
+   "name": "Saint Lucia",
+   "sourceName": "Saint Lucia",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 264,
+   "regions": {
+    "north": 22.35,
+    "south": 28.03,
+    "westCentral": 48.11,
+    "east": 1.52,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "st-kitts-and-nevis",
+   "n": 74,
+   "name": "St. Kitts & Nevis",
+   "sourceName": "St. Kitts & Nevis",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 1188,
+   "regions": {
+    "north": 44.53,
+    "south": 20.79,
+    "westCentral": 32.58,
+    "east": 2.1,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "st-vincent-and-the-grenadines",
+   "n": 75,
+   "name": "St. Vincent & the Grenadines",
+   "sourceName": "St. Vincent & Gren.",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 59,
+   "regions": {
+    "north": 44.07,
+    "south": 30.51,
+    "westCentral": 25.42,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "trinidad-and-tobago",
+   "n": 76,
+   "name": "Trinidad & Tobago",
+   "sourceName": "Trinidad & Tobago",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 2238,
+   "regions": {
+    "north": 59.43,
+    "south": 16.67,
+    "westCentral": 21.89,
+    "east": 2.01,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "turks-and-caicos",
+   "n": 77,
+   "name": "Turks & Caicos",
+   "sourceName": "Turks & Caicos",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Caribbean",
+   "arrivals": 4,
+   "regions": {
+    "north": 50,
+    "south": 0,
+    "westCentral": 50,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "central-america",
+   "n": 78,
+   "name": "Central America",
+   "sourceName": "Central America",
+   "level": "subregion",
+   "continent": "Americas",
+   "subregion": null,
+   "arrivals": 5905,
+   "regions": {
+    "north": 48.35,
+    "south": 18.36,
+    "westCentral": 31.69,
+    "east": 1.61,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "belize",
+   "n": 79,
+   "name": "Belize",
+   "sourceName": "Belize",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 515,
+   "regions": {
+    "north": 43.88,
+    "south": 11.65,
+    "westCentral": 43.11,
+    "east": 1.36,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "costa-rica",
+   "n": 80,
+   "name": "Costa Rica",
+   "sourceName": "Costa Rica",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 1784,
+   "regions": {
+    "north": 59.42,
+    "south": 26.91,
+    "westCentral": 11.43,
+    "east": 2.24,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "el-salvador",
+   "n": 81,
+   "name": "El Salvador",
+   "sourceName": "El Salvador",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 455,
+   "regions": {
+    "north": 51.43,
+    "south": 30.99,
+    "westCentral": 14.51,
+    "east": 3.08,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "guatemala",
+   "n": 82,
+   "name": "Guatemala",
+   "sourceName": "Guatemala",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 823,
+   "regions": {
+    "north": 68.29,
+    "south": 12.52,
+    "westCentral": 18.1,
+    "east": 1.09,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "honduras",
+   "n": 83,
+   "name": "Honduras",
+   "sourceName": "Honduras",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 568,
+   "regions": {
+    "north": 41.9,
+    "south": 24.65,
+    "westCentral": 31.69,
+    "east": 1.76,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "nicaragua",
+   "n": 84,
+   "name": "Nicaragua",
+   "sourceName": "Nicaragua",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 174,
+   "regions": {
+    "north": 56.9,
+    "south": 16.09,
+    "westCentral": 24.71,
+    "east": 2.3,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "panama",
+   "n": 85,
+   "name": "Panama",
+   "sourceName": "Panama",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "Central America",
+   "arrivals": 1586,
+   "regions": {
+    "north": 27.49,
+    "south": 8.32,
+    "westCentral": 63.49,
+    "east": 0.69,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "north-america",
+   "n": 86,
+   "name": "North America",
+   "sourceName": "North America",
+   "level": "subregion",
+   "continent": "Americas",
+   "subregion": null,
+   "arrivals": 2299267,
+   "regions": {
+    "north": 41.92,
+    "south": 31.28,
+    "westCentral": 25.02,
+    "east": 1.77,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "canada",
+   "n": 87,
+   "name": "Canada",
+   "sourceName": "Canada",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "North America",
+   "arrivals": 476273,
+   "regions": {
+    "north": 59.61,
+    "south": 19.01,
+    "westCentral": 19.83,
+    "east": 1.54,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "mexico",
+   "n": 88,
+   "name": "Mexico",
+   "sourceName": "Mexico",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "North America",
+   "arrivals": 18408,
+   "regions": {
+    "north": 66.97,
+    "south": 16.89,
+    "westCentral": 14.61,
+    "east": 1.47,
+    "northEast": 0.05
+   }
+  },
+  {
+   "id": "united-states",
+   "n": 89,
+   "name": "United States",
+   "sourceName": "United States",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "North America",
+   "arrivals": 1804586,
+   "regions": {
+    "north": 36.99,
+    "south": 34.67,
+    "westCentral": 26.49,
+    "east": 1.83,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "south-america",
+   "n": 90,
+   "name": "South America",
+   "sourceName": "South America",
+   "level": "subregion",
+   "continent": "Americas",
+   "subregion": null,
+   "arrivals": 57961,
+   "regions": {
+    "north": 59.03,
+    "south": 19.74,
+    "westCentral": 18.91,
+    "east": 2.29,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "argentina",
+   "n": 91,
+   "name": "Argentina",
+   "sourceName": "Argentina",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 9638,
+   "regions": {
+    "north": 68.12,
+    "south": 15.99,
+    "westCentral": 13.93,
+    "east": 1.96,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "bolivia",
+   "n": 92,
+   "name": "Bolivia",
+   "sourceName": "Bolivia",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 684,
+   "regions": {
+    "north": 56.43,
+    "south": 24.27,
+    "westCentral": 16.08,
+    "east": 3.22,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "brazil",
+   "n": 93,
+   "name": "Brazil",
+   "sourceName": "Brazil",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 24782,
+   "regions": {
+    "north": 52.6,
+    "south": 24.24,
+    "westCentral": 20.6,
+    "east": 2.53,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "chile",
+   "n": 94,
+   "name": "Chile",
+   "sourceName": "Chile",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 5442,
+   "regions": {
+    "north": 64.41,
+    "south": 14.22,
+    "westCentral": 19.22,
+    "east": 2.09,
+    "northEast": 0.06
+   }
+  },
+  {
+   "id": "colombia",
+   "n": 95,
+   "name": "Colombia",
+   "sourceName": "Colombia",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 7639,
+   "regions": {
+    "north": 56.88,
+    "south": 19.3,
+    "westCentral": 21.43,
+    "east": 2.4,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "ecuador",
+   "n": 96,
+   "name": "Ecuador",
+   "sourceName": "Ecuador",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 1484,
+   "regions": {
+    "north": 68.19,
+    "south": 15.63,
+    "westCentral": 14.69,
+    "east": 1.48,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "guyana",
+   "n": 97,
+   "name": "Guyana",
+   "sourceName": "Guyana",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 790,
+   "regions": {
+    "north": 59.87,
+    "south": 10.51,
+    "westCentral": 27.97,
+    "east": 1.65,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "paraguay",
+   "n": 98,
+   "name": "Paraguay",
+   "sourceName": "Paraguay",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 322,
+   "regions": {
+    "north": 50.62,
+    "south": 20.19,
+    "westCentral": 18.94,
+    "east": 10.25,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "peru",
+   "n": 99,
+   "name": "Peru",
+   "sourceName": "Peru",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 3685,
+   "regions": {
+    "north": 65.37,
+    "south": 16.2,
+    "westCentral": 16.31,
+    "east": 2.06,
+    "northEast": 0.05
+   }
+  },
+  {
+   "id": "suriname",
+   "n": 100,
+   "name": "Suriname",
+   "sourceName": "Suriname",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 568,
+   "regions": {
+    "north": 69.89,
+    "south": 7.57,
+    "westCentral": 22.18,
+    "east": 0.35,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "uruguay",
+   "n": 101,
+   "name": "Uruguay",
+   "sourceName": "Uruguay",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 1524,
+   "regions": {
+    "north": 75.26,
+    "south": 11.81,
+    "westCentral": 11.68,
+    "east": 1.25,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "venezuela",
+   "n": 102,
+   "name": "Venezuela",
+   "sourceName": "Venezuela",
+   "level": "country",
+   "continent": "Americas",
+   "subregion": "South America",
+   "arrivals": 1403,
+   "regions": {
+    "north": 55.24,
+    "south": 20.03,
+    "westCentral": 22.52,
+    "east": 2.21,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "asia-and-the-pacific",
+   "n": 103,
+   "name": "Asia and the Pacific",
+   "sourceName": "Asia and the Pacific",
+   "level": "continent",
+   "continent": null,
+   "subregion": null,
+   "arrivals": 4279663,
+   "regions": {
+    "north": 26.5,
+    "south": 25.24,
+    "westCentral": 8.18,
+    "east": 36.44,
+    "northEast": 3.64
+   }
+  },
+  {
+   "id": "north-east-asia",
+   "n": 104,
+   "name": "North-East Asia",
+   "sourceName": "North-East Asia",
+   "level": "subregion",
+   "continent": "Asia and the Pacific",
+   "subregion": null,
+   "arrivals": 395930,
+   "regions": {
+    "north": 58.85,
+    "south": 25.06,
+    "westCentral": 13.79,
+    "east": 2.23,
+    "northEast": 0.07
+   }
+  },
+  {
+   "id": "china",
+   "n": 105,
+   "name": "China",
+   "sourceName": "China",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 38960,
+   "regions": {
+    "north": 44.58,
+    "south": 28.66,
+    "westCentral": 24.57,
+    "east": 2.17,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "hong-kong-china",
+   "n": 106,
+   "name": "Hong Kong (China)",
+   "sourceName": "Hong Kong (China)",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 719,
+   "regions": {
+    "north": 86.37,
+    "south": 9.32,
+    "westCentral": 3.2,
+    "east": 1.11,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "japan",
+   "n": 107,
+   "name": "Japan",
+   "sourceName": "Japan",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 194875,
+   "regions": {
+    "north": 62.02,
+    "south": 21.61,
+    "westCentral": 14.23,
+    "east": 2.04,
+    "northEast": 0.1
+   }
+  },
+  {
+   "id": "korea-dprk",
+   "n": 108,
+   "name": "Korea (DPRK)",
+   "sourceName": "Korea (DPRK)",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 125,
+   "regions": {
+    "north": 28.8,
+    "south": 70.4,
+    "westCentral": 0,
+    "east": 0.8,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "korea-rok",
+   "n": 109,
+   "name": "Korea (ROK)",
+   "sourceName": "Korea (ROK)",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 112924,
+   "regions": {
+    "north": 61.11,
+    "south": 27.68,
+    "westCentral": 9.41,
+    "east": 1.74,
+    "northEast": 0.07
+   }
+  },
+  {
+   "id": "macao-china",
+   "n": 110,
+   "name": "Macao (China)",
+   "sourceName": "Macao (China)",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 6,
+   "regions": {
+    "north": 83.33,
+    "south": 16.67,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "mongolia",
+   "n": 111,
+   "name": "Mongolia",
+   "sourceName": "Mongolia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 3911,
+   "regions": {
+    "north": 79.11,
+    "south": 13.81,
+    "westCentral": 4.47,
+    "east": 2.61,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "taiwan-pr-of-china",
+   "n": 112,
+   "name": "Taiwan (pr. Of China)",
+   "sourceName": "Taiwan (pr. Of China)",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 42598,
+   "regions": {
+    "north": 48.3,
+    "south": 31.94,
+    "westCentral": 15.16,
+    "east": 4.55,
+    "northEast": 0.04
+   }
+  },
+  {
+   "id": "tibet",
+   "n": 113,
+   "name": "Tibet",
+   "sourceName": "Tibet",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "North-East Asia",
+   "arrivals": 1812,
+   "regions": {
+    "north": 78.04,
+    "south": 21.69,
+    "westCentral": 0.22,
+    "east": 0.06,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "oceania",
+   "n": 114,
+   "name": "Oceania",
+   "sourceName": "Oceania",
+   "level": "subregion",
+   "continent": "Asia and the Pacific",
+   "subregion": null,
+   "arrivals": 606711,
+   "regions": {
+    "north": 43.71,
+    "south": 35.34,
+    "westCentral": 18.69,
+    "east": 2.23,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "american-samoa",
+   "n": 115,
+   "name": "American Samoa",
+   "sourceName": "American Samoa",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 7,
+   "regions": {
+    "north": 28.57,
+    "south": 57.14,
+    "westCentral": 14.29,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "australia",
+   "n": 116,
+   "name": "Australia",
+   "sourceName": "Australia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 518205,
+   "regions": {
+    "north": 43.1,
+    "south": 36.55,
+    "westCentral": 18,
+    "east": 2.32,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "cook-islands",
+   "n": 117,
+   "name": "Cook Islands",
+   "sourceName": "Cook Islands",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 2,
+   "regions": {
+    "north": 50,
+    "south": 50,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "fiji",
+   "n": 118,
+   "name": "Fiji",
+   "sourceName": "Fiji",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 5229,
+   "regions": {
+    "north": 57.01,
+    "south": 19.7,
+    "westCentral": 21.9,
+    "east": 1.4,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "french-polynesia",
+   "n": 119,
+   "name": "French Polynesia",
+   "sourceName": "French Polynesia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 4,
+   "regions": {
+    "north": 100,
+    "south": 0,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "kiribati",
+   "n": 120,
+   "name": "Kiribati",
+   "sourceName": "Kiribati",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 162,
+   "regions": {
+    "north": 91.98,
+    "south": 4.94,
+    "westCentral": 3.09,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "marshall-islands",
+   "n": 121,
+   "name": "Marshall Islands",
+   "sourceName": "Marshall Islands",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 13,
+   "regions": {
+    "north": 69.23,
+    "south": 0,
+    "westCentral": 30.77,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "micronesia-fsm",
+   "n": 122,
+   "name": "Micronesia FSM",
+   "sourceName": "Micronesia FSM",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 47,
+   "regions": {
+    "north": 95.74,
+    "south": 0,
+    "westCentral": 2.13,
+    "east": 2.13,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "nauru",
+   "n": 123,
+   "name": "Nauru",
+   "sourceName": "Nauru",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 144,
+   "regions": {
+    "north": 98.61,
+    "south": 1.39,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "new-caledonia",
+   "n": 124,
+   "name": "New Caledonia",
+   "sourceName": "New Caledonia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 3,
+   "regions": {
+    "north": 100,
+    "south": 0,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "new-zealand",
+   "n": 125,
+   "name": "New Zealand",
+   "sourceName": "New Zealand",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 81115,
+   "regions": {
+    "north": 46.37,
+    "south": 28.9,
+    "westCentral": 22.95,
+    "east": 1.77,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "palau",
+   "n": 126,
+   "name": "Palau",
+   "sourceName": "Palau",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 8,
+   "regions": {
+    "north": 87.5,
+    "south": 0,
+    "westCentral": 12.5,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "papua-new-guinea",
+   "n": 127,
+   "name": "Papua New Guinea",
+   "sourceName": "Papua New Guinea",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 685,
+   "regions": {
+    "north": 42.19,
+    "south": 35.18,
+    "westCentral": 20.44,
+    "east": 2.19,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "samoa",
+   "n": 128,
+   "name": "Samoa",
+   "sourceName": "Samoa",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 149,
+   "regions": {
+    "north": 17.45,
+    "south": 79.87,
+    "westCentral": 2.68,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "solomon-islands",
+   "n": 129,
+   "name": "Solomon Islands",
+   "sourceName": "Solomon Islands",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 50,
+   "regions": {
+    "north": 80,
+    "south": 20,
+    "westCentral": 0,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "tonga",
+   "n": 130,
+   "name": "Tonga",
+   "sourceName": "Tonga",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 134,
+   "regions": {
+    "north": 39.55,
+    "south": 54.48,
+    "westCentral": 5.97,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "tuvalu",
+   "n": 131,
+   "name": "Tuvalu",
+   "sourceName": "Tuvalu",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 159,
+   "regions": {
+    "north": 91.82,
+    "south": 6.29,
+    "westCentral": 1.89,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "vanuatu",
+   "n": 132,
+   "name": "Vanuatu",
+   "sourceName": "Vanuatu",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "Oceania",
+   "arrivals": 595,
+   "regions": {
+    "north": 58.99,
+    "south": 10.59,
+    "westCentral": 28.74,
+    "east": 1.68,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "south-asia",
+   "n": 133,
+   "name": "South Asia",
+   "sourceName": "South Asia",
+   "level": "subregion",
+   "continent": "Asia and the Pacific",
+   "subregion": null,
+   "arrivals": 2409812,
+   "regions": {
+    "north": 15.09,
+    "south": 15.94,
+    "westCentral": 2.57,
+    "east": 59.99,
+    "northEast": 6.42
+   }
+  },
+  {
+   "id": "afghanistan",
+   "n": 134,
+   "name": "Afghanistan",
+   "sourceName": "Afghanistan",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 1253,
+   "regions": {
+    "north": 87.15,
+    "south": 3.83,
+    "westCentral": 8.54,
+    "east": 0.4,
+    "northEast": 0.08
+   }
+  },
+  {
+   "id": "bangladesh",
+   "n": 135,
+   "name": "Bangladesh",
+   "sourceName": "Bangladesh",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 1750165,
+   "regions": {
+    "north": 4.95,
+    "south": 5.28,
+    "westCentral": 0.66,
+    "east": 80.37,
+    "northEast": 8.74
+   }
+  },
+  {
+   "id": "bhutan",
+   "n": 136,
+   "name": "Bhutan",
+   "sourceName": "Bhutan",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 41265,
+   "regions": {
+    "north": 46.92,
+    "south": 1.29,
+    "westCentral": 0.9,
+    "east": 49.85,
+    "northEast": 1.04
+   }
+  },
+  {
+   "id": "iran",
+   "n": 137,
+   "name": "Iran",
+   "sourceName": "Iran",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 21406,
+   "regions": {
+    "north": 61.26,
+    "south": 11.39,
+    "westCentral": 26.83,
+    "east": 0.52,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "maldives",
+   "n": 138,
+   "name": "Maldives",
+   "sourceName": "Maldives",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 84770,
+   "regions": {
+    "north": 2.38,
+    "south": 93.23,
+    "westCentral": 4.36,
+    "east": 0.03,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "nepal",
+   "n": 139,
+   "name": "Nepal",
+   "sourceName": "Nepal",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 202501,
+   "regions": {
+    "north": 73.69,
+    "south": 5.74,
+    "westCentral": 11.25,
+    "east": 8.7,
+    "northEast": 0.61
+   }
+  },
+  {
+   "id": "pakistan",
+   "n": 140,
+   "name": "Pakistan",
+   "sourceName": "Pakistan",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 26625,
+   "regions": {
+    "north": 96.72,
+    "south": 0.37,
+    "westCentral": 2.9,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "sri-lanka",
+   "n": 141,
+   "name": "Sri Lanka",
+   "sourceName": "Sri Lanka",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South Asia",
+   "arrivals": 281827,
+   "regions": {
+    "north": 23.56,
+    "south": 70.24,
+    "westCentral": 5.98,
+    "east": 0.21,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "south-east-asia",
+   "n": 142,
+   "name": "South-East Asia",
+   "sourceName": "South-East Asia",
+   "level": "subregion",
+   "continent": "Asia and the Pacific",
+   "subregion": null,
+   "arrivals": 867210,
+   "regions": {
+    "north": 31.41,
+    "south": 44.1,
+    "westCentral": 13.86,
+    "east": 10.53,
+    "northEast": 0.1
+   }
+  },
+  {
+   "id": "brunei",
+   "n": 143,
+   "name": "Brunei",
+   "sourceName": "Brunei",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 863,
+   "regions": {
+    "north": 26.77,
+    "south": 59.33,
+    "westCentral": 12.28,
+    "east": 1.51,
+    "northEast": 0.12
+   }
+  },
+  {
+   "id": "cambodia",
+   "n": 144,
+   "name": "Cambodia",
+   "sourceName": "Cambodia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 11326,
+   "regions": {
+    "north": 71.77,
+    "south": 3.73,
+    "westCentral": 10.11,
+    "east": 14.29,
+    "northEast": 0.09
+   }
+  },
+  {
+   "id": "indonesia",
+   "n": 145,
+   "name": "Indonesia",
+   "sourceName": "Indonesia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 39227,
+   "regions": {
+    "north": 39.02,
+    "south": 29.59,
+    "westCentral": 27.34,
+    "east": 3.95,
+    "northEast": 0.11
+   }
+  },
+  {
+   "id": "laos",
+   "n": 146,
+   "name": "Laos",
+   "sourceName": "Laos",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 2997,
+   "regions": {
+    "north": 50.02,
+    "south": 8.48,
+    "westCentral": 4.1,
+    "east": 36.97,
+    "northEast": 0.43
+   }
+  },
+  {
+   "id": "malaysia",
+   "n": 147,
+   "name": "Malaysia",
+   "sourceName": "Malaysia",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 307526,
+   "regions": {
+    "north": 22.24,
+    "south": 66.54,
+    "westCentral": 8.85,
+    "east": 2.29,
+    "northEast": 0.08
+   }
+  },
+  {
+   "id": "myanmar",
+   "n": 148,
+   "name": "Myanmar",
+   "sourceName": "Myanmar",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 47588,
+   "regions": {
+    "north": 44.27,
+    "south": 11.61,
+    "westCentral": 3.95,
+    "east": 40.04,
+    "northEast": 0.13
+   }
+  },
+  {
+   "id": "philippines",
+   "n": 149,
+   "name": "Philippines",
+   "sourceName": "Philippines",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 57542,
+   "regions": {
+    "north": 28.22,
+    "south": 39.74,
+    "westCentral": 27.67,
+    "east": 4.34,
+    "northEast": 0.05
+   }
+  },
+  {
+   "id": "singapore",
+   "n": 150,
+   "name": "Singapore",
+   "sourceName": "Singapore",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 205383,
+   "regions": {
+    "north": 21.58,
+    "south": 55.75,
+    "westCentral": 19.19,
+    "east": 3.41,
+    "northEast": 0.07
+   }
+  },
+  {
+   "id": "thailand",
+   "n": 151,
+   "name": "Thailand",
+   "sourceName": "Thailand",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 140489,
+   "regions": {
+    "north": 49.53,
+    "south": 11.44,
+    "westCentral": 12.43,
+    "east": 26.38,
+    "northEast": 0.22
+   }
+  },
+  {
+   "id": "timor-leste",
+   "n": 152,
+   "name": "Timor-Leste",
+   "sourceName": "Timor-Leste",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 178,
+   "regions": {
+    "north": 57.87,
+    "south": 27.53,
+    "westCentral": 14.04,
+    "east": 0.56,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "vietnam",
+   "n": 153,
+   "name": "Vietnam",
+   "sourceName": "Vietnam",
+   "level": "country",
+   "continent": "Asia and the Pacific",
+   "subregion": "South-East Asia",
+   "arrivals": 54091,
+   "regions": {
+    "north": 50.84,
+    "south": 11.1,
+    "westCentral": 11.46,
+    "east": 26.58,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "europe",
+   "n": 154,
+   "name": "Europe",
+   "sourceName": "Europe",
+   "level": "continent",
+   "continent": null,
+   "subregion": null,
+   "arrivals": 2657441,
+   "regions": {
+    "north": 45.73,
+    "south": 23.2,
+    "westCentral": 29.34,
+    "east": 1.69,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "central-eastern-europe",
+   "n": 155,
+   "name": "Central/Eastern Europe",
+   "sourceName": "Central/Eastern Europe",
+   "level": "subregion",
+   "continent": "Europe",
+   "subregion": null,
+   "arrivals": 384553,
+   "regions": {
+    "north": 56.24,
+    "south": 12.49,
+    "westCentral": 29.68,
+    "east": 1.54,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "armenia",
+   "n": 156,
+   "name": "Armenia",
+   "sourceName": "Armenia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 2003,
+   "regions": {
+    "north": 42.19,
+    "south": 20.77,
+    "westCentral": 30.25,
+    "east": 6.79,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "azerbaijan",
+   "n": 157,
+   "name": "Azerbaijan",
+   "sourceName": "Azerbaijan",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 4809,
+   "regions": {
+    "north": 52.8,
+    "south": 8.26,
+    "westCentral": 38.24,
+    "east": 0.71,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "belarus",
+   "n": 158,
+   "name": "Belarus",
+   "sourceName": "Belarus",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 9126,
+   "regions": {
+    "north": 69.41,
+    "south": 10.06,
+    "westCentral": 19.19,
+    "east": 1.35,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "bulgaria",
+   "n": 159,
+   "name": "Bulgaria",
+   "sourceName": "Bulgaria",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 5938,
+   "regions": {
+    "north": 54.45,
+    "south": 22.13,
+    "westCentral": 21.17,
+    "east": 2.26,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "czech-republic",
+   "n": 160,
+   "name": "Czech Republic",
+   "sourceName": "Czech Republic",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 13890,
+   "regions": {
+    "north": 52.89,
+    "south": 19.11,
+    "westCentral": 25.15,
+    "east": 2.82,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "estonia",
+   "n": 161,
+   "name": "Estonia",
+   "sourceName": "Estonia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 2965,
+   "regions": {
+    "north": 50.29,
+    "south": 19.83,
+    "westCentral": 28.33,
+    "east": 1.48,
+    "northEast": 0.07
+   }
+  },
+  {
+   "id": "georgia",
+   "n": 162,
+   "name": "Georgia",
+   "sourceName": "Georgia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 2757,
+   "regions": {
+    "north": 63.55,
+    "south": 16.14,
+    "westCentral": 17.92,
+    "east": 2.39,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "hungary",
+   "n": 163,
+   "name": "Hungary",
+   "sourceName": "Hungary",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 9040,
+   "regions": {
+    "north": 50.13,
+    "south": 25.59,
+    "westCentral": 21.45,
+    "east": 2.83,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "kazakhstan",
+   "n": 164,
+   "name": "Kazakhstan",
+   "sourceName": "Kazakhstan",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 27006,
+   "regions": {
+    "north": 58.8,
+    "south": 4.44,
+    "westCentral": 36.33,
+    "east": 0.42,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "kyrgyzstan",
+   "n": 165,
+   "name": "Kyrgyzstan",
+   "sourceName": "Kyrgyzstan",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 5751,
+   "regions": {
+    "north": 70.44,
+    "south": 7.18,
+    "westCentral": 20.22,
+    "east": 2.16,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "latvia",
+   "n": 166,
+   "name": "Latvia",
+   "sourceName": "Latvia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 3649,
+   "regions": {
+    "north": 54.23,
+    "south": 22.5,
+    "westCentral": 21.43,
+    "east": 1.81,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "lithuania",
+   "n": 167,
+   "name": "Lithuania",
+   "sourceName": "Lithuania",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 6305,
+   "regions": {
+    "north": 57.8,
+    "south": 17.65,
+    "westCentral": 22.43,
+    "east": 2.06,
+    "northEast": 0.06
+   }
+  },
+  {
+   "id": "poland",
+   "n": 168,
+   "name": "Poland",
+   "sourceName": "Poland",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 43316,
+   "regions": {
+    "north": 54.6,
+    "south": 17.35,
+    "westCentral": 26.14,
+    "east": 1.88,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "republic-of-moldova",
+   "n": 169,
+   "name": "Republic of Moldova",
+   "sourceName": "Rep. Moldova",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 905,
+   "regions": {
+    "north": 47.62,
+    "south": 21.66,
+    "westCentral": 25.97,
+    "east": 4.64,
+    "northEast": 0.11
+   }
+  },
+  {
+   "id": "romania",
+   "n": 170,
+   "name": "Romania",
+   "sourceName": "Romania",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 15087,
+   "regions": {
+    "north": 44.12,
+    "south": 29.32,
+    "westCentral": 22.37,
+    "east": 3.96,
+    "northEast": 0.23
+   }
+  },
+  {
+   "id": "russian-federation",
+   "n": 171,
+   "name": "Russian Federation",
+   "sourceName": "Russian Federation",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 160188,
+   "regions": {
+    "north": 46.85,
+    "south": 10.38,
+    "westCentral": 41.54,
+    "east": 1.21,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "slovakia",
+   "n": 172,
+   "name": "Slovakia",
+   "sourceName": "Slovakia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 6644,
+   "regions": {
+    "north": 51.99,
+    "south": 26.72,
+    "westCentral": 18.5,
+    "east": 2.78,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "tajikistan",
+   "n": 173,
+   "name": "Tajikistan",
+   "sourceName": "Tajikistan",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 6413,
+   "regions": {
+    "north": 95.84,
+    "south": 1.92,
+    "westCentral": 2.01,
+    "east": 0.23,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "turkmenistan",
+   "n": 174,
+   "name": "Turkmenistan",
+   "sourceName": "Turkmenistan",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 9639,
+   "regions": {
+    "north": 97.83,
+    "south": 1.04,
+    "westCentral": 0.61,
+    "east": 0.51,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "ukraine",
+   "n": 175,
+   "name": "Ukraine",
+   "sourceName": "Ukraine",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 14875,
+   "regions": {
+    "north": 38.15,
+    "south": 28.79,
+    "westCentral": 28.5,
+    "east": 4.13,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "uzbekistan",
+   "n": 176,
+   "name": "Uzbekistan",
+   "sourceName": "Uzbekistan",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Central/Eastern Europe",
+   "arrivals": 34247,
+   "regions": {
+    "north": 93.87,
+    "south": 1.19,
+    "westCentral": 4.75,
+    "east": 0.19,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "northern-europe",
+   "n": 177,
+   "name": "Northern Europe",
+   "sourceName": "Northern Europe",
+   "level": "subregion",
+   "continent": "Europe",
+   "subregion": null,
+   "arrivals": 1168217,
+   "regions": {
+    "north": 38.84,
+    "south": 26.01,
+    "westCentral": 33.36,
+    "east": 1.76,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "denmark",
+   "n": 178,
+   "name": "Denmark",
+   "sourceName": "Denmark",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 22456,
+   "regions": {
+    "north": 52.47,
+    "south": 26.82,
+    "westCentral": 18.9,
+    "east": 1.77,
+    "northEast": 0.04
+   }
+  },
+  {
+   "id": "finland",
+   "n": 179,
+   "name": "Finland",
+   "sourceName": "Finland",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 12764,
+   "regions": {
+    "north": 70.71,
+    "south": 15.01,
+    "westCentral": 12.95,
+    "east": 1.29,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "iceland",
+   "n": 180,
+   "name": "Iceland",
+   "sourceName": "Iceland",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 988,
+   "regions": {
+    "north": 58.4,
+    "south": 19.13,
+    "westCentral": 20.85,
+    "east": 1.62,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "ireland",
+   "n": 181,
+   "name": "Ireland",
+   "sourceName": "Ireland",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 46494,
+   "regions": {
+    "north": 30.77,
+    "south": 47.32,
+    "westCentral": 18.84,
+    "east": 3.05,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "norway",
+   "n": 182,
+   "name": "Norway",
+   "sourceName": "Norway",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 21682,
+   "regions": {
+    "north": 54.52,
+    "south": 22.63,
+    "westCentral": 20.33,
+    "east": 2.5,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "sweden",
+   "n": 183,
+   "name": "Sweden",
+   "sourceName": "Sweden",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 41246,
+   "regions": {
+    "north": 44.41,
+    "south": 30.63,
+    "westCentral": 22.1,
+    "east": 2.85,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "united-kingdom",
+   "n": 184,
+   "name": "United Kingdom",
+   "sourceName": "United Kingdom",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Northern Europe",
+   "arrivals": 1022587,
+   "regions": {
+    "north": 37.93,
+    "south": 25.06,
+    "westCentral": 35.34,
+    "east": 1.65,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "southern-and-mediterranean-europe",
+   "n": 185,
+   "name": "Southern and Mediterranean Europe",
+   "sourceName": "Southern/Medit. Europe",
+   "level": "subregion",
+   "continent": "Europe",
+   "subregion": null,
+   "arrivals": 431219,
+   "regions": {
+    "north": 53.22,
+    "south": 15.27,
+    "westCentral": 29.68,
+    "east": 1.8,
+    "northEast": 0.04
+   }
+  },
+  {
+   "id": "albania",
+   "n": 186,
+   "name": "Albania",
+   "sourceName": "Albania",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 729,
+   "regions": {
+    "north": 48.97,
+    "south": 30.59,
+    "westCentral": 17.56,
+    "east": 2.88,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "andorra",
+   "n": 187,
+   "name": "Andorra",
+   "sourceName": "Andorra",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 168,
+   "regions": {
+    "north": 41.07,
+    "south": 8.93,
+    "westCentral": 48.81,
+    "east": 1.19,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "bosnia-and-herzegovina",
+   "n": 188,
+   "name": "Bosnia & Herzegovina",
+   "sourceName": "Bosnia & Herzg.",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 943,
+   "regions": {
+    "north": 44.64,
+    "south": 37.12,
+    "westCentral": 13.26,
+    "east": 4.88,
+    "northEast": 0.11
+   }
+  },
+  {
+   "id": "croatia",
+   "n": 189,
+   "name": "Croatia",
+   "sourceName": "Croatia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 4132,
+   "regions": {
+    "north": 44.85,
+    "south": 29.7,
+    "westCentral": 22.02,
+    "east": 3.44,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "cyprus",
+   "n": 190,
+   "name": "Cyprus",
+   "sourceName": "Cyprus",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 2274,
+   "regions": {
+    "north": 51.06,
+    "south": 23.09,
+    "westCentral": 23.31,
+    "east": 2.55,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "greece",
+   "n": 191,
+   "name": "Greece",
+   "sourceName": "Greece",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 10596,
+   "regions": {
+    "north": 50.6,
+    "south": 22.23,
+    "westCentral": 24.07,
+    "east": 2.94,
+    "northEast": 0.17
+   }
+  },
+  {
+   "id": "israel",
+   "n": 192,
+   "name": "Israel",
+   "sourceName": "Israel",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 47465,
+   "regions": {
+    "north": 60.29,
+    "south": 18,
+    "westCentral": 20.32,
+    "east": 1.34,
+    "northEast": 0.05
+   }
+  },
+  {
+   "id": "italy",
+   "n": 193,
+   "name": "Italy",
+   "sourceName": "Italy",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 142239,
+   "regions": {
+    "north": 68.64,
+    "south": 16.52,
+    "westCentral": 12.92,
+    "east": 1.89,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "malta",
+   "n": 194,
+   "name": "Malta",
+   "sourceName": "Malta",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 2134,
+   "regions": {
+    "north": 40.53,
+    "south": 24.93,
+    "westCentral": 31.87,
+    "east": 2.58,
+    "northEast": 0.09
+   }
+  },
+  {
+   "id": "montenegro",
+   "n": 195,
+   "name": "Montenegro",
+   "sourceName": "Montenegro",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 524,
+   "regions": {
+    "north": 29.58,
+    "south": 28.82,
+    "westCentral": 38.17,
+    "east": 3.44,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "north-macedonia",
+   "n": 196,
+   "name": "North Macedonia",
+   "sourceName": "North Macedonia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 662,
+   "regions": {
+    "north": 47.28,
+    "south": 30.82,
+    "westCentral": 18.43,
+    "east": 3.47,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "portugal",
+   "n": 197,
+   "name": "Portugal",
+   "sourceName": "Portugal",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 92582,
+   "regions": {
+    "north": 23.32,
+    "south": 7.41,
+    "westCentral": 68.55,
+    "east": 0.71,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "san-marino",
+   "n": 198,
+   "name": "San Marino",
+   "sourceName": "San Marino",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 57,
+   "regions": {
+    "north": 66.67,
+    "south": 24.56,
+    "westCentral": 3.51,
+    "east": 5.26,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "serbia",
+   "n": 199,
+   "name": "Serbia",
+   "sourceName": "Serbia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 4820,
+   "regions": {
+    "north": 47.59,
+    "south": 29.65,
+    "westCentral": 18.46,
+    "east": 4.27,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "slovenia",
+   "n": 200,
+   "name": "Slovenia",
+   "sourceName": "Slovenia",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 4056,
+   "regions": {
+    "north": 53.13,
+    "south": 25.22,
+    "westCentral": 18.81,
+    "east": 2.81,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "spain",
+   "n": 201,
+   "name": "Spain",
+   "sourceName": "Spain",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 81959,
+   "regions": {
+    "north": 60,
+    "south": 17.59,
+    "westCentral": 19.62,
+    "east": 2.71,
+    "northEast": 0.07
+   }
+  },
+  {
+   "id": "t-rkiye",
+   "n": 202,
+   "name": "Türkiye",
+   "sourceName": "Turkiye",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 35829,
+   "regions": {
+    "north": 48.59,
+    "south": 12.37,
+    "westCentral": 37.54,
+    "east": 1.5,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "vatican-city",
+   "n": 203,
+   "name": "Vatican City",
+   "sourceName": "Vatican City",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Southern/Medit. Europe",
+   "arrivals": 50,
+   "regions": {
+    "north": 46,
+    "south": 46,
+    "westCentral": 4,
+    "east": 4,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "western-europe",
+   "n": 204,
+   "name": "Western Europe",
+   "sourceName": "Western Europe",
+   "level": "subregion",
+   "continent": "Europe",
+   "subregion": null,
+   "arrivals": 673452,
+   "regions": {
+    "north": 46.9,
+    "south": 29.5,
+    "westCentral": 21.95,
+    "east": 1.59,
+    "northEast": 0.05
+   }
+  },
+  {
+   "id": "austria",
+   "n": 205,
+   "name": "Austria",
+   "sourceName": "Austria",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 30393,
+   "regions": {
+    "north": 55.28,
+    "south": 26.42,
+    "westCentral": 16.45,
+    "east": 1.81,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "belgium",
+   "n": 206,
+   "name": "Belgium",
+   "sourceName": "Belgium",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 39813,
+   "regions": {
+    "north": 47.05,
+    "south": 20.71,
+    "westCentral": 30.26,
+    "east": 1.94,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "france",
+   "n": 207,
+   "name": "France",
+   "sourceName": "France",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 206855,
+   "regions": {
+    "north": 46.31,
+    "south": 33.27,
+    "westCentral": 19.17,
+    "east": 1.17,
+    "northEast": 0.07
+   }
+  },
+  {
+   "id": "germany",
+   "n": 208,
+   "name": "Germany",
+   "sourceName": "Germany",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 256348,
+   "regions": {
+    "north": 45.56,
+    "south": 30.26,
+    "westCentral": 22.41,
+    "east": 1.76,
+    "northEast": 0.02
+   }
+  },
+  {
+   "id": "liechtenstein",
+   "n": 209,
+   "name": "Liechtenstein",
+   "sourceName": "Liechtenstein",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 132,
+   "regions": {
+    "north": 60.61,
+    "south": 17.42,
+    "westCentral": 21.97,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "luxembourg",
+   "n": 210,
+   "name": "Luxembourg",
+   "sourceName": "Luxembourg",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 2167,
+   "regions": {
+    "north": 47.85,
+    "south": 28.06,
+    "westCentral": 21.92,
+    "east": 2.17,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "monaco",
+   "n": 211,
+   "name": "Monaco",
+   "sourceName": "Monaco",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 43,
+   "regions": {
+    "north": 65.12,
+    "south": 11.63,
+    "westCentral": 23.26,
+    "east": 0,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "netherlands",
+   "n": 212,
+   "name": "Netherlands",
+   "sourceName": "Netherlands",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 93579,
+   "regions": {
+    "north": 50.12,
+    "south": 24.05,
+    "westCentral": 24.19,
+    "east": 1.61,
+    "northEast": 0.03
+   }
+  },
+  {
+   "id": "switzerland",
+   "n": 213,
+   "name": "Switzerland",
+   "sourceName": "Switzerland",
+   "level": "country",
+   "continent": "Europe",
+   "subregion": "Western Europe",
+   "arrivals": 44122,
+   "regions": {
+    "north": 44.66,
+    "south": 29.21,
+    "westCentral": 23.92,
+    "east": 2.08,
+    "northEast": 0.13
+   }
+  },
+  {
+   "id": "middle-east",
+   "n": 214,
+   "name": "Middle East",
+   "sourceName": "Middle East",
+   "level": "continent",
+   "continent": null,
+   "subregion": null,
+   "arrivals": 295511,
+   "regions": {
+    "north": 24.74,
+    "south": 42,
+    "westCentral": 32.59,
+    "east": 0.64,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "bahrain",
+   "n": 215,
+   "name": "Bahrain",
+   "sourceName": "Bahrain",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 14041,
+   "regions": {
+    "north": 14.44,
+    "south": 63.72,
+    "westCentral": 21.4,
+    "east": 0.43,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "egypt",
+   "n": 216,
+   "name": "Egypt",
+   "sourceName": "Egypt",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 17825,
+   "regions": {
+    "north": 32.57,
+    "south": 27.12,
+    "westCentral": 37.18,
+    "east": 3.13,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "iraq",
+   "n": 217,
+   "name": "Iraq",
+   "sourceName": "Iraq",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 40247,
+   "regions": {
+    "north": 86.23,
+    "south": 5.3,
+    "westCentral": 8.24,
+    "east": 0.22,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "jordan",
+   "n": 218,
+   "name": "Jordan",
+   "sourceName": "Jordan",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 5878,
+   "regions": {
+    "north": 33.72,
+    "south": 35.11,
+    "westCentral": 27.88,
+    "east": 3.28,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "kuwait",
+   "n": 219,
+   "name": "Kuwait",
+   "sourceName": "Kuwait",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 10921,
+   "regions": {
+    "north": 20.56,
+    "south": 54.83,
+    "westCentral": 24.1,
+    "east": 0.51,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "lebanon",
+   "n": 220,
+   "name": "Lebanon",
+   "sourceName": "Lebanon",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 4405,
+   "regions": {
+    "north": 27.99,
+    "south": 40.2,
+    "westCentral": 26.56,
+    "east": 5.24,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "libya",
+   "n": 221,
+   "name": "Libya",
+   "sourceName": "Libya",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 766,
+   "regions": {
+    "north": 38.25,
+    "south": 20.1,
+    "westCentral": 40.08,
+    "east": 1.57,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "oman",
+   "n": 222,
+   "name": "Oman",
+   "sourceName": "Oman",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 66703,
+   "regions": {
+    "north": 5.86,
+    "south": 62.26,
+    "westCentral": 31.81,
+    "east": 0.07,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "palestine",
+   "n": 223,
+   "name": "Palestine",
+   "sourceName": "Palestine",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 870,
+   "regions": {
+    "north": 45.4,
+    "south": 29.77,
+    "westCentral": 23.1,
+    "east": 1.72,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "qatar",
+   "n": 224,
+   "name": "Qatar",
+   "sourceName": "Qatar",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 3673,
+   "regions": {
+    "north": 15.25,
+    "south": 51.76,
+    "westCentral": 32.1,
+    "east": 0.9,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "saudi-arabia",
+   "n": 225,
+   "name": "Saudi Arabia",
+   "sourceName": "Saudi Arabia",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 46167,
+   "regions": {
+    "north": 29.11,
+    "south": 48.98,
+    "westCentral": 21.37,
+    "east": 0.46,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "syria",
+   "n": 226,
+   "name": "Syria",
+   "sourceName": "Syria",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 4231,
+   "regions": {
+    "north": 26.9,
+    "south": 32.9,
+    "westCentral": 37.3,
+    "east": 2.91,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "united-arab-emirates",
+   "n": 227,
+   "name": "United Arab Emirates",
+   "sourceName": "Utd Arab Emirates",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 66699,
+   "regions": {
+    "north": 4.38,
+    "south": 39.19,
+    "westCentral": 56,
+    "east": 0.35,
+    "northEast": 0
+   }
+  },
+  {
+   "id": "yemen",
+   "n": 228,
+   "name": "Yemen",
+   "sourceName": "Yemen",
+   "level": "country",
+   "continent": "Middle East",
+   "subregion": null,
+   "arrivals": 13085,
+   "regions": {
+    "north": 18.67,
+    "south": 33.55,
+    "westCentral": 47.5,
+    "east": 0.27,
+    "northEast": 0.01
+   }
+  },
+  {
+   "id": "others-not-classified-elsewhere",
+   "n": 229,
+   "name": "Others Not Classified Elsewhere",
+   "sourceName": "Others Not Classified Elsewhere",
+   "level": "continent",
+   "continent": null,
+   "subregion": null,
+   "arrivals": 8444,
+   "regions": {
+    "north": 60.46,
+    "south": 18.45,
+    "westCentral": 19.8,
+    "east": 1.22,
+    "northEast": 0.07
+   }
+  }
+ ]
+}
