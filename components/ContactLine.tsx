@@ -1,17 +1,32 @@
-import { CONTACT_EMAIL } from "@/lib/site";
+"use client";
 
-// Shows the contact address as a mailto link. When no address has been
-// configured yet, says so plainly instead of showing a made-up one.
+import { useState } from "react";
+import { CONTACT_PARTS } from "@/lib/site";
+
+const decode = (s: string) =>
+  [...atob(s)].reverse().join("");
+
+// Shows a button instead of the address. The address is assembled in the
+// browser only after a click, so it is never present in the server-rendered
+// HTML that simple scrapers read. Deterrent only: a person (or a full browser
+// bot) can still reveal it.
 export default function ContactLine({ subject }: { subject?: string }) {
-  if (!CONTACT_EMAIL) {
+  const [email, setEmail] = useState<string | null>(null);
+
+  if (!email) {
     return (
-      <span className="pending-inline">
-        [contact email not configured yet: set NEXT_PUBLIC_CONTACT_EMAIL]
-      </span>
+      <button
+        type="button"
+        className="reveal-email"
+        onClick={() => setEmail(`${decode(CONTACT_PARTS[0])}@${decode(CONTACT_PARTS[1])}`)}
+      >
+        Show email address
+      </button>
     );
   }
-  const href = `mailto:${CONTACT_EMAIL}${
+
+  const href = `mailto:${email}${
     subject ? `?subject=${encodeURIComponent(subject)}` : ""
   }`;
-  return <a href={href}>{CONTACT_EMAIL}</a>;
+  return <a href={href}>{email}</a>;
 }
