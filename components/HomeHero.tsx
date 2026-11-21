@@ -132,7 +132,7 @@ export default function HomeHero({
         </h1>
         <p className="hero-sub">
           Destinations, travel advisories, entry requirements and how to get
-          there, all from official sources.
+          there. Official sources are linked, and our own guidance is labelled.
         </p>
 
         <div className="hh-search">

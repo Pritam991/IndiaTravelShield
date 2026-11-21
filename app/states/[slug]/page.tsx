@@ -7,6 +7,7 @@ import { BulletList, EditorialNote, Pending, PhotoCredit, SourceLink, SourceList
 import ParallaxHero from "@/components/ParallaxHero";
 import PhotoCard from "@/components/PhotoCard";
 import Reveal from "@/components/Reveal";
+import StateVisits from "@/components/StateVisits";
 
 export const dynamicParams = false;
 
@@ -127,12 +128,12 @@ export default async function StatePage({
         <Reveal>
           <h2>Safety and visitors</h2>
           <p>{guidance.visitorsExplainer[0]}</p>
-          <Pending label={`Foreign tourist visits to ${s.name}`} />
+          <StateVisits state={s.name} />
           <Pending label={`Crime statistics for ${s.name} (NCRB)`} />
           <p className="small">
-            Sources when loaded: <SourceLink id="tourism" />,{" "}
-            <SourceLink id="ncrb" />. National foreign arrivals by region of
-            India are on the <Link href="/#visitors">home page</Link>.
+            Crime figures, when loaded, will come from <SourceLink id="ncrb" />.
+            National foreign arrivals by region of India are on the{" "}
+            <Link href="/#visitors">home page</Link>.
           </p>
         </Reveal>
       </section>

@@ -37,8 +37,9 @@ export default function AboutPage() {
           Practical risks and health notes for each place, written plainly.
         </li>
         <li>
-          A checklist of the documents to verify for your nationality and
-          destination, linked to the official portals.
+          A checklist of the documents and permits to verify for a trip to India,
+          with the special cases for some regions, linked to the official
+          portals.
         </li>
         <li>
           Links to current government travel advisories from several

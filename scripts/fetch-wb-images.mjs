@@ -39,7 +39,7 @@ const TITLES = {
   "eden-gardens": "Eden Gardens",
 };
 
-const OK = /^(CC BY(-SA)?( \d\.\d)?|CC0|Public domain|PD)/i;
+const OK = /^(CC BY(-SA)? \d\.\d|CC0( 1\.0)?|Public domain|PD)$/i; // commercial use allowed; NC and ND rejected
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (h) => (h ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 
