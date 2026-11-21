@@ -62,7 +62,7 @@ const FAQ = [
   },
   {
     q: "Is IndiaTravelShield a government website?",
-    a: "No. We are independent and not affiliated with the Government of India or any government. We summarize official sources and link back to them.",
+    a: "No. We are independent and not affiliated with the Government of India or any government. We summarize official sources, link back to them and label what is our own guidance.",
   },
 ];
 

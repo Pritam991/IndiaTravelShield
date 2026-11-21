@@ -17,4 +17,4 @@ export const CONTACT_PARTS: [string, string] = [
   "bW9jLmxpYW1n",
 ];
 
-export const LEGAL_UPDATED = "20 November 2026";
+export const LEGAL_UPDATED = "21 November 2026";

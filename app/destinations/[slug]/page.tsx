@@ -24,6 +24,7 @@ import SectionNav from "@/components/SectionNav";
 import Tabs from "@/components/Tabs";
 import Reveal from "@/components/Reveal";
 import PhotoCard from "@/components/PhotoCard";
+import StateVisits from "@/components/StateVisits";
 import QuickFacts from "@/components/QuickFacts";
 import { getPlaceBySlug } from "@/lib/wb";
 
@@ -145,12 +146,7 @@ export default async function DestinationPage({
               {guidance.visitorsExplainer.map((t) => (
                 <p key={t}>{t}</p>
               ))}
-              <Pending label={`Foreign tourist visits to ${d.state}`} />
-              <p className="small">
-                Source when loaded: <SourceLink id="tourism" />. National
-                figures by region of India are on the{" "}
-                <Link href="/#visitors">home page</Link>.
-              </p>
+              <StateVisits state={d.state} place={d.name} />
             </Reveal>
           </section>
 

@@ -24,6 +24,7 @@ import PageHeader from "@/components/PageHeader";
 import Band from "@/components/Band";
 import Reveal from "@/components/Reveal";
 import PhotoCard from "@/components/PhotoCard";
+import DataAttribution from "@/components/DataAttribution";
 
 export const metadata: Metadata = {
   title: "Where foreign visitors go in India: data and suggested places",
@@ -376,6 +377,7 @@ export default function InsightsPage() {
             See also <Link href="/#visitors">arrivals by country</Link> and{" "}
             <Link href="/methodology">our methodology</Link>.
           </p>
+          <DataAttribution />
         </Reveal>
       </section>
     </>

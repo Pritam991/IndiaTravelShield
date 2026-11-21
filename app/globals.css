@@ -714,3 +714,20 @@ html,body{overflow-x:clip}
 .sg-card .pcard{height:auto;flex:none}
 .sg-card .pcard .ph{aspect-ratio:16/10}
 .sg-sig{flex:1 1 auto}
+
+/* ================= Consent banner and data attribution ================= */
+.consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:90;max-width:760px;margin-inline:auto;padding:16px 18px;border-radius:14px;background:var(--bg);color:var(--fg);border:1px solid var(--bd);box-shadow:0 12px 36px rgba(0,0,0,.28);display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center}
+.consent p{margin:0;flex:1 1 320px;font-size:.92rem;line-height:1.5}
+.consent-btns{display:flex;gap:10px;flex:0 0 auto}
+/* Accept and Decline are deliberately identical in size, weight and colour */
+.consent-btns .btn{min-width:96px;text-align:center}
+@media(max-width:560px){.consent{left:8px;right:8px;bottom:8px}.consent-btns{width:100%}.consent-btns .btn{flex:1}}
+.linklike{padding:0;border:0;background:none;color:var(--brand);font:inherit;text-decoration:underline;cursor:pointer}
+@media print{.consent{display:none}}
+
+.attrib{margin-top:clamp(18px,3vw,28px);padding:16px 20px;border-radius:12px;border:1px solid var(--bd);background:var(--soft);font-size:.86rem}
+.attrib h3{margin:0 0 .4em;font-size:.98rem}
+.attrib ul{margin:.3em 0 .6em;padding-left:1.1rem}
+.attrib li{margin:.35em 0;word-break:break-word}
+.sv{margin:.4em 0}
+.sv-main{margin:.2em 0;font-size:1.02rem}

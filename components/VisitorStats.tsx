@@ -3,6 +3,7 @@ import ArrivalsChart, { type BarRow } from "./ArrivalsChart";
 import ArrivalsExplorer, { type Country } from "./ArrivalsExplorer";
 import CountUp from "./CountUp";
 import Reveal from "./Reveal";
+import DataAttribution from "./DataAttribution";
 import {
   DATASET_URL,
   arrivalsMeta,
@@ -143,6 +144,7 @@ export default function VisitorStats() {
             <Link href="/methodology">our methodology</Link>.
           </p>
         </div>
+        <DataAttribution />
       </Reveal>
     </section>
   );

@@ -40,7 +40,7 @@ const TITLES = {
 };
 
 // Only licenses that allow reuse with attribution / no restriction.
-const OK = /^(CC BY(-SA)?( \d\.\d)?|CC0|Public domain|PD|CC BY-SA|CC BY)/i;
+const OK = /^(CC BY(-SA)? \d\.\d|CC0( 1\.0)?|Public domain|PD)$/i; // commercial use allowed; NC and ND rejected
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (h) => (h ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 
