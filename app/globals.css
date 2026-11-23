@@ -722,6 +722,10 @@ html,body{overflow-x:clip}
 /* Accept and Decline are deliberately identical in size, weight and colour */
 .consent-btns .btn{min-width:96px;text-align:center}
 @media(max-width:560px){.consent{left:8px;right:8px;bottom:8px}.consent-btns{width:100%}.consent-btns .btn{flex:1}}
+/* In-content ad unit: reserved height, labelled, kept far from links and buttons */
+.adslot{margin:clamp(36px,6vw,56px) 0;padding:12px 0;min-height:280px;text-align:center;overflow:hidden;clear:both}
+.adslot-label{display:block;margin-bottom:6px;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+@media print{.adslot{display:none}}
 .linklike{padding:0;border:0;background:none;color:var(--brand);font:inherit;text-decoration:underline;cursor:pointer}
 @media print{.consent{display:none}}
 

@@ -10,6 +10,8 @@ import {
   wbPlaces,
 } from "@/lib/wb";
 import { creditLine } from "@/lib/images";
+import { SITE_URL } from "@/lib/data";
+import JsonLd from "@/components/JsonLd";
 import ParallaxHero from "@/components/ParallaxHero";
 import PhotoCard from "@/components/PhotoCard";
 import RailPanel from "@/components/RailPanel";
@@ -49,8 +51,19 @@ export default async function PlacePage({
     .filter((x) => x.id !== p.id)
     .slice(0, 4);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "West Bengal places", item: `${SITE_URL}/west-bengal` },
+      { "@type": "ListItem", position: 3, name: p.name, item: `${SITE_URL}/west-bengal/${p.id}` },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <ParallaxHero
         src={img?.src ?? null}
         alt={p.name}

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { destinations, states } from "@/lib/data";
 import { creditLine, getImage } from "@/lib/images";
@@ -16,6 +17,9 @@ import Timeline from "@/components/Timeline";
 import { placeImage, placesIn, getPlace, wbCategories, wbPlaces } from "@/lib/wb";
 import CountUp from "@/components/CountUp";
 import { Disclosure } from "@/components/Ui";
+
+// The home page sets its own canonical so no other page inherits it.
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 // Featured states shown in the home-page carousel. West Bengal leads.
 // Each lists the destination slugs to slide through.

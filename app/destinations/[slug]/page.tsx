@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CONTENT_PUBLISHED, CONTENT_UPDATED } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import AdSlot from "@/components/AdSlot";
 import {
+  SITE_URL,
   destinations,
   getDestination,
   getDetails,
@@ -40,10 +44,17 @@ export async function generateMetadata({
   const { slug } = await params;
   const d = getDestination(slug);
   if (!d) return {};
+  const img = getImage(d.slug);
   return {
     title: `${d.name} travel guide for foreign visitors`,
     description: `Safety information, documents and how to reach ${d.name}, ${d.state} for international travelers.`,
     alternates: { canonical: `/destinations/${d.slug}` },
+    openGraph: {
+      type: "article",
+      title: `${d.name}, ${d.state}: travel guide for foreign visitors`,
+      description: d.overview,
+      ...(img ? { images: [{ url: img.src, alt: `${d.name}, ${d.state}` }] } : {}),
+    },
   };
 }
 
@@ -72,8 +83,44 @@ export default async function DestinationPage({
     .filter((x) => x.state === d.state && x.slug !== d.slug)
     .slice(0, 4);
 
+  const url = `${SITE_URL}/destinations/${d.slug}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Destinations", item: `${SITE_URL}/destinations` },
+          ...(state
+            ? [{ "@type": "ListItem", position: 3, name: d.state, item: `${SITE_URL}/states/${state.slug}` }]
+            : []),
+          { "@type": "ListItem", position: state ? 4 : 3, name: d.name, item: url },
+        ],
+      },
+      {
+        "@type": "Article",
+        headline: `${d.name}, ${d.state}: travel guide for foreign visitors`,
+        description: d.overview,
+        mainEntityOfPage: url,
+        inLanguage: "en",
+        datePublished: CONTENT_PUBLISHED,
+        dateModified: CONTENT_UPDATED,
+        about: {
+          "@type": "TouristDestination",
+          name: `${d.name}, ${d.state}`,
+          touristType: "International visitors",
+        },
+        ...(img ? { image: `${SITE_URL}${img.src}` } : {}),
+        author: { "@type": "Organization", name: "IndiaTravelShield", url: SITE_URL },
+        publisher: { "@type": "Organization", name: "IndiaTravelShield", logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` } },
+      },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <ParallaxHero
         src={img?.src ?? null}
         alt={`${d.name}, ${d.state}`}
@@ -182,6 +229,8 @@ export default async function DestinationPage({
               </p>
             </Reveal>
           </section>
+
+          <AdSlot />
 
           <section id="getting-there" className="layer">
             <Reveal>
