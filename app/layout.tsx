@@ -8,6 +8,7 @@ import BackToTop from "@/components/BackToTop";
 import AdSenseLoader from "@/components/AdSenseLoader";
 import ConsentBanner from "@/components/ConsentBanner";
 import ConsentLink from "@/components/ConsentLink";
+import JsonLd from "@/components/JsonLd";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,8 +19,44 @@ export const metadata: Metadata = {
   },
   description:
     "Travel guides, entry requirements and logistics for international visitors to India, with official sources linked and our own guidance labelled.",
-  openGraph: { siteName: "IndiaTravelShield", type: "website" },
+  applicationName: "IndiaTravelShield",
+  openGraph: {
+    siteName: "IndiaTravelShield",
+    type: "website",
+    locale: "en",
+    images: [{ url: "/logo.png", alt: "IndiaTravelShield" }],
+  },
+  twitter: { card: "summary_large_image" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
   other: { "google-adsense-account": "ca-pub-2502630111748192" },
+};
+
+// Site-wide structured data: who publishes the site and how it is searched.
+const SITE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#org`,
+      name: "IndiaTravelShield",
+      url: SITE_URL,
+      logo: `${SITE_URL}/logo.png`,
+      description:
+        "An independent information service for international visitors to India, not affiliated with any government.",
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: "IndiaTravelShield",
+      inLanguage: "en",
+      publisher: { "@id": `${SITE_URL}/#org` },
+    },
+  ],
 };
 
 // Runs before first paint so the saved theme and 3D choice never flash.
@@ -33,6 +70,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: INIT }} />
       </head>
       <body>
+        <JsonLd data={SITE_JSON_LD} />
         <ScrollProgress />
         <SiteHeader />
         <main>{children}</main>
@@ -74,6 +112,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 <Link href="/contact">Contact &amp; corrections</Link>
                 <br />
                 <Link href="/privacy">Privacy policy</Link>
+                <br />
+                <Link href="/terms">Terms of service</Link>
+                <br />
+                <Link href="/disclaimer">Disclaimer</Link>
                 <br />
                 <ConsentLink />
               </p>

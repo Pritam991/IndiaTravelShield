@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { destinationsInState, getState, guidance, national, states } from "@/lib/data";
+import { SITE_URL, destinationsInState, getState, guidance, isThinState, national, states } from "@/lib/data";
+import JsonLd from "@/components/JsonLd";
 import { creditLine, getImage } from "@/lib/images";
 import { BulletList, EditorialNote, Pending, PhotoCredit, SourceLink, SourceList } from "@/components/Ui";
 import ParallaxHero from "@/components/ParallaxHero";
@@ -21,10 +22,13 @@ export async function generateMetadata({
   const { slug } = await params;
   const s = getState(slug);
   if (!s) return {};
+  const heroImg = destinationsInState(s.name).map((d) => getImage(d.slug)).find(Boolean);
   return {
     title: `${s.name} travel guide for foreign visitors`,
     description: `Destinations, entry documents and travel information for visiting ${s.name}, India.`,
     alternates: { canonical: `/states/${s.slug}` },
+    ...(isThinState(s.name) ? { robots: { index: false, follow: true } } : {}),
+    ...(heroImg ? { openGraph: { images: [{ url: heroImg.src, alt: s.name }] } } : {}),
   };
 }
 
@@ -38,8 +42,19 @@ export default async function StatePage({
   // Hero uses the state's first destination photo, if we have one.
   const heroImg = list.map((d) => getImage(d.slug)).find(Boolean) ?? null;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "States", item: `${SITE_URL}/states` },
+      { "@type": "ListItem", position: 3, name: s.name, item: `${SITE_URL}/states/${s.slug}` },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <ParallaxHero
         src={heroImg?.src ?? null}
         alt={s.name}

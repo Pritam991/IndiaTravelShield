@@ -18,3 +18,9 @@ export const CONTACT_PARTS: [string, string] = [
 ];
 
 export const LEGAL_UPDATED = "21 November 2026";
+
+// The date the guide content last changed, in ISO form. It feeds the sitemap
+// and the Article structured data. Update it when you edit guide content, not
+// on every deploy, so search engines can trust the date.
+export const CONTENT_UPDATED = "2026-11-22";
+export const CONTENT_PUBLISHED = "2026-11-20";

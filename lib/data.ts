@@ -82,3 +82,9 @@ export const getDestination = (slug: string) =>
   destinations.find((d) => d.slug === slug);
 export const destinationsInState = (stateName: string) =>
   destinations.filter((d) => d.state === stateName);
+
+// A state page with no destination guides is a list with nothing in it. Search
+// engines and AdSense reviewers treat that as thin, so it is kept out of the
+// index and the sitemap until a guide is added.
+export const isThinState = (stateName: string) =>
+  destinationsInState(stateName).length === 0;

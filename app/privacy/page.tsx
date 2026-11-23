@@ -96,7 +96,12 @@ export default function PrivacyPage() {
         on your browser. Google uses cookies, device identifiers and your IP
         address to serve and measure ads, to limit how often you see one, to
         prevent invalid clicks, and to show ads based on your interests or
-        earlier visits where that is allowed. We do not control those cookies
+        earlier visits where that is allowed. Google&apos;s use of advertising
+        cookies, including the DoubleClick DART cookie, lets it and its
+        partners serve ads based on your visits to this site and other sites.
+        Third-party ad servers and networks may also use cookies, JavaScript or
+        web beacons in the ads that appear here, and they receive your IP
+        address automatically. We do not control those cookies
         and do not receive the personal data they collect. We do not pass any
         personally identifiable information to Google.
       </p>
